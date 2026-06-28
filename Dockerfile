@@ -1,10 +1,12 @@
-# === Stage 1: Frontend Build ===
+# === Stage 1: Frontend Build (Vite) ===
 FROM node:20-alpine AS frontend-builder
 WORKDIR /frontend
 COPY frontend/package.json ./
-RUN npm install --force --no-audit --no-fund 2>&1
-COPY frontend/ .
-RUN CI=false DISABLE_ESLINT_PLUGIN=true NODE_OPTIONS="--max-old-space-size=2048" npm run build 2>&1
+RUN npm install --no-audit --no-fund 2>&1
+COPY frontend/index.html frontend/vite.config.js ./
+COPY frontend/public/ ./public/
+COPY frontend/src/ ./src/
+RUN npm run build 2>&1
 
 # === Stage 2: Backend ===
 FROM python:3.11-slim
