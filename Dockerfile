@@ -20,6 +20,7 @@ COPY backend/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt 2>&1
 
 COPY backend/ .
+COPY automation/ ./automation/
 COPY --from=frontend-builder /frontend/build /frontend/build
 
 EXPOSE 8080

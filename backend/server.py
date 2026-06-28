@@ -138,6 +138,96 @@ async def list_content(limit: int = 20, type: str = None):
     return {"content": items}
 
 
+# === Growth Modules ===
+
+@app.get("/api/targeting/daily")
+async def get_daily_targets(platform: str = "instagram"):
+    """Get daily engagement targets"""
+    try:
+        from automation.smart_targeting import generate_daily_targets, find_similar_artists, find_target_accounts
+        plan = generate_daily_targets(platform=platform)
+        return plan
+    except ImportError:
+        return {"error": "smart_targeting module not available"}
+
+
+@app.get("/api/email/sequences")
+async def get_email_sequences(type: str = "welcome"):
+    """Get email nurture sequences"""
+    try:
+        from automation.email_nurture import get_sequence, generate_email_report
+        if type == "report":
+            return generate_email_report()
+        return {"sequences": get_sequence(type)}
+    except ImportError:
+        return {"error": "email_nurture module not available"}
+
+
+@app.get("/api/playlists/targets")
+async def get_playlist_targets(genre: str = "all", difficulty: str = "all"):
+    """Get playlist pitching targets"""
+    try:
+        from automation.playlist_pitcher import get_playlist_targets, generate_pitch_strategy
+        if genre == "strategy":
+            return generate_pitch_strategy()
+        return {"playlists": get_playlist_targets(genre, difficulty)}
+    except ImportError:
+        return {"error": "playlist_pitcher module not available"}
+
+
+@app.get("/api/playlists/pitch")
+async def generate_pitch(song: str = "Nouveau Son", playlist: str = "", style: str = "personal"):
+    """Generate a playlist pitch message"""
+    try:
+        from automation.playlist_pitcher import generate_pitch
+        return {"pitch": generate_pitch(song, playlist, style)}
+    except ImportError:
+        return {"error": "playlist_pitcher module not available"}
+
+
+@app.get("/api/collabs/strategy")
+async def get_collab_strategy():
+    """Get collaboration strategy"""
+    try:
+        from automation.collab_finder import generate_collab_strategy, suggest_daily_networking, find_collaborators
+        return {
+            "strategy": generate_collab_strategy(),
+            "daily": suggest_daily_networking(),
+        }
+    except ImportError:
+        return {"error": "collab_finder module not available"}
+
+
+@app.get("/api/collabs/list")
+async def list_collaborators(category: str = "all"):
+    """List potential collaborators"""
+    try:
+        from automation.collab_finder import find_collaborators
+        return {"collaborators": find_collaborators(category)}
+    except ImportError:
+        return {"error": "collab_finder module not available"}
+
+
+@app.get("/api/hashtags/set")
+async def get_hashtag_set(platform: str = "instagram", type: str = "new_release"):
+    """Get optimized hashtag set"""
+    try:
+        from automation.hashtag_optimizer import generate_hashtag_set, get_hashtags_for_platform
+        return generate_hashtag_set(platform, type)
+    except ImportError:
+        return {"error": "hashtag_optimizer module not available"}
+
+
+@app.get("/api/hashtags/trending")
+async def get_trending_hashtags():
+    """Get trending hashtags in afro pop niche"""
+    try:
+        from automation.hashtag_optimizer import get_trending_in_niche
+        return {"trending": get_trending_in_niche()}
+    except ImportError:
+        return {"error": "hashtag_optimizer module not available"}
+
+
 @app.get("/api/health")
 async def health():
     try:
