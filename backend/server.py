@@ -228,6 +228,63 @@ async def get_trending_hashtags():
         return {"error": "hashtag_optimizer module not available"}
 
 
+# === Action Tracker (Validation Workflow) ===
+
+@app.get("/api/actions")
+async def get_pending_actions(status: str = "pending", limit: int = 20):
+    """Get pending/approved/done actions"""
+    try:
+        from automation.action_tracker import get_pending_actions, get_daily_summary
+        if status == "summary":
+            return await get_daily_summary()
+        return {"actions": await get_pending_actions(status, limit)}
+    except ImportError:
+        return {"error": "action_tracker module not available"}
+
+
+@app.post("/api/actions/approve/{action_id}")
+async def approve_action(action_id: str):
+    """Approve a single action"""
+    try:
+        from automation.action_tracker import approve_action
+        return await approve_action(action_id)
+    except ImportError:
+        return {"error": "action_tracker module not available"}
+
+
+@app.post("/api/actions/approve-all")
+async def approve_all():
+    """Approve all pending actions"""
+    try:
+        from automation.action_tracker import approve_all_pending
+        return await approve_all_pending()
+    except ImportError:
+        return {"error": "action_tracker module not available"}
+
+
+@app.post("/api/actions/complete/{action_id}")
+async def complete_action(action_id: str):
+    """Mark an action as done"""
+    try:
+        from automation.action_tracker import complete_action
+        return await complete_action(action_id)
+    except ImportError:
+        return {"error": "action_tracker module not available"}
+
+
+@app.post("/api/actions/generate-from-targeting")
+async def generate_actions_from_targeting():
+    """Generate pending actions from today's targeting data"""
+    try:
+        from automation.smart_targeting import generate_daily_targets
+        from automation.action_tracker import generate_batch_from_targeting
+        targeting = generate_daily_targets()
+        actions = await generate_batch_from_targeting(targeting)
+        return {"generated": len(actions), "actions": actions}
+    except ImportError:
+        return {"error": "modules not available"}
+
+
 @app.get("/api/health")
 async def health():
     try:
