@@ -1,10 +1,22 @@
 from motor.motor_asyncio import AsyncIOMotorClient
 from pymongo import MongoClient
+from bson import ObjectId
 import os
 from datetime import datetime
 import logging
 
 logger = logging.getLogger("promo-engine")
+
+
+def serialize_doc(doc):
+    """Convert MongoDB ObjectId to string for JSON serialization."""
+    if doc is None:
+        return None
+    if isinstance(doc, list):
+        return [serialize_doc(d) for d in doc]
+    if "_id" in doc and isinstance(doc["_id"], ObjectId):
+        doc["_id"] = str(doc["_id"])
+    return doc
 
 # MongoDB — credential-free URL, kwargs for auth (Railway bug workaround)
 MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://hermes.enhh09v.mongodb.net/?appName=promo-engine")
@@ -63,7 +75,7 @@ async def get_or_create_artist():
 async def get_artist_links():
     db = await get_db()
     links = await db.artist_links.find().to_list(length=50)
-    return links
+    return serialize_doc(links)
 
 
 async def add_artist_link(platform: str, url: str, label: str = None, icon: str = None):
@@ -79,7 +91,7 @@ async def add_artist_link(platform: str, url: str, label: str = None, icon: str 
         }},
         upsert=True,
     )
-    return await db.artist_links.find_one({"platform": platform})
+    return serialize_doc(await db.artist_links.find_one({"platform": platform}))
 
 
 async def add_email_subscriber(email: str, source: str = "landing"):
