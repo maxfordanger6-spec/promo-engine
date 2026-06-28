@@ -125,15 +125,17 @@ async def generate_batch_from_targeting(targeting_data: dict) -> list:
     actions = []
     
     # Generate DM actions for artists
-    for artist in targeting_data.get("targets_artists", [])[:5]:
+    for artist in targeting_data.get("targets_artists", [])[:3]:  # Max 3 DMs
+        profile = artist.get("profile_url", f"https://instagram.com/{artist.get('handle','').replace('@','')}")
         dm_text = f"""Salut {artist['name']} ! Je suis Mrmakmax, artiste afro pop.
 
-Je kiffe ce que tu fais, surtout {artist.get('notable', 'ton dernier son')}. 
-Ton style m'inspire grave pour mon prochain projet.
+J'ai découvert ta musique via {artist.get('notable', 'les réseaux')} et franchement ça m'a touché. Ton style afro pop me parle grave.
 
-Si t'es open, j'adorerais qu'on se connecte. Je peux t'envoyer une démo !
+Je bosse sur un projet en ce moment et j'adorerais avoir ton avis. Si t'es open, je peux t'envoyer une démo !
 
-Keep vibing 🔥"""
+🔗 Son profil : {profile}
+
+Keep pushing 🚀"""
 
         action = await create_pending_action(
             action_type="dm",
@@ -145,7 +147,10 @@ Keep vibing 🔥"""
     
     # Generate comment actions for curators
     for curator in targeting_data.get("targets_curators", [])[:3]:
-        comment_text = f"🔥 Gros respect pour le taf que vous faites pour la scène afro ! La playlist est insane. - Mrmakmax"
+        profile = curator.get("profile_url", f"https://instagram.com/{curator.get('handle','').replace('@','')}")
+        comment_text = f"""🔥 Gros respect pour le taf que vous faites pour la scène afro ! Je suis Mrmakmax, artiste afro pop — je serais honoré d'être dans votre sélection un jour. Keep pushing la culture 🎵
+
+🔗 Leur page : {profile}"""
         
         action = await create_pending_action(
             action_type="comment",
