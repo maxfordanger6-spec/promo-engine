@@ -141,11 +141,11 @@ async def list_content(limit: int = 20, type: str = None):
 # === Growth Modules ===
 
 @app.get("/api/targeting/daily")
-async def get_daily_targets(platform: str = "instagram"):
+async def get_daily_targets(level: str = "all"):
     """Get daily engagement targets"""
     try:
-        from automation.smart_targeting import generate_daily_targets, find_similar_artists, find_target_accounts
-        plan = generate_daily_targets(platform=platform)
+        from automation.smart_targeting import generate_daily_targets
+        plan = generate_daily_targets(level=level)
         return plan
     except ImportError:
         return {"error": "smart_targeting module not available"}
