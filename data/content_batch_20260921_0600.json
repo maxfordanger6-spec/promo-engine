@@ -1,0 +1,73 @@
+{
+  "batch": "20260921_060035",
+  "date": "2026-09-21T06:00:35",
+  "items": [
+    {
+      "type": "fallback_image",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260921_060035.png",
+      "size": 13307,
+      "timestamp": "20260921_060035"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260921_060035_761.png",
+      "size": 13729,
+      "quote": "Born to make the world dance",
+      "timestamp": "20260921_060035"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260921_060035_780.png",
+      "size": 14310,
+      "quote": "Afro pop is not just music, it's a vibration",
+      "timestamp": "20260921_060035"
+    },
+    {
+      "type": "promo_banner",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260921_060035_798.png",
+      "size": 26210,
+      "title": "NOUVEAU SON DISPONIBLE",
+      "timestamp": "20260921_060035"
+    }
+  ],
+  "auxiliary": [
+    {
+      "type": "gradient_bg",
+      "path": "C:/Users/nonamesbeats/promo-content/gradient_bg_20260921_060035.png",
+      "size": 4506,
+      "timestamp": "20260921_060035"
+    }
+  ],
+  "social_captions": {
+    "song_title": "Dans Tes Yeux",
+    "instagram": {
+      "new_release": "✨ LE SON QUI FAIT VIBRER LA NUIT EST LÀ ✨\n\nDans Tes Yeux est dispo partout — mets-le en boucle et laisse la vibe faire le reste 💜🎶\n\nDis-moi en commentaire : tu le sens comment, ce morceau ? 👇🏾\n\n.\n.\n.\n#AfroPop #DansTesYeux #NewMusic #Mrmakmax #AfroVibes #RnB #SoulMusic #MusicDiscovery",
+      "quote_dance": "🌍💃🏾 « Born to make the world dance »\n\nPas besoin de traduction : quand le beat tombe, les corps parlent. 🔥\n\nTon crew est prêt pour la prochaine session danse ? Tag-les ! ⬇️\n\n#Mrmakmax #AfroPop #BornToDance #DanceVibes #GoodEnergy #AfroCulture",
+      "quote_vibration": "⚡ « Afro pop is not just music, it's a vibration »\n\nÇa commence dans la poitrine, ça finit dans les pieds. 🫀🦶🏾\n\nTu sens la fréquence ? Partage ce post à quelqu'un qui a besoin de bonnes ondes aujourd'hui 💛\n\n#AfroPop #Vibration #Mrmakmax #FeelTheVibe #GoodVibes #Music",
+      "teaser": "🎙️ On entend encore l'écho de la dernière session...\n\nL'ordi chauffe, le soleil se lève, et le prochain son mijote. 🌅🔥\n\nAbonne-toi pour rien rater — la suite va te surprendre. 👀\n\n#ComingSoon #Mrmakmax #AfroPop #StudioVibes #NewMusic"
+    },
+    "tiktok": {
+      "new_release": "POV : tu découvres Dans Tes Yeux pour la première fois 🎧💜\n\n#afropop #nouveauson #mrmakmax #viral",
+      "quote_dance": "Quand le son tombe, on oublie tout 💃🏾🌍 C'est ça, la magie afro. #dance #afropop #mrmakmax #born2dance",
+      "quote_vibration": "L'afro pop c'est une VIBRATION, pas un genre ⚡ teste et dis-moi si tu la sens 👀 #afropop #vibes #mrmakmax",
+      "teaser": "Studio 6h du mat... ça sent le hit 🔥🤫 #comingsoon #afropop #mrmakmax #studiovibes"
+    },
+    "twitter": {
+      "new_release": "The wait is over. Dans Tes Yeux is OUT NOW everywhere 🚀\n\nTurn it up. 🌍\n\n#AfroPop #NewMusic #Mrmakmax",
+      "quote_dance": "Born to make the world dance 🌍 — and I'm just getting started. #AfroPop #Mrmakmax",
+      "quote_vibration": "Afro pop isn't a genre, it's a frequency. ⚡ Tune in. #AfroPop #Mrmakmax",
+      "teaser": "6 AM at the studio. The machines are warm, the next one is loading. 👀 #ComingSoon #AfroPop"
+    },
+    "youtube": {
+      "new_release": "🎶 DANS TES YEUX — DISPONIBLE MAINTENANT 🎶\n\nLe morceau est là, et il n'attend que toi. Stream, partage, et dis-moi en commentaire ta ligne préférée 💜\n\n#AfroPop #DansTesYeux #Mrmakmax #NewMusic",
+      "quote_dance": "« Born to make the world dance » 🌍💃🏾\n\nCette mission, on la mène ensemble — merci d'être là, la famille. 💛\n\n#Mrmakmax #AfroPop #ThankYou",
+      "quote_vibration": "Une vibration qui traverse les frontières sans visa. ⚡🌍\n\nMerci de vibrer avec nous. #AfroPop #Mrmakmax",
+      "teaser": "👀 La suite s'écrit en ce moment même. Restez à l'écoute. #Mrmakmax #ComingSoon #AfroPop"
+    }
+  },
+  "ffmpeg_status": "degraded (fontconfig on Windows — Pillow fallback used, static images OK)",
+  "api_status": {
+    "railway_post_api_content": "404 Application not found — Railway app deleted 2026-09-17 (all endpoints dead)",
+    "mongodb_direct_insert": "success — 4 docs in generated_content (cluster-verified 2026-09-21 06:01Z, total 562)"
+  }
+}

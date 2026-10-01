@@ -1,0 +1,17 @@
+{
+  "batch": "20260818_0602",
+  "date": "2026-08-18T06:02:00",
+  "items": [
+    {"type": "fallback_image", "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260818_060212.png", "size": 13307, "timestamp": "20260818_060212"},
+    {"type": "quote_card", "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260818_060213_170.png", "size": 13729, "quote": "Born to make the world dance", "timestamp": "20260818_060213"},
+    {"type": "quote_card", "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260818_060213_188.png", "size": 14310, "quote": "Afro pop is not just music, it's a vibration", "timestamp": "20260818_060213"},
+    {"type": "promo_banner", "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260818_060213_206.png", "size": 26210, "title": "NOUVEAU SON DISPONIBLE", "timestamp": "20260818_060213"}
+  ],
+  "api_status": {
+    "POST /api/content": "405 Method Not Allowed (deployed server read-only, Pitfall 5)",
+    "mongodb_direct_insert": "4/4 inserted via save_generated_content (core.py)",
+    "mongodb_verified": "GET /api/content?limit=5 shows all 4 batch files newest-first"
+  },
+  "social_captions": "captions_grid_20260818.json (16 captions: 4 platforms x 4 content types)",
+  "ffmpeg_status": "FAILED (fontconfig Windows) -> Pillow fallback used, 4 static images generated"
+}

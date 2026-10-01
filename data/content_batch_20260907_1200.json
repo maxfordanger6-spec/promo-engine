@@ -1,0 +1,63 @@
+{
+  "batch": "20260907_1200",
+  "date": "2026-09-07T12:00:48",
+  "items": [
+    {
+      "type": "fallback_image",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260907_120048.png",
+      "size": 13307,
+      "title": "NOUVEAU SON",
+      "timestamp": "20260907_120048"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260907_120048_866.png",
+      "size": 13729,
+      "quote": "Born to make the world dance",
+      "timestamp": "20260907_120048"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260907_120048_888.png",
+      "size": 14310,
+      "quote": "Afro pop is not just music, it's a vibration",
+      "timestamp": "20260907_120048"
+    },
+    {
+      "type": "promo_banner",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260907_120048_907.png",
+      "size": 26210,
+      "title": "NOUVEAU SON DISPONIBLE",
+      "timestamp": "20260907_120048"
+    }
+  ],
+  "social_captions": {
+    "instagram": {
+      "annonce_promo": "🔥 NOUVEAU SON DISPONIBLE 🔥\nLa vibration afro pop que vous attendiez est ENFIN là 🌍✨\nCasque sur les oreilles, volume au max — on fait danser le monde entier 🎧💃\nDispo partout : lien en bio 🎵\n#AfroPop #NouveauSon #Mrmakmax #MusiqueAfricaine #NewMusic #Afrobeats #Vibes #OnDanse #MadeWithLove #Musique",
+      "quote_danse": "💫 « Born to make the world dance » — né pour faire danser le monde. C'est pas juste une phrase, c'est une mission 🌍💃 Chaque son, chaque beat : une invitation à bouger. T'embarques ? 🎧\n#Mrmakmax #AfroPop #Dance #BornToMakeTheWorldDance #Motivation #Vibes #Musique #PositiveEnergy",
+      "quote_vibration": "🌊 « Afro pop is not just music, it's a vibration » — l'afro pop, c'est plus qu'un genre : c'est une énergie qui traverse le corps. Ferme les yeux, sens le beat. C'est ça, la vibration Mrmakmax 🎧✨\n#AfroPop #Vibration #Mrmakmax #Musique #Afrobeats #FeelTheVibe #Culture #PositiveVibes",
+      "teaser": "👀 Quelque chose arrive… Le son qui va faire vibrer ta semaine se prépare en studio 🎧🌍 Reste branché, la suite arrive très vite 🔥\n#ComingSoon #Mrmakmax #AfroPop #Teaser #StayTuned #StudioVibes #NewMusic"
+    },
+    "tiktok": {
+      "annonce_promo": "🔥 NOUVEAU SON DROP 🔥 tu l'attendais, il est là 😤🎧 volume à fond, vibes afro pop à l'état pur 🌍✨ #afropop #mrmakmax #nouveauson",
+      "quote_danse": "né pour faire danser le monde 🌍💫 et toi, t'es prêt à bouger ? 🎧💃 #mrmakmax #afropop #dance",
+      "quote_vibration": "l'afro pop c'est pas de la musique… c'est une VIBRATION 🌊✨ ferme les yeux, sens le beat 🎧 #afropop #mrmakmax #vibration",
+      "teaser": "👀 le studio chauffe… 🔥 quelque chose de GRAND arrive 🌍🎧 stay tuned #mrmakmax #afropop #comingsoon"
+    },
+    "twitter": {
+      "annonce_promo": "🔥 NOUVEAU SON DISPONIBLE. La vibration afro pop est là 🌍🎧 Volume max. Écoute ça. #AfroPop #Mrmakmax",
+      "quote_danse": "« Born to make the world dance » — c'est la mission, chaque jour 🌍💃 #AfroPop #Mrmakmax",
+      "quote_vibration": "L'afro pop, c'est pas juste de la musique — c'est une vibration 🌊✨ #AfroPop #Mrmakmax",
+      "teaser": "👀 Le studio chauffe. Quelque chose arrive 🔥 #Mrmakmax #ComingSoon"
+    },
+    "youtube": {
+      "annonce_promo": "🎵 NOUVEAU SON DISPONIBLE ! Une production afro pop aux vibes solaires — des basses profondes, des mélodies qui restent en tête 🌍✨ Écoute, partage, et laisse la vibration faire le reste. Lien dans la description 🎧 #AfroPop #Mrmakmax",
+      "quote_danse": "« Born to make the world dance » 💫 C'est la mission Mrmakmax : des sons qui traversent les frontières et font bouger tout le monde 🌍 La musique comme langage universel. On continue. 🎧 #Mrmakmax #AfroPop",
+      "quote_vibration": "🌊 L'afro pop, c'est bien plus qu'un genre musical : c'est une vibration, une énergie qui relie les gens ✨ C'est ça qu'on partage avec vous, son après son. Merci d'être là 🎧 #Mrmakmax #AfroPop #Vibration",
+      "teaser": "👀 Sneak peek depuis le studio… Un nouveau chapitre afro pop se prépare 🌍🎧 Reste connecté — la suite arrive très bientôt. #Mrmakmax #AfroPop #ComingSoon"
+    }
+  },
+  "api_status": "mongodb_inserted",
+  "api_post_status": 405,
+  "notes": "POST /api/content -> 405 (endpoint lecture seule sur Railway, Pitfall 5) -> insert direct MongoDB via save_generated_content (4/4). social_scheduler.py absent -> captions manuelles. FFmpeg fontconfig fail -> fallback image Pillow (Pitfall 8)."
+}

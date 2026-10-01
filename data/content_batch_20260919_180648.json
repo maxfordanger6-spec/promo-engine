@@ -1,0 +1,63 @@
+{
+  "batch": "20260919_180648",
+  "date": "2026-09-19T16:08:00Z",
+  "items": [
+    {
+      "type": "fallback_image",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260919_180648.png",
+      "size": 13307,
+      "timestamp": "20260919_180648"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260919_180648_835.png",
+      "size": 13729,
+      "quote": "Born to make the world dance",
+      "timestamp": "20260919_180648"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260919_180648_854.png",
+      "size": 14310,
+      "quote": "Afro pop is not just music, it's a vibration",
+      "timestamp": "20260919_180648"
+    },
+    {
+      "type": "promo_banner",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260919_180648_873.png",
+      "size": 26210,
+      "title": "NOUVEAU SON DISPONIBLE",
+      "timestamp": "20260919_180648"
+    }
+  ],
+  "social_captions": {
+    "instagram": {
+      "new_release": "🔥 LE DROP EST LÀ ! 'Dans Tes Yeux' est dispo partout — l'afro pop de Mrmakmax frappe fort 🌍💃🏾\n\nÉcoute, partage, danse ✨\n\n.\n.\n.\n#AfroPop #NouveauSon #DansTesYeux #Mrmakmax #Afrobeats #NewMusic #MusicDiscovery #Vibes",
+      "bts": "En studio, la magie opère 🎹✨ Les vibes brutes, sans filtre. Le meilleur reste à venir…\n\n.\n.\n.\n#AfroPop #StudioVibes #BTS #Mrmakmax #UpcomingArtist #MusicLife #Vibes",
+      "general": "Born to make the world dance 🕺🏾🌍 L'afro pop n'est pas juste de la musique, c'est une vibration. Ressens-la.\n\n.\n.\n.\n#AfroPop #Mrmakmax #Vibration #AfroSound #MusicLover #InstaMusic #Vibes",
+      "engagement": "Tag le/la premier·ère avec qui tu danserais sur ce son ⬇️🔥\n\n.\n.\n.\n#Mrmakmax #AfroPop #AfroVibes #Challenge #MusicLover #InstaMusic #Vibes"
+    },
+    "tiktok": {
+      "new_release": "Il est LÀ 🚀🔥 'Dans Tes Yeux' dispo partout. Active le son et montre-moi tes moves 💃🏾\n\n#afropop #nouveauson #mrmakmax",
+      "bts": "Studio nights = vibes pures 🌙🎹 Un extrait en avant-première… 👀\n\n#afropop #bts #studio",
+      "general": "POV : t'es né pour faire danser le monde 🌍🕺🏾\n\n#fyp #afropop #vibes",
+      "engagement": "Ce son te fait penser à qui ? Mentionne-le 👇🔥\n\n#fyp #afropop #mrmakmax"
+    },
+    "twitter": {
+      "new_release": "🔥 'Dans Tes Yeux' est dispo partout. L'afro pop a un nouveau visage.\n\n#AfroPop #Mrmakmax",
+      "bts": "En studio, les vibes parlent d'elles-mêmes 🌙🎹\n\n#AfroPop #BTS",
+      "general": "Né pour faire danser le monde. 🌍🕺🏾\n\n#AfroPop #Vibration",
+      "engagement": "Un son afro pop qui te met direct de bonne humeur ? C'est ici. 🎧\n\n#AfroPop #Mrmakmax"
+    },
+    "youtube": {
+      "new_release": "🎬 LE DROP : 'Dans Tes Yeux' est dispo ! Une immersion totale dans l'univers afro pop de Mrmakmax. Regarde, écoute, et partage si tu ressens la vibe 🔥🌍\n\n#AfroPop #Mrmakmax #DansTesYeux #NewMusic",
+      "bts": "Dans les coulisses de la création 🌙 Raw vibes, studio sessions, et beaucoup de cœur 🎹✨\n\n#AfroPop #BTS #Mrmakmax #StudioLife",
+      "general": "L'afro pop n'est pas juste de la musique — c'est une vibration 🌊🎵 Born to make the world dance.\n\n#AfroPop #Vibration #Mrmakmax #Music",
+      "engagement": "Quel son tu veux que je drop ensuite ? Dis-le en commentaire 👇🔥\n\n#AfroPop #Mrmakmax #Community #Music"
+    }
+  },
+  "api_status": {
+    "railway_api": "DEAD_404 (app supprimee 2026-09-17)",
+    "mongo_direct_insert": "OK - 4/4 inserts via save_generated_content, verifie par inspection cluster directe (ALL_EXPECTED_IN_LATEST_5: True)"
+  }
+}

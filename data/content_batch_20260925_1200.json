@@ -1,0 +1,63 @@
+{
+  "batch": "20260925_1200",
+  "date": "2026-09-25T12:00:53",
+  "items": [
+    {
+      "type": "fallback_image",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260925_120053.png",
+      "size": 13307,
+      "timestamp": "20260925_120053"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260925_120053_555.png",
+      "size": 13729,
+      "quote": "Born to make the world dance",
+      "timestamp": "20260925_120053"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260925_120053_573.png",
+      "size": 14310,
+      "quote": "Afro pop is not just music, it's a vibration",
+      "timestamp": "20260925_120053"
+    },
+    {
+      "type": "promo_banner",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260925_120053_592.png",
+      "size": 26210,
+      "title": "NOUVEAU SON DISPONIBLE",
+      "timestamp": "20260925_120053"
+    }
+  ],
+  "social_captions": {
+    "instagram": {
+      "announcement": "🆕 NOUVEAU SON DISPONIBLE 🆕\nMrmakmax x nonamesbeats vous ont préparé une tuerie 🔥\nÇa chauffe, ça vibre, c'est du pur Afro Pop made in 🇨🇲💛\n👉 ÉCOUTER MAINTENANT — lien en bio !\n🎧 Mets ton casque, monte le son, et danse 🕺✨\n🏷️ #Mrmakmax #AfroPop #NewMusic #nonamesbeats #MusiqueAfricaine #Vibes #NewDrop",
+      "quote1": "🗣️ \"Born to make the world dance\" — Mrmakmax 💃🌍\nNé pour faire danser le monde, et on compte bien le faire ! 🎶🔥\n🏷️ #Mrmakmax #AfroPop #BornToDance #AfroVibes #nonamesbeats #OneLove #DanceVibes",
+      "quote2": "🌍 \"Afro pop is not just music, it's a vibration\" 🕪\nUne vibration qui traverse les frontières, du 🇨🇲 au monde entier ✨\n🏷️ #AfroVibes #Mrmakmax #AfroMusic #nonamesbeats #FeelTheRhythm #MusicIsLife",
+      "teaser": "🤫 Quelque chose arrive...\nNOUVEAU SON 𓅓\n@Mrmakmax x nonamesbeats\nReste connecté 🌊🔥\n🏷️ #ComingSoon #Mrmakmax #nonamesbeats #Teaser #StayTuned"
+    },
+    "tiktok": {
+      "announcement": "nouveau son dispo 🔥🔥 mrmakmax x nonamesbeats\nça vibre ça chauffe 🕺💛\n#AfroPop #Mrmakmax #NewMusic",
+      "quote": "« né pour faire danser le monde » 💃🌍 cette vibe est différente...\n#Mrmakmax #AfroVibes"
+    },
+    "twitter": {
+      "announcement": "🆕 NOUVEAU SON DISPONIBLE — Mrmakmax x nonamesbeats 🔥 Afro Pop pur jus 🇨🇲 Écoute, danse, partage 🕺 #AfroPop #Mrmakmax",
+      "quote": "« Born to make the world dance » — et le monde a déjà commencé à danser 💃🌍 #Mrmakmax #AfroPop"
+    },
+    "youtube": {
+      "announcement": "🆕 NOUVEAU SON DISPONIBLE 🆕\nMrmakmax x nonamesbeats — le nouveau son Afro Pop est là ! 🔥\n🎧 Écoute ici et monte le volume\n🕺 Danse, vibre, partage — on fait danser le monde ensemble 🌍💛\n#Mrmakmax #AfroPop #NewMusic #nonamesbeats #AfroVibes"
+    }
+  },
+  "api_status": {
+    "railway_post_http": 404,
+    "mongodb_direct_insert": "ok",
+    "mongo_verified": "ALL_EXPECTED_IN_LATEST_4: True, total_docs 630",
+    "local_json_backup": "ok"
+  },
+  "notes": [
+    "FFmpeg fontconfig fallback -> Pillow static images (expected on Windows)",
+    "social_scheduler.py absent -> manual captions",
+    "orphans purged: 5 files from prior batch (20260925_060043)"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "batch": "20260807_1206",
+  "date": "2026-08-07T12:06:49",
+  "api_analytics": "ok",
+  "api_content": "405_read_only",
+  "items": [
+    {"type": "fallback_image", "path": "C:\Users\nonamesbeats\promo-content\fallback_20260807_120648.png", "size": 13307, "timestamp": "20260807_120648"},
+    {"type": "quote_card", "path": "C:\Users\nonamesbeats\promo-content\quote_20260807_120649_346.png", "size": 13729, "quote": "Born to make the world dance", "timestamp": "20260807_120649"},
+    {"type": "quote_card", "path": "C:\Users\nonamesbeats\promo-content\quote_20260807_120649_365.png", "size": 14310, "quote": "Afro pop is not just music, it's a vibration", "timestamp": "20260807_120649"},
+    {"type": "promo_banner", "path": "C:\Users\nonamesbeats\promo-content\promo_20260807_120649_384.png", "size": 26210, "title": "NOUVEAU SON DISPONIBLE", "timestamp": "20260807_120649"}
+  ],
+  "warnings": ["FFmpeg fontconfig: video skipped (expected Windows behavior)", "social_scheduler.py absent — captions generated manually"]
+}

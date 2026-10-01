@@ -1,0 +1,49 @@
+{
+  "api_status": {
+    "endpoint": "https://promo-engine-production-74d9.up.railway.app/api/content",
+    "result": "HTTP_404 (Railway app deleted)",
+    "fallback": "direct_mongodb_insert",
+    "mongo_verified": true
+  },
+  "items": [
+    {
+      "type": "fallback_image",
+      "file_path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20261001_000300.png",
+      "metadata": {
+        "source": "content_factory_pack",
+        "batch": "20261001_000300"
+      }
+    },
+    {
+      "type": "quote_card",
+      "file_path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20261001_000300_969.png",
+      "metadata": {
+        "quote": "Born to make the world dance",
+        "batch": "20261001_000300"
+      }
+    },
+    {
+      "type": "quote_card",
+      "file_path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20261001_000300_989.png",
+      "metadata": {
+        "quote": "Afro pop is not just music, it's a vibration",
+        "batch": "20261001_000300"
+      }
+    },
+    {
+      "type": "promo_banner",
+      "file_path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20261001_000301_7.png",
+      "metadata": {
+        "title": "NOUVEAU SON DISPONIBLE",
+        "batch": "20261001_000300"
+      }
+    }
+  ],
+  "social_captions": {
+    "instagram_quote": "Music is the answer. What's the question? 🎵\n\n.\n.\n.\n#Afrobeats #UpcomingArtist #SoulMusic #nonamesbeats #NewArtist #InstaMusic #MusicLover #Vibes",
+    "tiktok_promo": "Vibes on vibes 🌊 Afro pop energy all day\n\n#SoulMusic #AfroPop #MusicPromo #Afrobeats #MusicDiscovery",
+    "twitter_quote": "Vibes on vibes 🌊 Afro pop energy all day\n\n#AfroPop #AfroSound #SoulMusic #nonamesbeats",
+    "facebook_quote": "Music is the answer. What's the question? 🎵\n\n#Mrmakmax #AfroPop #AfroVibes #AfricanMusic",
+    "youtube_promo": "Music is the answer. What's the question? 🎵\n\n#Mrmakmax #NewArtist #NewMusic #MusicDiscovery"
+  }
+}

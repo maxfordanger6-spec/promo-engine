@@ -1,0 +1,74 @@
+{
+  "batch": "20260922_000159",
+  "date": "2026-09-22T00:01:59",
+  "source": "content_factory.py --mode pack --json",
+  "items": [
+    {
+      "type": "fallback_image",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260922_000158.png",
+      "size": 13307,
+      "timestamp": "20260922_000158"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260922_000159_208.png",
+      "size": 13729,
+      "quote": "Born to make the world dance",
+      "timestamp": "20260922_000159"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260922_000159_236.png",
+      "size": 14310,
+      "quote": "Afro pop is not just music, it's a vibration",
+      "timestamp": "20260922_000159"
+    },
+    {
+      "type": "promo_banner",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260922_000159_266.png",
+      "size": 26210,
+      "title": "NOUVEAU SON DISPONIBLE",
+      "timestamp": "20260922_000159"
+    }
+  ],
+  "auxiliary": [
+    {
+      "type": "gradient_bg",
+      "path": "C:/Users/nonamesbeats/promo-content/gradient_bg_20260922_000158.png",
+      "size": 4506,
+      "timestamp": "20260922_000158"
+    }
+  ],
+  "social_captions": {
+    "song_title": "Dans Tes Yeux",
+    "instagram": {
+      "new_release": "🆕 ON L'ATTENDAIT, LE VOILÀ 🆕\n« Dans Tes Yeux » — Mrmakmax x nonamesbeats 🎶💛\nUn Afro Pop qui réchauffe le cœur et fait bouger les épaules, même un mardi matin 😌🔥\n👉 Lien en bio — écoute, sauvegarde, partage à ton crew !\n\n.\n.\n.\n#Mrmakmax #AfroPop #DansTesYeux #NewDrop #nonamesbeats #MusiqueAfricaine #AfroVibes #NewMusic",
+      "quote_dance": "💃🏾 « Born to make the world dance »\nPas né pour suivre le rythme — né pour le donner. 🌍🔥\nSi tu sens le beat monter dans tes jambes, t'es au bon endroit ⬇️ tag ton crew danseurs !\n\n#Mrmakmax #AfroPop #BornToDance #DanceVibes #GoodEnergy #nonamesbeats",
+      "quote_vibration": "🫀 « Afro pop is not just music, it's a vibration »\nUne fréquence qui traverse les frontières sans visa 🌍⚡\nFerme les yeux, monte le son, laisse la vibration faire le reste 💛\n\n#AfroPop #Vibration #Mrmakmax #FeelTheVibe #OneLove #nonamesbeats",
+      "teaser": "🌙 3h du matin, studio fermé, la session dure encore...\nIl se trame quelque chose de beau 🤫🔥\nActive la cloche pour être le premier à entendre la suite 👀\n\n#ComingSoon #Mrmakmax #AfroPop #StudioVibes #nonamesbeats"
+    },
+    "tiktok": {
+      "new_release": "ce son va vivre dans ta tête gratuitement 🎧💛 « Dans Tes Yeux » dispo partout. #afropop #nouveauson #mrmakmax",
+      "quote_dance": "né pour faire danser la planète 🌍💃🏾 on bouge ou quoi ? #afropop #dance #mrmakmax",
+      "quote_vibration": "l'afro pop c'est une fréquence, pas un genre ⚡ tu la captes ? #afropop #vibes #mrmakmax",
+      "teaser": "le studio est en ébullition... 🤫🔥 patience, ça arrive très vite. #comingsoon #afropop #mrmakmax"
+    },
+    "twitter": {
+      "new_release": "« Dans Tes Yeux » — OUT NOW 🌍🔥 Crank it up. #AfroPop #Mrmakmax",
+      "quote_dance": "Born to make the world dance — and the world's starting to move. 💃🏾 #AfroPop #Mrmakmax",
+      "quote_vibration": "Afro pop isn't a genre. It's a frequency. Tune in ⚡ #AfroPop #Mrmakmax",
+      "teaser": "Studio locked. Something warm is loading... 👀 #ComingSoon #AfroPop"
+    },
+    "youtube": {
+      "new_release": "🎶 DANS TES YEUX — DISPO PARTOUT 🎶\nÉcoute en boucle, ajoute à ta playlist, et dis-moi en commentaire où tu l'écoutes (matin ? douche ? voiture ?) 💛\n#AfroPop #DansTesYeux #Mrmakmax #NewMusic",
+      "quote_dance": "« Born to make the world dance » 🌍💃🏾\nLa mission est claire : faire vibrer un maximum de cœurs. Merci d'être là 💛\n#Mrmakmax #AfroPop #ThankYou",
+      "quote_vibration": "Une vibration qui n'a besoin d'aucune frontière pour voyager ⚡🌍\n#AfroPop #Mrmakmax",
+      "teaser": "👀 Le prochain chapitre se prépare en studio. Abonne-toi pour ne rien rater. #Mrmakmax #ComingSoon #AfroPop"
+    }
+  },
+  "ffmpeg_status": "degraded (fontconfig on Windows — Pillow fallback used, static images OK)",
+  "api_status": {
+    "railway_post_api_content": "404 Application not found — Railway app deleted 2026-09-17 (re-confirmed this run)",
+    "mongodb_direct_insert": "success — 4 docs in generated_content via save_generated_content; direct cluster check: ALL_EXPECTED_IN_LATEST_6 True (created_at ~2026-09-21T22:02Z UTC)"
+  }
+}

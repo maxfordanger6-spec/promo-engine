@@ -1,0 +1,17 @@
+{
+  "batch": "20260920_180725",
+  "date": "2026-09-20T18:07:25",
+  "items": [
+    {"type": "fallback_image", "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260920_180725.png", "size": 13307},
+    {"type": "quote_card", "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260920_180725_739.png", "size": 13729, "quote": "Born to make the world dance"},
+    {"type": "quote_card", "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260920_180725_757.png", "size": 14310, "quote": "Afro pop is not just music, it's a vibration"},
+    {"type": "promo_banner", "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260920_180725_776.png", "size": 26210, "title": "NOUVEAU SON DISPONIBLE"}
+  ],
+  "song_title": "Dans Tes Yeux",
+  "social_captions": "full grid in ~/promo-content/latest_batch.json (instagram, tiktok, twitter, youtube)",
+  "ffmpeg_status": "degraded (fontconfig on Windows — Pillow fallback used)",
+  "api_status": {
+    "railway_post_api_content": "skipped — Railway app deleted 2026-09-17, all endpoints 404",
+    "mongodb_direct_insert": "success — 4 docs in generated_content (cluster-verified 2026-09-20 16:08Z, total 554)"
+  }
+}

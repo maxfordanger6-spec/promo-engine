@@ -1,0 +1,49 @@
+{
+  "api_status": {
+    "endpoint": "https://promo-engine-production-74d9.up.railway.app/api/content",
+    "result": "HTTP_404 (Railway app deleted)",
+    "fallback": "direct_mongodb_insert",
+    "mongo_verified": true
+  },
+  "items": [
+    {
+      "type": "fallback_image",
+      "file_path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20261001_060104.png",
+      "metadata": {
+        "source": "content_factory_pack",
+        "batch": "20261001_060104"
+      }
+    },
+    {
+      "type": "quote_card",
+      "file_path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20261001_060104_335.png",
+      "metadata": {
+        "quote": "Born to make the world dance",
+        "batch": "20261001_060104"
+      }
+    },
+    {
+      "type": "quote_card",
+      "file_path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20261001_060104_354.png",
+      "metadata": {
+        "quote": "Afro pop is not just music, it's a vibration",
+        "batch": "20261001_060104"
+      }
+    },
+    {
+      "type": "promo_banner",
+      "file_path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20261001_060104_373.png",
+      "metadata": {
+        "title": "NOUVEAU SON DISPONIBLE",
+        "batch": "20261001_060104"
+      }
+    }
+  ],
+  "social_captions": {
+    "instagram_quote": "Born to make the world dance 💃🕺\n\n\n.\n.\n.\n#Afrobeats #AfroVibes #NewArtist #NewMusic #AfricanMusic #InstaMusic #MusicLover #Vibes",
+    "tiktok_promo": "Vibes on vibes 🌊 Afro pop energy all day\n\n#Afrobeats #IndieArtist #AfroVibes #UpcomingArtist #AfroPop",
+    "twitter_quote": "Vibes on vibes 🌊 Afro pop energy all day\n\n#Afrobeats #AfroPop #RnB #AfroSound",
+    "facebook_quote": "Born to make the world dance 💃🕺\n\n#IndieArtist #AfroVibes #RnB #nonamesbeats",
+    "youtube_promo": "Vibes on vibes 🌊 Afro pop energy all day\n\n#NewMusic #AfroPop #AfroVibes #Mrmakmax"
+  }
+}

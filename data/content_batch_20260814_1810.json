@@ -1,0 +1,43 @@
+{
+  "batch": "20260814_1810",
+  "date": "2026-08-14T18:10:00",
+  "items": [
+    {"type": "fallback_image", "file_path": "promo-content/fallback_20260814_180943.png", "size": 13307, "timestamp": "20260814_180943", "title": "NOUVEAU SON 🔥 (teaser)"},
+    {"type": "quote_card", "file_path": "promo-content/quote_20260814_180943_981.png", "size": 13729, "timestamp": "20260814_180943", "quote": "Born to make the world dance"},
+    {"type": "quote_card", "file_path": "promo-content/quote_20260814_180944_5.png", "size": 14310, "timestamp": "20260814_180944", "quote": "Afro pop is not just music, it's a vibration"},
+    {"type": "promo_banner", "file_path": "promo-content/promo_20260814_180944_27.png", "size": 26210, "timestamp": "20260814_180944", "title": "NOUVEAU SON DISPONIBLE"}
+  ],
+  "social_captions": {
+    "instagram": {
+      "new_release": "Le drop est là ! Dans Tes Yeux — stream maintenant et dis-moi ce que t'en penses 💜 #nonamesbeats #Mrmakmax #AfroSound",
+      "bts": "Behind the scenes... creating magic in the studio 🎹✨ #IndieArtist #AfroVibes",
+      "general": "Born to make the world dance 💃🕺 #Mrmakmax #NewMusic",
+      "engagement": "Quel son tu veux que je drop ensuite ? Dis-moi en commentaire 👇 #AfroPop"
+    },
+    "tiktok": {
+      "new_release": "I've been working on this one... Dans Tes Yeux OUT NOW on all platforms 🚀 #AfroSound #AfroPop",
+      "bts": "Behind the scenes... creating magic in the studio 🎹✨ #AfroVibes",
+      "general": "Music is the answer. What's the question? 🎵 #Afrobeats",
+      "engagement": "Quelle est ta chanson préférée du moment ? 🎧 #AfroPop"
+    },
+    "twitter": {
+      "new_release": "I've been working on this one... Dans Tes Yeux OUT NOW on all platforms 🚀 #Afrobeats #IndieArtist",
+      "bts": "This one's special. Can't wait for you to hear it 🎵 #Mrmakmax",
+      "general": "Music is the answer. What's the question? 🎵 #AfroSound",
+      "engagement": "Tag quelqu'un qui doit entendre ça ⬇️ #MusicDiscovery"
+    },
+    "youtube": {
+      "new_release": "🔥 NOUVEAU SON ! 'Dans Tes Yeux' est dispo partout ! Link in bio 🎵 #Afrobeats #AfroPop",
+      "bts": "Behind the scenes... creating magic in the studio 🎹✨ #Mrmakmax",
+      "general": "Born to make the world dance 💃🕺 #AfroSound",
+      "engagement": "Quelle est ta chanson préférée du moment ? 🎧 #NewArtist"
+    }
+  },
+  "api_status": {
+    "endpoint": "POST https://promo-engine-production-74d9.up.railway.app/api/content",
+    "http_code": 405,
+    "detail": "Method Not Allowed — endpoint read-only on deployed Railway, local patch not yet deployed",
+    "fallback_used": "local_json_audit_trail",
+    "ffmpeg_status": "fontconfig error -> Pillow fallback (static images OK)"
+  }
+}

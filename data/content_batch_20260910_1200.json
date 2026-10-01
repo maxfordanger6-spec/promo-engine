@@ -1,0 +1,59 @@
+{
+  "batch": "20260910_1200",
+  "date": "2026-09-10T12:00:22",
+  "api_status": "405_read_only_deployed (direct MongoDB insert used instead)",
+  "mongo_status": "PASS - 4 inserts verified via direct cluster inspection",
+  "items": [
+    {
+      "type": "fallback_image",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260910_120022.png",
+      "size": 13307,
+      "timestamp": "20260910_120022"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260910_120022_957.png",
+      "size": 13729,
+      "quote": "Born to make the world dance",
+      "timestamp": "20260910_120022"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260910_120022_976.png",
+      "size": 14310,
+      "quote": "Afro pop is not just music, it's a vibration",
+      "timestamp": "20260910_120022"
+    },
+    {
+      "type": "promo_banner",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260910_120022_993.png",
+      "size": 26210,
+      "title": "NOUVEAU SON DISPONIBLE",
+      "timestamp": "20260910_120022"
+    }
+  ],
+  "notes": "FFmpeg visualizer failed (fontconfig on Windows) - graceful Pillow fallback. social_scheduler.py absent - manual captions.",
+  "social_captions": {
+    "instagram": {
+      "promo_banner": "🚀🔥 NOUVEAU SON DISPONIBLE PARTOUT ! 🔥🚀\n\nLa vibration afro pop ne s'arrête jamais... et cette fois, j'ai mis toute mon énergie dedans. 💥🎶\n\nC'est le moment de monter le volume et de laisser le rythme parler. 🔊🌍\n\nDispo sur toutes les plateformes — lien en bio ! 🔗💿\n\n#AfroPop #NouveauSon #Mrmakmax #MusiqueAfro #Afrobeats #Nouveaute #Vibration #Dance #SonDuMoment #MrmakmaxMusic",
+      "quote_1": "🌍💃 \"Born to make the world dance\" 💃🌍\n\nJe ne fais pas de la musique pour remplir le silence. Je la fais pour faire bouger le monde entier. 🌍✨\n\nTag quelqu'un qui danse sur mes sons 👇🕺\n\n#AfroPop #Vibration #Mrmakmax #Musique #Danse #GoodVibes #FeelTheRhythm #PositiveVibes",
+      "quote_2": "🎶✨ \"L'afro pop n'est pas juste de la musique, c'est une vibration\" ✨🎶\n\nTu ne l'écoutes pas... tu la ressens. 🫀🔊 Du soleil de l'Afrique à tes enceintes. 🌅\n\nQui la ressent aussi ? 👇🔥\n\n#AfroPop #Vibration #Mrmakmax #MusiqueAfricaine #Afrobeats #FeelTheVibe #GoodVibesOnly #Sunshine",
+      "teaser": "👀🔥 Quelque chose se prépare... 🔥👀\n\nLes studios ont chauffé, les vibes sont prêtes. Restez connectés, ça arrive très bientôt. 🎙️✨\n\n#ComingSoon #Mrmakmax #AfroPop #NouveauSon #StayTuned #Teaser #MusicComing"
+    },
+    "tiktok": {
+      "promo_banner": "NOUVEAU SON DISPO 🔥🔥🔥 tu l'as déjà en boucle ? 🔊 Afro pop vibes 🌍\n#afropop #mrmakmax #nouveauson",
+      "quote_1": "Born to make the world dance 💃🌍 et toi, tu danses ? 👇\n#mrmakmax #afropop #dance",
+      "quote_2": "L'afro pop c'est pas de la musique, c'est une vibration 🎶✨\n#mrmakmax #vibration #afropop",
+      "teaser": "Quelque chose arrive... 👀🔥 stay tuned !\n#mrmakmax #teaser #afropop"
+    },
+    "twitter": {
+      "promo_banner": "NOUVEAU SON DISPONIBLE 🚀🔥 L'afro pop ne dort jamais. Dispo partout, lien en bio. #AfroPop #Mrmakmax",
+      "quote_1": "Born to make the world dance. 🌍💃 #Mrmakmax #AfroPop",
+      "quote_2": "L'afro pop, c'est une vibration avant d'être une musique. 🎶✨ #Mrmakmax",
+      "teaser": "Préparez-vous. 👀🔥 #ComingSoon #Mrmakmax"
+    },
+    "youtube": {
+      "promo_banner": "NOUVEAU SON DISPONIBLE 🎬🔥\n\nLe nouveau titre de Mrmakmax est enfin là ! Écoute, partage, et dis-moi en commentaire ce que tu en penses. 👇\n\n#AfroPop #Mrmakmax"
+    }
+  }
+}

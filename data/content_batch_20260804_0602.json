@@ -1,0 +1,22 @@
+{
+  "batch": "20260804_0602",
+  "date": "2026-08-04T06:02:00",
+  "items": [
+    {"type": "fallback_image", "file_path": "promo-content/fallback_20260804_060218.png", "size": 13307, "timestamp": "20260804_060218"},
+    {"type": "quote_card", "file_path": "promo-content/quote_20260804_060219_247.png", "size": 13729, "quote": "Born to make the world dance", "timestamp": "20260804_060219"},
+    {"type": "quote_card", "file_path": "promo-content/quote_20260804_060219_266.png", "size": 14310, "quote": "Afro pop is not just music, it's a vibration", "timestamp": "20260804_060219"},
+    {"type": "promo_banner", "file_path": "promo-content/promo_20260804_060219_283.png", "size": 26210, "title": "NOUVEAU SON DISPONIBLE", "timestamp": "20260804_060219"}
+  ],
+  "social_captions": {
+    "instagram_new_release": "Le drop est là !  — stream maintenant 💜",
+    "instagram_general": "Born to make the world dance 💃🕺",
+    "instagram_engagement": "Tag quelqu'un qui doit entendre ça ⬇️",
+    "tiktok_new_release": "Le drop est là !  — stream maintenant 💜",
+    "tiktok_general": "Born to make the world dance 💃🕺",
+    "tiktok_engagement": "Quelle est ta chanson préférée du moment ? 🎧",
+    "twitter_general": "Music is the answer. What's the question? 🎵",
+    "youtube_general": "Music is the answer. What's the question? 🎵"
+  },
+  "ffmpeg_errors": ["Fontconfig error: Cannot load default config file"],
+  "api_sync_status": "405 Method Not Allowed — local JSON fallback"
+}

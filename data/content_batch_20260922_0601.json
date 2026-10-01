@@ -1,0 +1,74 @@
+{
+  "batch": "20260922_0601",
+  "date": "2026-09-22T06:01:00",
+  "artist": "Mrmakmax",
+  "items": [
+    {
+      "type": "fallback_image",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260922_060039.png",
+      "size": 13307,
+      "timestamp": "20260922_060039"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260922_060040_304.png",
+      "size": 13729,
+      "quote": "Born to make the world dance",
+      "timestamp": "20260922_060040"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260922_060040_324.png",
+      "size": 14310,
+      "quote": "Afro pop is not just music, it's a vibration",
+      "timestamp": "20260922_060040"
+    },
+    {
+      "type": "promo_banner",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260922_060040_347.png",
+      "size": 26210,
+      "title": "NOUVEAU SON DISPONIBLE",
+      "timestamp": "20260922_060040"
+    }
+  ],
+  "auxiliary": [
+    {
+      "type": "gradient_bg",
+      "path": "C:/Users/nonamesbeats/promo-content/gradient_bg_20260922_060039.png",
+      "size": 4506,
+      "timestamp": "20260922_060039"
+    }
+  ],
+  "social_captions": {
+    "song_title": "Dans Tes Yeux",
+    "instagram": {
+      "new_release": "🌅 LE JOUR SE LÈVE, LE SON AUSSI 🎶\n« Dans Tes Yeux » — Mrmakmax x nonamesbeats, dispo partout dès maintenant 💛\nLe genre de track qui transforme un mardi matin gris en fête de quartier 🌍🔥\n👉 Lien en bio — stream, sauvegarde, partage !\n\n.\n.\n.\n#Mrmakmax #AfroPop #DansTesYeux #NewDrop #nonamesbeats #MusiqueAfricaine #AfroVibes #NewMusic",
+      "quote_dance": "💃🏾 « Born to make the world dance »\nY'a ceux qui suivent le rythme... et y'a ceux qui le créent 🌍🔥\nTague le crew qui fait trembler le dancefloor dès la première note ⬇️\n\n#Mrmakmax #AfroPop #BornToDance #DanceVibes #GoodEnergy #nonamesbeats",
+      "quote_vibration": "🫀 « Afro pop is not just music, it's a vibration »\nUne fréquence sans frontière, sans visa, sans ticket 🌍⚡\nFerme les yeux, monte le volume, laisse ton corps comprendre ce que les mots ne peuvent pas 💛\n\n#AfroPop #Vibration #Mrmakmax #FeelTheVibe #OneLove #nonamesbeats",
+      "teaser": "🌙 3h du mat', la lumière du studio est encore allumée...\nOn prépare quelque chose qui va faire lever tout le monde 🤫🔥\nActive la cloche — la suite arrive plus vite que tu crois 👀\n\n#ComingSoon #Mrmakmax #AfroPop #StudioVibes #nonamesbeats"
+    },
+    "tiktok": {
+      "new_release": "ce son va squatter ta tête gratuitement 🎧💛 « Dans Tes Yeux » dispo partout — link in bio. #afropop #nouveauson #mrmakmax #fyp",
+      "quote_dance": "né pour faire danser la planète, pas pour rester assis 🌍💃🏾 on bouge ? #afropop #dance #mrmakmax #foryou",
+      "quote_vibration": "l'afro pop c'est une fréquence, pas un genre ⚡ tu captes ou tu captes pas ? #afropop #vibes #mrmakmax #fyp",
+      "teaser": "le studio bout... 🤫🔥 patience, ça arrive très bientôt. #comingsoon #afropop #mrmakmax"
+    },
+    "twitter": {
+      "new_release": "« Dans Tes Yeux » — OUT NOW 🌍🔥 Réveil en douceur, drop en puissance. Crank it up. #AfroPop #Mrmakmax",
+      "quote_dance": "Born to make the world dance — and the world is starting to move. 💃🏾 #AfroPop #Mrmakmax",
+      "quote_vibration": "Afro pop isn't a genre. It's a frequency. Tune in ⚡ #AfroPop #Mrmakmax",
+      "teaser": "Studio locked. Something warm is loading... 👀 #ComingSoon #AfroPop"
+    },
+    "youtube": {
+      "new_release": "🎶 DANS TES YEUX — DISPO PARTOUT 🎶\nMatin, douche, voiture, salle de sport : dis-moi en commentaire où tu l'écoutes en premier 💛\n#AfroPop #DansTesYeux #Mrmakmax #NewMusic",
+      "quote_dance": "« Born to make the world dance » 🌍💃🏾\nLa mission est claire. Merci de danser avec nous 💛\n#Mrmakmax #AfroPop #ThankYou",
+      "quote_vibration": "Une vibration qui n'a besoin d'aucune frontière pour voyager ⚡🌍\n#AfroPop #Mrmakmax",
+      "teaser": "👀 Le prochain chapitre s'écrit en studio. Abonne-toi, la suite vaut le détour. #Mrmakmax #ComingSoon #AfroPop"
+    }
+  },
+  "ffmpeg_status": "degraded (fontconfig on Windows — Pillow fallback used, static images OK)",
+  "api_status": {
+    "railway_post_api_content": "404 Application not found — Railway app deleted 2026-09-17 (confirmed this run)",
+    "mongodb_direct_insert": "success — 4 docs in generated_content via save_generated_content; direct cluster check: ALL_EXPECTED_IN_LATEST_4 True"
+  }
+}

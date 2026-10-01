@@ -1,0 +1,73 @@
+{
+  "batch": "20260921_180513",
+  "date": "2026-09-21T18:05:13",
+  "items": [
+    {
+      "type": "fallback_image",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260921_180513.png",
+      "size": 13307,
+      "timestamp": "20260921_180513"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260921_180513_884.png",
+      "size": 13729,
+      "quote": "Born to make the world dance",
+      "timestamp": "20260921_180513"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260921_180513_902.png",
+      "size": 14310,
+      "quote": "Afro pop is not just music, it's a vibration",
+      "timestamp": "20260921_180513"
+    },
+    {
+      "type": "promo_banner",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260921_180513_921.png",
+      "size": 26210,
+      "title": "NOUVEAU SON DISPONIBLE",
+      "timestamp": "20260921_180513"
+    }
+  ],
+  "auxiliary": [
+    {
+      "type": "gradient_bg",
+      "path": "C:/Users/nonamesbeats/promo-content/gradient_bg_20260921_180513.png",
+      "size": 4506,
+      "timestamp": "20260921_180513"
+    }
+  ],
+  "social_captions": {
+    "song_title": "Dans Tes Yeux",
+    "instagram": {
+      "new_release": "🚀 LE NOUVEAU SON EST LÀ 🚀\n« Dans Tes Yeux » — Mrmakmax x nonamesbeats 💛\nUn Afro Pop qui te prend par la main et ne te lâche plus 🎶🔥\n👉 Lien en bio — écoute, partage, danse !\n\n.\n.\n.\n#Mrmakmax #AfroPop #DansTesYeux #NewDrop #nonamesbeats #MusiqueAfricaine #AfroVibes #NewMusic",
+      "quote_dance": "💃🏾 « Born to make the world dance »\nPas né pour suivre la vague — né pour la créer. 🌊🔥\nTag ton crew de danseurs, ce beat est pour vous ⬇️\n\n#Mrmakmax #AfroPop #BornToDance #DanceVibes #GoodEnergy #nonamesbeats",
+      "quote_vibration": "🫀 L'afro pop n'est pas un genre, c'est une fréquence.\n« Afro pop is not just music, it's a vibration » ⚡\nSi tu sens le beat dans la poitrine, t'es déjà chez toi 💛\n\n#AfroPop #Vibration #Mrmakmax #FeelTheVibe #OneLove #nonamesbeats",
+      "teaser": "🌅 Le prochain chapitre s'écrit...\nStudio fermé, volume au max, idées plein la tête 🤫🔥\nActive la cloche pour être le premier à entendre la suite 👀\n\n#ComingSoon #Mrmakmax #AfroPop #StudioVibes #nonamesbeats"
+    },
+    "tiktok": {
+      "new_release": "ce son ne quittera pas ta tête 🎧💛 « Dans Tes Yeux » dispo partout. #afropop #nouveauson #mrmakmax",
+      "quote_dance": "né pour faire danser le monde 💃🏾🌍 tag celui qui danse sur TOUT. #dance #afropop #mrmakmax",
+      "quote_vibration": "l'afro pop c'est pas un genre, c'est une fréquence ⚡ tu la sens ? #afropop #vibes #mrmakmax",
+      "teaser": "le studio a chaud... 🤫🔥 patience, ça arrive. #comingsoon #afropop #mrmakmax"
+    },
+    "twitter": {
+      "new_release": "« Dans Tes Yeux » is OUT NOW 🌍🔥 Turn it up. #AfroPop #Mrmakmax",
+      "quote_dance": "Born to make the world dance — and the world's starting to feel it. 💃🏾 #AfroPop #Mrmakmax",
+      "quote_vibration": "Afro pop isn't a genre. It's a frequency. Tune in ⚡ #AfroPop #Mrmakmax",
+      "teaser": "Studio doors closed. Something's loading... 👀 #ComingSoon #AfroPop"
+    },
+    "youtube": {
+      "new_release": "🎶 DANS TES YEUX — MAINTENANT DISPONIBLE 🎶\nÉcoute en boucle, partage à ta famille, et dis-moi en commentaire où tu l'écoutes (voiture ? douche ? fête ?) 💛\n#AfroPop #DansTesYeux #Mrmakmax #NewMusic",
+      "quote_dance": "« Born to make the world dance » 🌍💃🏾\nOn n'a pas fini de bouger. Merci d'être là 💛\n#Mrmakmax #AfroPop #ThankYou",
+      "quote_vibration": "Une vibration qui n'a pas besoin de visa pour traverser les frontières ⚡🌍\n#AfroPop #Mrmakmax",
+      "teaser": "👀 Le prochain son est en préparation. Abonne-toi pour ne rien rater. #Mrmakmax #ComingSoon #AfroPop"
+    }
+  },
+  "ffmpeg_status": "degraded (fontconfig on Windows — Pillow fallback used, static images OK)",
+  "api_status": {
+    "railway_post_api_content": "404 Application not found — Railway app deleted 2026-09-17 (re-confirmed this run)",
+    "mongodb_direct_insert": "success — 4 docs in generated_content (direct cluster check: ALL_EXPECTED_IN_LATEST_6 True, created_at 2026-09-21T16:06:54Z)"
+  }
+}

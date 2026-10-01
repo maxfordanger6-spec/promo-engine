@@ -1,0 +1,13 @@
+{
+  "batch": "20260815_1812",
+  "date": "2026-08-15T18:12:06",
+  "items": [
+    {"type": "fallback_image", "file_path": "promo-content/fallback_20260815_181205.png", "metadata": {"size": 13307, "title": "NOUVEAU SON", "artist": "Mrmakmax", "note": "visualizer fallback (fontconfig)"}},
+    {"type": "quote_card", "file_path": "promo-content/quote_20260815_181206_501.png", "metadata": {"size": 13729, "quote": "Born to make the world dance", "artist": "Mrmakmax"}},
+    {"type": "quote_card", "file_path": "promo-content/quote_20260815_181206_519.png", "metadata": {"size": 14310, "quote": "Afro pop is not just music, it's a vibration", "artist": "Mrmakmax"}},
+    {"type": "promo_banner", "file_path": "promo-content/promo_20260815_181206_539.png", "metadata": {"size": 26210, "title": "NOUVEAU SON DISPONIBLE", "artist": "Mrmakmax"}}
+  ],
+  "api_status": "POST /api/content -> 405 (endpoint read-only on Railway, Pitfall 5). Direct MongoDB insert via save_generated_content: 4/4 OK, verified via GET.",
+  "social_captions": "generated manually (social_scheduler.py absent)",
+  "visualizer_status": "FFmpeg fontconfig error on Windows -> Pillow fallback_image (Pitfall 8)"
+}

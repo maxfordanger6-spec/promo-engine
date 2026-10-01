@@ -2,6 +2,7 @@ node_modules/
 build/
 dist/
 .env
+.env.*
 *.pyc
 __pycache__/
 .pytest_cache/
@@ -9,3 +10,9 @@ __pycache__/
 venv/
 .venv/
 promo-content/
+*.pem
+*.key
+credentials.json
+firebase-admin.json
+*.keystore
+

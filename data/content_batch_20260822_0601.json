@@ -1,0 +1,34 @@
+{
+  "batch": "20260822_0601",
+  "date": "2026-08-22T06:01:00",
+  "artist": "Mrmakmax",
+  "items": [
+    {"type": "fallback_image", "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260822_060109.png", "size": 13307},
+    {"type": "quote_card", "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260822_060109_879.png", "size": 13729, "quote": "Born to make the world dance"},
+    {"type": "quote_card", "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260822_060109_897.png", "size": 14310, "quote": "Afro pop is not just music, it's a vibration"},
+    {"type": "promo_banner", "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260822_060109_915.png", "size": 26210, "title": "NOUVEAU SON DISPONIBLE"}
+  ],
+  "social_captions": {
+    "instagram": {
+      "promo": "🔥 NOUVEAU SON DISPONIBLE 🔥\n'Dans Tes Yeux' est enfin là, et il va faire danser toute la planète 🌍💃\nDispo sur toutes les plateformes — lien en bio 🎧\n#AfroPop #DansTesYeux #NewMusic #Mrmakmax #Afrobeats #NouveauSon #MusiqueAfro #Vibes",
+      "quote_dance": "Born to make the world dance 🌍✨\nEt toi, tu danses où ce soir ? 💃🕺\n#AfroPop #Dance #Vibes #Mrmakmax #Afrobeats #GoodVibes",
+      "quote_vibration": "Afro pop is not just music, it's a vibration 🎶⚡\nUne fréquence qui traverse les frontières 🇫🇷🇨🇮🌍\n#AfroPop #Vibration #Mrmakmax #Afrobeats #Musique #Énergie"
+    },
+    "tiktok": {
+      "promo": "NOUVEAU SON DANS TES YEUX 🚀🔥 il est dispo PARTOUT. Mets le son et montre-moi ton meilleur move 💃 #DansTesYeux #AfroPop",
+      "quote": "POV : t'entends la nouvelle vibration afro pop 🎶⚡ #AfroPop #Vibes"
+    },
+    "twitter": {
+      "promo": "🔥 NOUVEAU SON — 'Dans Tes Yeux' est dispo partout. L'afro pop made in 🇫🇷🇨🇮 continue de vibrer 🌍 #DansTesYeux #AfroPop",
+      "quote": "Born to make the world dance 🌍💃 #AfroPop"
+    },
+    "youtube": {
+      "promo": "NOUVEAU SON DISPONIBLE 🎧 'Dans Tes Yeux' — la nouvelle vibration afro pop de Mrmakmax est enfin là ! Disponible sur toutes les plateformes 🌍🔥 Laisse un commentaire avec ton pays 👇 #AfroPop #DansTesYeux #Mrmakmax"
+    }
+  },
+  "api_status": {
+    "api_content_post": "405 Method Not Allowed (server read-only, Pitfall 5)",
+    "mongo_direct_insert": "success — 4/4 records inserted via save_generated_content, verified via GET /api/content?limit=4",
+    "ffmpeg": "visualizer failed (fontconfig) — graceful fallback to static images"
+  }
+}

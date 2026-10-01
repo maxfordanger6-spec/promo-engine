@@ -1,0 +1,57 @@
+{
+  "batch": "20260818_180745",
+  "date": "2026-08-18T18:07:45",
+  "items": [
+    {
+      "type": "fallback_image",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260818_180745.png",
+      "size": 13307,
+      "timestamp": "20260818_180745"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260818_180745_905.png",
+      "size": 13729,
+      "quote": "Born to make the world dance",
+      "timestamp": "20260818_180745"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260818_180745_925.png",
+      "size": 14310,
+      "quote": "Afro pop is not just music, it's a vibration",
+      "timestamp": "20260818_180745"
+    },
+    {
+      "type": "promo_banner",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260818_180745_943.png",
+      "size": 26210,
+      "title": "NOUVEAU SON DISPONIBLE",
+      "timestamp": "20260818_180745"
+    }
+  ],
+  "social_captions": {
+    "instagram": {
+      "new_release": "🔥 NOUVEAU SON ! \"Dans Tes Yeux\" est dispo partout 🎶\n\nOn l'a fait avec le cœur, pour vous qui dansez avec les pieds nus sur les vibes afro 🌍✨\n\nÉcoute, partage, et dis-moi en commentaire ce que ça te fait ressentir 👇💬\n\n#AfroPop #Mrmakmax #NouveauSon #MusiqueAfricaine #DansTesYeux #AfroVibes #NewMusic #Afrobeat #PopAfro #CoteDIvoire",
+      "engagement": "💬 \"Afro pop is not just music, it's a vibration\" ✨\n\nC'est pas juste un genre, c'est une énergie qui traverse le corps 🕺\n\nQuelle chanson te donne cette vibration-là ? Dis-le en commentaire 👇\n\n#AfroPop #Vibration #Mrmakmax #Musique #FeelGood #AfroVibes #QuoteOfTheDay"
+    },
+    "tiktok": {
+      "new_release": "NOUVEAU SON \"Dans Tes Yeux\" 🎶💫\nViens danser avec nous 🕺🔥\n#AfroPop #Mrmakmax #NouveauSon"
+    },
+    "twitter": {
+      "new_release": "🚨 Nouveau son dispo : \"Dans Tes Yeux\" 🌍🎶\nL'afro pop qui fait vibrer — écoute maintenant !\n#AfroPop #Mrmakmax"
+    },
+    "youtube": {
+      "general": "🎵 NOUVEAU SON DISPONIBLE — \"Dans Tes Yeux\"\n\nUn morceau afro pop né pour faire danser le monde 🌍✨\n\n▶️ À écouter dès maintenant — et dis-nous ce que tu en penses en commentaire !\n\n#AfroPop #Mrmakmax #NewMusic"
+    }
+  },
+  "api_status": {
+    "post_api_content": "405 Method Not Allowed (serveur Railway en lecture seule — attendu)",
+    "mongodb_direct_insert": "success — 4/4 records insérés dans generated_content",
+    "verified_via_get": "success — 4 records batch 20260818_180745 en tête de GET /api/content"
+  },
+  "notes": {
+    "ffmpeg": "Fontconfig error Windows → visualizer vidéo dégradé en image statique fallback (comportement attendu)",
+    "social_scheduler": "social_scheduler.py absent du projet → légendes générées manuellement"
+  }
+}

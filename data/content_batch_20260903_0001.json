@@ -1,0 +1,57 @@
+{
+  "batch": "20260903_0001",
+  "date": "2026-09-03T00:01:33",
+  "artist": "Mrmakmax",
+  "items": [
+    {
+      "type": "fallback_image",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260903_000102.png",
+      "size": 13307,
+      "timestamp": "20260903_000102"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260903_000103_455.png",
+      "size": 13729,
+      "quote": "Born to make the world dance",
+      "timestamp": "20260903_000103"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260903_000103_482.png",
+      "size": 14310,
+      "quote": "Afro pop is not just music, it's a vibration",
+      "timestamp": "20260903_000103"
+    },
+    {
+      "type": "promo_banner",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260903_000103_512.png",
+      "size": 26210,
+      "title": "NOUVEAU SON DISPONIBLE",
+      "timestamp": "20260903_000103"
+    }
+  ],
+  "social_captions": {
+    "instagram": [
+      "🚨 LE MOMENT EST VENU ! 🚨\nLe nouveau son est enfin dispo 🎵 La vibe afro pop qui va faire danser tout le monde est là. Turn up le volume, partage avec tes potes, et dis-moi en commentaire quel son tu kiffes le plus 🔊🔥\n#AfroPop #Mrmakmax #NouveauSon #MusiqueAfro #Vibes #Dance #Afrobeat #SonDuMoment",
+      "\"Born to make the world dance\" 🌍💃\nC'est pas juste une phrase, c'est une mission. Chaque son, chaque vibe, chaque étape — tout est fait pour que tu bouges. ✨\nQui danse avec moi ce soir ? 💫\n#BornToDance #Mrmakmax #AfroPop #PositiveVibes #Motivation #Dance",
+      "\"L'afro pop, c'est pas juste de la musique, c'est une vibration.\" 🎶⚡\nTu l'as senti ? Cette énergie qui te traverse quand le beat tombe... C'est ça, la vibration. 🇨🇮🇫🇷\nPartage si tu ressens pareil 🙌\n#AfroVibration #Mrmakmax #Musique #Vibes #AfroPop #Energy",
+      "👀 Quelque chose se prépare...\nRestez branchés, la suite arrive bientôt. La machine afro pop ne dort jamais ! 🎧🔥\n#Mrmakmax #ComingSoon #AfroPop #Teaser"
+    ],
+    "tiktok": [
+      "POV : le nouveau son est enfin dispo 🎧🔥 Cours écouter, la vibe est incroyable ! #Mrmakmax #AfroPop #NouveauSon",
+      "Cette vibration quand le beat tombe 😮‍💨⚡ Tu danses ou tu danses ? #Mrmakmax #AfroVibes #Dance"
+    ],
+    "twitter": [
+      "La vibration afro pop continue. Nouveau son dispo partout 🎵🔥 #Mrmakmax #AfroPop",
+      "Born to make the world dance 🌍💃 — c'est la mission. #Mrmakmax"
+    ],
+    "youtube": [
+      "Bienvenue sur la chaîne ! Ici, c'est 100% afro pop — des sons qui font vibrer, des hits qui font danser. 🎧🔥\nLe nouveau son est disponible partout : écoute, kiffe, et abonne-toi pour ne rien manquer du prochain drop ! 🙌"
+    ]
+  },
+  "api_status": {
+    "post_api_content": "405_method_not_allowed_readonly_deployed",
+    "mongo_direct_insert": "success_4_records_verified_via_GET"
+  }
+}

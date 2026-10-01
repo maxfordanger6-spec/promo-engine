@@ -1,4 +1,5 @@
 import os
+import asyncio
 import logging
 from datetime import datetime
 from fastapi import FastAPI, HTTPException, Request
@@ -48,7 +49,7 @@ class LinkRequest(BaseModel):
 
 
 class EmailCaptureRequest(BaseModel):
-    email: str
+    email: EmailStr
     source: Optional[str] = "landing"
 
 
@@ -124,6 +125,12 @@ async def post_analytics(snapshot: AnalyticsSnapshot):
     return {"status": "ok", "snapshot": data}
 
 
+class ContentRequest(BaseModel):
+    type: str
+    file_path: str
+    metadata: Optional[dict] = None
+
+
 @app.get("/api/content")
 async def list_content(limit: int = 20, type: str = None):
     """List generated content"""
@@ -138,151 +145,203 @@ async def list_content(limit: int = 20, type: str = None):
     return {"content": items}
 
 
+@app.post("/api/content")
+async def create_content(content: ContentRequest):
+    """Save generated content"""
+    await save_generated_content(
+        content_type=content.type,
+        file_path=content.file_path,
+        metadata=content.metadata,
+    )
+    return {"status": "ok"}
+
+
 # === Growth Modules ===
+# Helper: call a function from an automation module with graceful fallback
+
+def _auto(mod_name: str, fn, *args, **kwargs):
+    """Call fn(*args, **kwargs), returning {"error": ...} if the module is missing."""
+    try:
+        return fn(*args, **kwargs)
+    except ImportError:
+        return {"error": f"{mod_name} module not available"}
+
+
+async def _auto_async(mod_name: str, fn, *args, **kwargs):
+    """Like _auto, but awaits the result (for async automation functions)."""
+    try:
+        result = fn(*args, **kwargs)
+        if asyncio.iscoroutine(result):
+            result = await result
+        return result
+    except ImportError:
+        return {"error": f"{mod_name} module not available"}
+
 
 @app.get("/api/targeting/daily")
 async def get_daily_targets(level: str = "all"):
-    """Get daily engagement targets"""
-    try:
-        from automation.smart_targeting import generate_daily_targets
-        plan = generate_daily_targets(level=level)
-        return plan
-    except ImportError:
-        return {"error": "smart_targeting module not available"}
+    from automation.smart_targeting import generate_daily_targets
+    return _auto("smart_targeting", generate_daily_targets, level=level)
 
 
 @app.get("/api/email/sequences")
 async def get_email_sequences(type: str = "welcome"):
-    """Get email nurture sequences"""
-    try:
-        from automation.email_nurture import get_sequence, generate_email_report
-        if type == "report":
-            return generate_email_report()
-        return {"sequences": get_sequence(type)}
-    except ImportError:
-        return {"error": "email_nurture module not available"}
+    from automation.email_nurture import get_sequence, generate_email_report
+    if type == "report":
+        return _auto("email_nurture", generate_email_report)
+    return _auto("email_nurture", lambda: {"sequences": get_sequence(type)})
 
 
 @app.get("/api/playlists/targets")
 async def get_playlist_targets(genre: str = "all", difficulty: str = "all"):
-    """Get playlist pitching targets"""
-    try:
-        from automation.playlist_pitcher import get_playlist_targets, generate_pitch_strategy
-        if genre == "strategy":
-            return generate_pitch_strategy()
-        return {"playlists": get_playlist_targets(genre, difficulty)}
-    except ImportError:
-        return {"error": "playlist_pitcher module not available"}
+    from automation.playlist_pitcher import get_playlist_targets, generate_pitch_strategy
+    if genre == "strategy":
+        return _auto("playlist_pitcher", generate_pitch_strategy)
+    return _auto("playlist_pitcher", lambda: {"playlists": get_playlist_targets(genre, difficulty)})
 
 
 @app.get("/api/playlists/pitch")
 async def generate_pitch(song: str = "Nouveau Son", playlist: str = "", style: str = "personal"):
-    """Generate a playlist pitch message"""
-    try:
-        from automation.playlist_pitcher import generate_pitch
-        return {"pitch": generate_pitch(song, playlist, style)}
-    except ImportError:
-        return {"error": "playlist_pitcher module not available"}
+    from automation.playlist_pitcher import generate_pitch
+    return _auto("playlist_pitcher", lambda: {"pitch": generate_pitch(song, playlist, style)})
 
 
 @app.get("/api/collabs/strategy")
 async def get_collab_strategy():
-    """Get collaboration strategy"""
-    try:
-        from automation.collab_finder import generate_collab_strategy, suggest_daily_networking, find_collaborators
-        return {
-            "strategy": generate_collab_strategy(),
-            "daily": suggest_daily_networking(),
-        }
-    except ImportError:
-        return {"error": "collab_finder module not available"}
+    from automation.collab_finder import generate_collab_strategy, suggest_daily_networking
+    return _auto("collab_finder", lambda: {
+        "strategy": generate_collab_strategy(),
+        "daily": suggest_daily_networking(),
+    })
 
 
 @app.get("/api/collabs/list")
 async def list_collaborators(category: str = "all"):
-    """List potential collaborators"""
-    try:
-        from automation.collab_finder import find_collaborators
-        return {"collaborators": find_collaborators(category)}
-    except ImportError:
-        return {"error": "collab_finder module not available"}
+    from automation.collab_finder import find_collaborators
+    return _auto("collab_finder", lambda: {"collaborators": find_collaborators(category)})
 
 
 @app.get("/api/hashtags/set")
 async def get_hashtag_set(platform: str = "instagram", type: str = "new_release"):
-    """Get optimized hashtag set"""
-    try:
-        from automation.hashtag_optimizer import generate_hashtag_set, get_hashtags_for_platform
-        return generate_hashtag_set(platform, type)
-    except ImportError:
-        return {"error": "hashtag_optimizer module not available"}
+    from automation.hashtag_optimizer import generate_hashtag_set
+    return _auto("hashtag_optimizer", generate_hashtag_set, platform, type)
 
 
 @app.get("/api/hashtags/trending")
 async def get_trending_hashtags():
-    """Get trending hashtags in afro pop niche"""
-    try:
-        from automation.hashtag_optimizer import get_trending_in_niche
-        return {"trending": get_trending_in_niche()}
-    except ImportError:
-        return {"error": "hashtag_optimizer module not available"}
+    from automation.hashtag_optimizer import get_trending_in_niche
+    return _auto("hashtag_optimizer", lambda: {"trending": get_trending_in_niche()})
 
 
 # === Action Tracker (Validation Workflow) ===
 
 @app.get("/api/actions")
 async def get_pending_actions(status: str = "pending", limit: int = 20):
-    """Get pending/approved/done actions"""
-    try:
-        from automation.action_tracker import get_pending_actions, get_daily_summary
-        if status == "summary":
-            return await get_daily_summary()
-        return {"actions": await get_pending_actions(status, limit)}
-    except ImportError:
-        return {"error": "action_tracker module not available"}
+    from automation.action_tracker import get_pending_actions, get_daily_summary
+    if status == "summary":
+        return await _auto_async("action_tracker", get_daily_summary)
+    return await _auto_async("action_tracker", lambda: get_pending_actions(status, limit))
 
 
 @app.post("/api/actions/approve/{action_id}")
 async def approve_action(action_id: str):
-    """Approve a single action"""
-    try:
-        from automation.action_tracker import approve_action
-        return await approve_action(action_id)
-    except ImportError:
-        return {"error": "action_tracker module not available"}
+    from automation.action_tracker import approve_action as fn
+    return await _auto_async("action_tracker", lambda: fn(action_id))
 
 
 @app.post("/api/actions/approve-all")
 async def approve_all():
-    """Approve all pending actions"""
-    try:
-        from automation.action_tracker import approve_all_pending
-        return await approve_all_pending()
-    except ImportError:
-        return {"error": "action_tracker module not available"}
+    from automation.action_tracker import approve_all_pending
+    return await _auto_async("action_tracker", approve_all_pending)
 
 
 @app.post("/api/actions/complete/{action_id}")
 async def complete_action(action_id: str):
-    """Mark an action as done"""
-    try:
-        from automation.action_tracker import complete_action
-        return await complete_action(action_id)
-    except ImportError:
-        return {"error": "action_tracker module not available"}
+    from automation.action_tracker import complete_action as fn
+    return await _auto_async("action_tracker", lambda: fn(action_id))
 
 
 @app.post("/api/actions/generate-from-targeting")
 async def generate_actions_from_targeting():
-    """Generate pending actions from today's targeting data"""
+    from automation.smart_targeting import generate_daily_targets
+    from automation.action_tracker import generate_batch_from_targeting
+    targeting = generate_daily_targets()
+    actions = await _auto_async("action_tracker", lambda: generate_batch_from_targeting(targeting))
+    if isinstance(actions, dict) and "error" in actions:
+        return actions
+    return {"generated": len(actions), "actions": actions}
+
+
+# === Daily Digest Email ===
+
+class DigestRequest(BaseModel):
+    pending: int = 0
+    approved: int = 0
+    done_today: int = 0
+    to_email: str = "maxfordanger6@gmail.com"
+
+
+@app.post("/api/email/send-digest")
+async def send_daily_digest(data: DigestRequest):
+    """Send daily digest email via SMTP (runs on Railway with access to env vars)"""
+    import smtplib
+    from email.mime.text import MIMEText
+    from email.mime.multipart import MIMEMultipart
+
+    smtp_host = os.getenv("SMTP_HOST", "smtp.gmail.com")
+    smtp_port = int(os.getenv("SMTP_PORT", "587"))
+    smtp_user = os.getenv("SMTP_USERNAME", "")
+    smtp_pass = os.getenv("SMTP_PASSWORD", "")
+
+    if not smtp_user or not smtp_pass:
+        raise HTTPException(status_code=500, detail="SMTP credentials not configured")
+
+    today_str = datetime.utcnow().strftime("%d/%m/%Y")
+    subject = f"📊 Mrmakmax Daily — {today_str}"
+
+    body = f"""🔥 Mrmakmax Daily Digest — {today_str}
+━━━━━━━━━━━━━━━━━━━━━━━━
+
+📈 STATS DU JOUR
+─────────────────
+• Actions en attente : {data.pending}
+• Actions approuvées (total) : {data.approved}
+• Actions complétées aujourd'hui : {data.done_today}
+
+📋 ACTIONS COMPLÉTÉES
+─────────────────
+Aucune action complétée aujourd'hui.
+
+📌 PLAN POUR DEMAIN
+─────────────────
+• Traiter les {data.pending} actions en attente
+• Maintenir le rythme des validations
+• Vérifier les nouveaux followers/engagements
+
+💫 CITATION MOTIVANTE
+─────────────────
+« Le rythme ne ment jamais. Continue de pousser,
+le succès arrive à ceux qui restent constants.
+L'afro beat dans le cœur, le business dans la tête. 🥁✨ »
+
+━━━━━━━━━━━━━━━━━━━━━━━━
+🤖 Daily Digest automatique — Mrmakmax Promo Engine
+"""
+
+    msg = MIMEMultipart()
+    msg["From"] = smtp_user
+    msg["To"] = data.to_email
+    msg["Subject"] = subject
+    msg.attach(MIMEText(body, "plain", "utf-8"))
+
     try:
-        from automation.smart_targeting import generate_daily_targets
-        from automation.action_tracker import generate_batch_from_targeting
-        targeting = generate_daily_targets()
-        actions = await generate_batch_from_targeting(targeting)
-        return {"generated": len(actions), "actions": actions}
-    except ImportError:
-        return {"error": "modules not available"}
+        with smtplib.SMTP(smtp_host, smtp_port, timeout=30) as server:
+            server.starttls()
+            server.login(smtp_user, smtp_pass)
+            server.send_message(msg)
+        return {"status": "ok", "message": "Email envoyé avec succès !"}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Erreur SMTP: {e}")
 
 
 @app.get("/api/health")

@@ -1,0 +1,66 @@
+{
+  "batch": "20260818_120226",
+  "date": "2026-08-18T12:02:26",
+  "mode": "pack",
+  "song_title": "Dans Tes Yeux",
+  "api_status": {
+    "POST /api/content": "405 Method Not Allowed (endpoint read-only on Railway)",
+    "mongo_direct_insert": "OK 4/4 via save_generated_content (generated_content collection)",
+    "verified_via": "GET /api/content?limit=4 - all 4 records newest-first"
+  },
+  "items": [
+    {
+      "type": "fallback_image",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260818_120226.png",
+      "size": 13307,
+      "timestamp": "20260818_120226"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260818_120226_334.png",
+      "size": 13729,
+      "quote": "Born to make the world dance",
+      "timestamp": "20260818_120226"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260818_120226_352.png",
+      "size": 14310,
+      "quote": "Afro pop is not just music, it's a vibration",
+      "timestamp": "20260818_120226"
+    },
+    {
+      "type": "promo_banner",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260818_120226_377.png",
+      "size": 26210,
+      "title": "NOUVEAU SON DISPONIBLE",
+      "timestamp": "20260818_120226"
+    }
+  ],
+  "social_captions": {
+    "instagram": {
+      "announcement": "🆕 NOUVEAU SON DISPONIBLE 🆕\n« Dans Tes Yeux » — Mrmakmax x nonamesbeats vous ont préparé une tuerie 🔥\nÇa chauffe, ça vibre, c'est du pur Afro Pop made in 🇨🇲💛\n👉 ÉCOUTER MAINTENANT — lien en bio !\n🎧 Mets ton casque, monte le son, et danse 🕺✨\n🏷️ #Mrmakmax #AfroPop #NewMusic #nonamesbeats #MusiqueAfricaine #Vibes #NewDrop",
+      "quote_1": "🗣️ « Born to make the world dance » — Mrmakmax\nLa mission n'a jamais changé : faire danser le monde entier 🌍💃\n🏷️ #Mrmakmax #AfroPop #BornToDance #nonamesbeats #AfroVibes #FeelTheRhythm",
+      "quote_2": "🌍 « L'afro pop n'est pas juste de la musique, c'est une vibration » 🕪\nTu le sens dans la poitrine, tu le ressens jusqu'aux pieds 🎶✨\n🏷️ #AfroVibes #Mrmakmax #AfroMusic #nonamesbeats #MusicIsLife #SoundsOfAfrica",
+      "teaser": "🤫 Quelque chose arrive...\nNOUVEAU SON 𓅓\n@Mrmakmax x nonamesbeats\nReste connecté 🌊🔥\n🏷️ #ComingSoon #Mrmakmax #nonamesbeats #Teaser #AfroPop"
+    },
+    "tiktok": {
+      "announcement": "🆕🔥 « Dans Tes Yeux » est LÀ ! Mrmakmax x nonamesbeats 💥 le son de l'été ☀️ go écouter et danser 🕺 #AfroPop #Mrmakmax #NewMusic",
+      "quote_1": "born to make the world dance 🌍💃 c'est la mission, rien d'autre 🎶 #Mrmakmax #AfroVibes",
+      "quote_2": "l'afro pop c'est pas que de la musique, c'est une vibration que tu sens dans le corps ⚡🎵 #AfroPop #Vibes",
+      "teaser": "🤫 shhh... ça arrive bientôt 🔥 reste connecté @mrmakmax #ComingSoon #Teaser"
+    },
+    "twitter": {
+      "announcement": "🆕 « Dans Tes Yeux » est dispo partout. Mrmakmax x nonamesbeats. Du pur Afro Pop 🇨🇲🔥 Écoutez, dansez, partagez. #AfroPop #NewMusic",
+      "quote_1": "« Born to make the world dance » 🌍💃 #Mrmakmax #AfroPop",
+      "quote_2": "L'afro pop n'est pas de la musique. C'est une vibration. ⚡🎵 #AfroVibes #Mrmakmax",
+      "teaser": "Quelque chose arrive... 🤫 Restez connectés. #ComingSoon #Mrmakmax"
+    },
+    "youtube": {
+      "announcement": "🆕 NOUVEAU SON DISPONIBLE 🆕\n« Dans Tes Yeux » — Mrmakmax x nonamesbeats 🎶\nDu pur Afro Pop, des vibrations qui traversent le corps 🇨🇲💛\n🎧 Écoute maintenant et dis-moi ce que tu en penses en commentaire 👇\n👉 Lien dans la description !\n🏷️ #Mrmakmax #AfroPop #NewMusic #nonamesbeats",
+      "quote_1": "🗣️ « Born to make the world dance » — c'est notre mission, et on ne s'arrête pas 🌍💃\n🎵 Écoute le son : lien dans la description\n🏷️ #Mrmakmax #AfroVibes #nonamesbeats",
+      "quote_2": "🌍 « L'afro pop n'est pas juste de la musique, c'est une vibration » 🕪\nRessens-la, vis-la, danse-la 🎶\n🎧 Lien dans la description\n🏷️ #AfroPop #Mrmakmax #AfroMusic #nonamesbeats",
+      "teaser": "🤫 Quelque chose arrive... NOUVEAU SON 𓅓\nMrmakmax x nonamesbeats\nAbonne-toi pour ne rien manquer 🌊🔥\n🏷️ #ComingSoon #Mrmakmax #nonamesbeats"
+    }
+  }
+}

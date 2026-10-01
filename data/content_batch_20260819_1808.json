@@ -1,0 +1,13 @@
+{
+  "batch": "20260819_1808",
+  "date": "2026-08-19T18:08:07",
+  "api_status": "405_readonly (POST /api/content not deployed on Railway)",
+  "items": [
+    {"type": "fallback_image", "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260819_180806.png", "size": 13307, "timestamp": "20260819_180806"},
+    {"type": "quote_card", "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260819_180807_904.png", "size": 13729, "quote": "Born to make the world dance", "timestamp": "20260819_180807"},
+    {"type": "quote_card", "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260819_180807_930.png", "size": 14310, "quote": "Afro pop is not just music, it's a vibration", "timestamp": "20260819_180807"},
+    {"type": "promo_banner", "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260819_180807_956.png", "size": 26210, "title": "NOUVEAU SON DISPONIBLE", "timestamp": "20260819_180807"}
+  ],
+  "mongo_insert": "direct_insert_via_core_save_generated_content",
+  "social_captions": "generated_manually_social_scheduler_absent"
+}

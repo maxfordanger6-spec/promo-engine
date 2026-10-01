@@ -1,0 +1,30 @@
+{
+  "batch": "20260909_1200",
+  "date": "2026-09-09T12:00:00",
+  "items": [
+    {"type": "fallback_image", "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260909_120033.png", "size": 13307, "timestamp": "20260909_120033"},
+    {"type": "quote_card", "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260909_120034_73.png", "size": 13729, "quote": "Born to make the world dance", "timestamp": "20260909_120034"},
+    {"type": "quote_card", "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260909_120034_92.png", "size": 14310, "quote": "Afro pop is not just music, it's a vibration", "timestamp": "20260909_120034"},
+    {"type": "promo_banner", "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260909_120034_113.png", "size": 26210, "title": "NOUVEAU SON DISPONIBLE", "timestamp": "20260909_120034"}
+  ],
+  "social_captions": {
+    "instagram": {
+      "new_release": "Le drop est là ! Dans Tes Yeux — stream maintenant et dis-moi ce que t'en penses 💜 #MusicPromo #SoulMusic #MusicDiscovery #RnB #AfricanMusic #InstaMusic #MusicLover #Vibes",
+      "engagement": "Quelle est ta chanson préférée du moment ? 🎧 #AfricanMusic #AfroVibes #SoulMusic #NewArtist #AfroPop #InstaMusic #MusicLover #Vibes"
+    },
+    "tiktok": {
+      "new_release": "Le drop est là ! Dans Tes Yeux — stream maintenant et dis-moi ce que t'en penses 💜 #nonamesbeats #IndieArtist #AfroSound #AfricanMusic #UpcomingArtist",
+      "bts": "Behind the scenes... creating magic in the studio 🎹✨ #MusicPromo #Afrobeats #AfroSound #IndieArtist #AfroVibes"
+    },
+    "twitter": {
+      "new_release": "🔥 NOUVEAU SON ! 'Dans Tes Yeux' est dispo partout ! Link in bio 🎵 #Mrmakmax #AfricanMusic #AfroPop #NewMusic",
+      "general": "Vibes on vibes 🌊 Afro pop energy all day #SoulMusic #Afrobeats #IndieArtist #Mrmakmax"
+    },
+    "youtube": {
+      "new_release": "🔥 NOUVEAU SON ! 'Dans Tes Yeux' est dispo partout ! Link in bio 🎵 #MusicDiscovery #NewMusic #NewArtist #MusicPromo",
+      "engagement": "Quel son tu veux que je drop ensuite ? Dis-moi en commentaire 👇 #Afrobeats #RnB #AfroVibes #UpcomingArtist"
+    }
+  },
+  "api_status": "POST /api/content returned 405 (deployed server read-only). Direct MongoDB insert via save_generated_content succeeded: 4/4 records verified via direct cluster inspection (newest-first: promo_banner, quote_card x2, fallback_image).",
+  "ffmpeg_status": "Video visualizer skipped on Windows (fontconfig error) — Pillow fallback images generated instead."
+}

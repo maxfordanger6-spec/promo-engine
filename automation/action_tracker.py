@@ -15,10 +15,19 @@ async def get_db():
     from motor.motor_asyncio import AsyncIOMotorClient
     import os
     
-    MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://hermes.enhh09v.mongodb.net/?appName=promo-engine")
-    MONGO_USERNAME = os.getenv("MONGO_USERNAME", "le_splash")
-    MONGO_PASSWORD = os.getenv("MONGO_PASSWORD", "Mignon12345six")
+    MONGO_URL = os.getenv("MONGO_URL")
+    MONGO_USERNAME = os.getenv("MONGO_USERNAME")
+    MONGO_PASSWORD = os.getenv("MONGO_PASSWORD")
     DB_NAME = os.getenv("DB_NAME", "promo_engine")
+
+    if not MONGO_URL:
+        raise RuntimeError(
+            "MONGO_URL is required. Set it in your environment or .env file."
+        )
+    if not MONGO_USERNAME or not MONGO_PASSWORD:
+        raise RuntimeError(
+            "MONGO_USERNAME and MONGO_PASSWORD are required."
+        )
     
     clean_url = MONGO_URL.split("?")[0] + "?appName=promo-engine"
     client = AsyncIOMotorClient(

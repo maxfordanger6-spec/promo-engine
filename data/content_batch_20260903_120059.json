@@ -1,0 +1,58 @@
+{
+  "batch": "20260903_120059",
+  "date": "2026-09-03T12:00:59",
+  "generated_by": "content_factory.py --mode pack --json",
+  "api_status": "POST /api/content -> 405 (deployed server read-only, known Pitfall 5). Direct MongoDB insert via save_generated_content: 4 records OK, verified via GET /api/content?limit=4 (newest-first match).",
+  "items": [
+    {
+      "type": "fallback_image",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260903_120059.png",
+      "size": 13307,
+      "title": "NOUVEAU SON",
+      "timestamp": "20260903_120059"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260903_120059_335.png",
+      "size": 13729,
+      "quote": "Born to make the world dance",
+      "timestamp": "20260903_120059"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260903_120059_352.png",
+      "size": 14310,
+      "quote": "Afro pop is not just music, it's a vibration",
+      "timestamp": "20260903_120059"
+    },
+    {
+      "type": "promo_banner",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260903_120059_372.png",
+      "size": 26210,
+      "title": "NOUVEAU SON DISPONIBLE",
+      "timestamp": "20260903_120059"
+    }
+  ],
+  "captions": {
+    "instagram_announcement": "🆕 NOUVEAU SON DISPONIBLE 🆕\nMrmakmax x nonamesbeats vous ont préparé une tuerie 🔥\nÇa chauffe, ça vibre, c'est du pur Afro Pop made in 🇨🇲💛\n👉 ÉCOUTER MAINTENANT — lien en bio !\n🎧 Mets ton casque, monte le son, et danse 🕺✨\n🏷️ #Mrmakmax #AfroPop #NewMusic #nonamesbeats #MusiqueAfricaine #Vibes #NewDrop",
+    "instagram_quote1": "🗣️ « Born to make the world dance » — Mrmakmax\nParce qu'on est nés pour ça : faire danser le monde entier 🌍🕺\n🏷️ #Mrmakmax #AfroVibes #BornToDance #nonamesbeats #FeelTheRhythm",
+    "instagram_quote2": "🌍 « Afro pop is not just music, it's a vibration » 🎶\nTu le sens dans le corps avant de le comprendre dans la tête ✨\n🏷️ #AfroVibes #Mrmakmax #AfroMusic #nonamesbeats #OneLove",
+    "instagram_teaser": "🤫 Quelque chose arrive...\nNOUVEAU SON 𓅓\n@Mrmakmax x nonamesbeats\nReste connecté 🌊🔥\n🏷️ #ComingSoon #Mrmakmax #nonamesbeats #Teaser #StayTuned",
+    "tiktok_announcement": "NEW DROP ALERT 🚨🔥\nMrmakmax x nonamesbeats = pur Afro Pop 🎶💛\nÉcoute maintenant, danse tout de suite 🕺\n#Mrmakmax #AfroPop #nonamesbeats",
+    "tiktok_quote1": "born to make the world dance 🌍💃\nwho's with me? 🕺✨\n#Mrmakmax #AfroVibes",
+    "tiktok_quote2": "afro pop n'est pas juste de la musique, c'est une vibration 🎶⚡\n#Mrmakmax #AfroMusic",
+    "tiktok_teaser": "quelque chose arrive... 🤫🔥\nreste connecté 👀\n#Mrmakmax #ComingSoon",
+    "twitter_announcement": "🆕 NOUVEAU SON DISPONIBLE 🆕 Mrmakmax x nonamesbeats 🔥 Écoute maintenant — lien en bio ! #AfroPop #Mrmakmax",
+    "twitter_quote1": "🗣️ « Born to make the world dance » — Mrmakmax 🌍 #AfroVibes #Mrmakmax",
+    "twitter_quote2": "🌍 « Afro pop is not just music, it's a vibration » 🎶 #AfroMusic #Mrmakmax",
+    "twitter_teaser": "🤫 Quelque chose arrive... NOUVEAU SON 𓅓 Reste connecté 🌊 #ComingSoon #Mrmakmax",
+    "youtube_announcement": "🆕 NOUVEAU SON DISPONIBLE 🆕\nMrmakmax x nonamesbeats sortent un nouveau banger Afro Pop 🔥\n👉 Écoute ici : lien en description !\n🎧 Monte le volume, laisse la vibration te porter 🕺\n🏷️ #Mrmakmax #AfroPop #NewMusic #nonamesbeats #AfroVibes",
+    "youtube_quote1": "🗣️ « Born to make the world dance » — Mrmakmax\nOn ne fait pas que la musique : on crée le mouvement 🌍\nÉcoute ici 👉 lien en description\n🏷️ #Mrmakmax #BornToDance #AfroPop #nonamesbeats",
+    "youtube_quote2": "🌍 « Afro pop is not just music, it's a vibration »\nLaisse-la résonner en toi 🎶✨\nÉcoute ici 👉 lien en description\n🏷️ #AfroVibes #Mrmakmax #AfroMusic #nonamesbeats",
+    "youtube_teaser": "🤫 Quelque chose arrive...\nNOUVEAU SON 𓅓 Mrmakmax x nonamesbeats\nActive la cloche 🔔 pour ne rien rater !\n🏷️ #ComingSoon #Mrmakmax #nonamesbeats #Teaser"
+  },
+  "warnings": [
+    "FFmpeg visualizer video failed (Fontconfig error on Windows, Pitfall 8) -> Pillow fallback static images generated.",
+    "POST /api/content returned 405 (deployed backend read-only) -> direct MongoDB insert used instead (Pitfall 5)."
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "batch": "20260801_1806",
+  "date": "2026-08-01T18:06:00",
+  "generated_by": "content_factory.py --mode pack",
+  "status": "success",
+  "api_sync": "FAILED — deployed server outdated (GET only, no POST). Redeploy from main needed.",
+  "ffmpeg_warning": "Fontconfig error: Cannot load default config file",
+  "items": [
+    {
+      "type": "fallback_image",
+      "path": "C:\Users\nonamesbeats\promo-content\fallback_20260801_180643.png",
+      "size": 13307,
+      "timestamp": "20260801_180643"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\Users\nonamesbeats\promo-content\quote_20260801_180644_16.png",
+      "size": 13729,
+      "quote": "Born to make the world dance",
+      "timestamp": "20260801_180644"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\Users\nonamesbeats\promo-content\quote_20260801_180644_35.png",
+      "size": 14310,
+      "quote": "Afro pop is not just music, it's a vibration",
+      "timestamp": "20260801_180644"
+    },
+    {
+      "type": "promo_banner",
+      "path": "C:\Users\nonamesbeats\promo-content\promo_20260801_180644_53.png",
+      "size": 26210,
+      "title": "NOUVEAU SON DISPONIBLE",
+      "timestamp": "20260801_180644"
+    }
+  ],
+  "social_captions": [
+    {
+      "day": 1,
+      "platform": "instagram",
+      "type": "general",
+      "caption": "Born to make the world dance 💃🕺\n\n\n.\n.\n.\n#UpcomingArtist #IndieArtist #AfroVibes #nonamesbeats #SoulMusic #InstaMusic #MusicLover #Vibes"
+    },
+    {
+      "day": 2,
+      "platform": "tiktok",
+      "type": "new_release",
+      "caption": "Le drop est là ! Latest Drop — stream maintenant et dis-moi ce que t'en penses 💜\n\n#MusicPromo #IndieArtist #nonamesbeats #NewArtist #AfroSound"
+    },
+    {
+      "day": 3,
+      "platform": "twitter",
+      "type": "bts",
+      "caption": "This one's special. Can't wait for you to hear it 🎵\n\n#UpcomingArtist #SoulMusic #NewArtist #AfroPop"
+    },
+    {
+      "day": 4,
+      "platform": "instagram",
+      "type": "engagement",
+      "caption": "Quel son tu veux que je drop ensuite ? Dis-moi en commentaire 👇\n\n\n.\n.\n.\n#IndieArtist #AfricanMusic #MusicPromo #RnB #AfroPop #InstaMusic #MusicLover #Vibes"
+    },
+    {
+      "day": 5,
+      "platform": "tiktok",
+      "type": "general",
+      "caption": "Born to make the world dance 💃🕺\n\n#MusicDiscovery #AfroVibes #AfroSound #Afrobeats #UpcomingArtist"
+    },
+    {
+      "day": 6,
+      "platform": "twitter",
+      "type": "new_release",
+      "caption": "🔥 NOUVEAU SON ! 'Afro Vibes' est dispo partout ! Link in bio 🎵\n\n#AfricanMusic #RnB #Mrmakmax #AfroPop"
+    },
+    {
+      "day": 7,
+      "platform": "instagram",
+      "type": "bts",
+      "caption": "Behind the scenes... creating magic in the studio 🎹✨\n\n\n.\n.\n.\n#UpcomingArtist #AfroPop #SoulMusic #AfroSound #Afrobeats #InstaMusic #MusicLover #Vibes"
+    }
+  ]
+}

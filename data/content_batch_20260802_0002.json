@@ -1,0 +1,14 @@
+{
+  "batch": "20260802_0002",
+  "date": "2026-08-02T00:02:00",
+  "generated_by": "content_factory.py --mode pack",
+  "status": "success",
+  "api_sync": "SKIPPED — deployed server returns 405 (GET only, POST not deployed yet)",
+  "ffmpeg_warning": "Fontconfig error: Cannot load default config file (static images unaffected)",
+  "items": [
+    {"type": "fallback_image", "path": "C:\Users\nonamesbeats\promo-content\fallback_20260802_000226.png", "size": 13307, "timestamp": "20260802_000226"},
+    {"type": "quote_card", "path": "C:\Users\nonamesbeats\promo-content\quote_20260802_000227_668.png", "size": 13729, "quote": "Born to make the world dance", "timestamp": "20260802_000227"},
+    {"type": "quote_card", "path": "C:\Users\nonamesbeats\promo-content\quote_20260802_000227_692.png", "size": 14310, "quote": "Afro pop is not just music, it's a vibration", "timestamp": "20260802_000227"},
+    {"type": "promo_banner", "path": "C:\Users\nonamesbeats\promo-content\promo_20260802_000227_723.png", "size": 26210, "title": "NOUVEAU SON DISPONIBLE", "timestamp": "20260802_000227"}
+  ]
+}

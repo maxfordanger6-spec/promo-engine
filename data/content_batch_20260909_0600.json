@@ -1,0 +1,64 @@
+{
+  "batch": "20260909_0600",
+  "date": "2026-09-09T06:00:26",
+  "items": [
+    {
+      "type": "fallback_image",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260909_060026.png",
+      "size": 13307,
+      "title": "NOUVEAU SON DISPONIBLE",
+      "timestamp": "20260909_060026"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260909_060026_226.png",
+      "size": 13729,
+      "quote": "Born to make the world dance",
+      "timestamp": "20260909_060026"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260909_060026_245.png",
+      "size": 14310,
+      "quote": "Afro pop is not just music, it's a vibration",
+      "timestamp": "20260909_060026"
+    },
+    {
+      "type": "promo_banner",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260909_060026_262.png",
+      "size": 26210,
+      "title": "NOUVEAU SON DISPONIBLE",
+      "timestamp": "20260909_060026"
+    }
+  ],
+  "social_captions": {
+    "instagram": {
+      "new_release": "🔥 NOUVEAU SON ! 'Dans Tes Yeux' est dispo partout ! Link in bio 🎵\n\n\n.\n.\n.\n#UpcomingArtist #IndieArtist #Afrobeats #AfroPop #nonamesbeats #InstaMusic #MusicLover #Vibes",
+      "bts": "Late night sessions hit different 🌙 Raw vibes only\n\n\n.\n.\n.\n#MusicDiscovery #Mrmakmax #NewMusic #SoulMusic #AfricanMusic #InstaMusic #MusicLover #Vibes",
+      "general": "Born to make the world dance 💃🕺\n\n\n.\n.\n.\n#Mrmakmax #MusicPromo #Afrobeats #AfroPop #IndieArtist #InstaMusic #MusicLover #Vibes",
+      "engagement": "Quel son tu veux que je drop ensuite ? Dis-moi en commentaire 👇\n\n\n.\n.\n.\n#RnB #nonamesbeats #AfroVibes #Afrobeats #AfricanMusic #InstaMusic #MusicLover #Vibes"
+    },
+    "tiktok": {
+      "new_release": "🔥 NOUVEAU SON ! 'Dans Tes Yeux' est dispo partout ! Link in bio 🎵\n\n#MusicDiscovery #Afrobeats #AfroPop #AfroSound #UpcomingArtist",
+      "bts": "Late night sessions hit different 🌙 Raw vibes only\n\n#Mrmakmax #Afrobeats #MusicDiscovery #UpcomingArtist #nonamesbeats",
+      "general": "Vibes on vibes 🌊 Afro pop energy all day\n\n#IndieArtist #MusicPromo #MusicDiscovery #UpcomingArtist #AfroVibes",
+      "engagement": "Quel son tu veux que je drop ensuite ? Dis-moi en commentaire 👇\n\n#AfricanMusic #Afrobeats #AfroPop #NewArtist #MusicPromo"
+    },
+    "twitter": {
+      "new_release": "🔥 NOUVEAU SON ! 'Dans Tes Yeux' est dispo partout ! Link in bio 🎵\n\n#Afrobeats #MusicDiscovery #NewArtist #UpcomingArtist",
+      "bts": "Behind the scenes... creating magic in the studio 🎹✨\n\n#AfricanMusic #NewMusic #nonamesbeats #RnB",
+      "general": "Vibes on vibes 🌊 Afro pop energy all day\n\n#SoulMusic #NewMusic #MusicPromo #IndieArtist",
+      "engagement": "Tag quelqu'un qui doit entendre ça ⬇️\n\n#RnB #Mrmakmax #NewArtist #AfricanMusic"
+    },
+    "youtube": {
+      "new_release": "🔥 NOUVEAU SON ! 'Dans Tes Yeux' est dispo partout ! Link in bio 🎵\n\n#Mrmakmax #Afrobeats #NewMusic #NewArtist",
+      "bts": "Behind the scenes... creating magic in the studio 🎹✨\n\n#UpcomingArtist #RnB #MusicDiscovery #AfroPop",
+      "general": "Born to make the world dance 💃🕺\n\n#AfroPop #nonamesbeats #UpcomingArtist #AfroSound",
+      "engagement": "Tag quelqu'un qui doit entendre ça ⬇️\n\n#AfroVibes #MusicDiscovery #UpcomingArtist #NewMusic"
+    }
+  },
+  "api_status": {
+    "POST https://promo-engine-production-74d9.up.railway.app/api/content": "405 Method Not Allowed — endpoint read-only on Railway (Pitfall 5). Content tracked via direct MongoDB insert (save_generated_content, generated_content collection).",
+    "ffmpeg": "visualizer video skipped — Fontconfig error on Windows (Pitfall 8), static images generated successfully"
+  }
+}

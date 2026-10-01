@@ -1,0 +1,68 @@
+{
+  "batch": "20260909_0000",
+  "date": "2026-09-09T00:00:00",
+  "items": [
+    {
+      "type": "fallback_image",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260909_000020.png",
+      "size": 13307,
+      "timestamp": "20260909_000020"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260909_000021_195.png",
+      "size": 13729,
+      "quote": "Born to make the world dance",
+      "timestamp": "20260909_000021"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260909_000021_213.png",
+      "size": 14310,
+      "quote": "Afro pop is not just music, it's a vibration",
+      "timestamp": "20260909_000021"
+    },
+    {
+      "type": "promo_banner",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260909_000021_231.png",
+      "size": 26210,
+      "title": "NOUVEAU SON DISPONIBLE",
+      "timestamp": "20260909_000021"
+    }
+  ],
+  "social_captions": {
+    "instagram": {
+      "announcement": "🆕 NOUVEAU SON DISPONIBLE 🆕\nMrmakmax x nonamesbeats — le son qui va faire danser le monde 🌍🔥\nÇa chauffe, ça vibre, c'est du pur Afro Pop made in 🇨🇲💛\n👉 ÉCOUTER MAINTENANT — lien en bio !\n🎧 Casque sur les oreilles, volume au max, et laisse la vibe te porter 🕺✨\n🏷️ #Mrmakmax #AfroPop #NewMusic #nonamesbeats #MusiqueAfricaine #Vibes #NewDrop",
+      "quote1": "🗣️ « Born to make the world dance » — Mrmakmax\nC'est pas juste une phrase, c'est une mission 🌍💃\nChaque note, chaque rythme, pour faire bouger la planète entière.\n🎶 Qui danse avec nous ce soir ? Lève la main 🙌\n🏷️ #Mrmakmax #AfroVibes #BornToDance #AfroPop #nonamesbeats #OneLove",
+      "quote2": "🌍 « L'Afro pop, ce n'est pas juste de la musique, c'est une vibration » 🎶\nÇa se sent dans la poitrine, ça monte dans les jambes, ça reste dans le cœur 💛\nRessens-le toi aussi — ça s'appelle la #MrmakmaxVibe ✨\n🏷️ #AfroVibes #Mrmakmax #AfroMusic #nonamesbeats #FeelTheRhythm #MusiqueAfricaine",
+      "teaser": "🤫 Quelque chose arrive...\nNOUVEAU SON 𓅓\nMrmakmax x nonamesbeats\nLe calme avant la tempête 🌊🔥\nReste connecté... ça va secouer 💥\n🏷️ #ComingSoon #Mrmakmax #nonamesbeats #AfroPop #Teaser"
+    },
+    "tiktok": {
+      "announcement": "nouveau son dispo 🚀🔥\nmrmakmax x nonamesbeats ont tout donné 💯\nmets le son à fond et danse 🕺🎶\n#Mrmakmax #AfroPop #newmusic",
+      "quote1": "né pour faire danser le monde 🌍💃\n#Mrmakmax #AfroVibes",
+      "quote2": "l'afro pop c'est pas de la musique, c'est une vibration 🎶✨\n#Mrmakmax #vibes",
+      "teaser": "quelque chose arrive... 🤫🔥\nreste connecté 👀\n#Mrmakmax #ComingSoon"
+    },
+    "twitter": {
+      "announcement": "🆕 NOUVEAU SON DISPONIBLE — Mrmakmax x nonamesbeats 🔥 L'Afro Pop qui fait vibrer le monde. Écoute maintenant, lien en bio 🎧 #Mrmakmax #AfroPop",
+      "quote1": "« Born to make the world dance » 🌍💃 — Mrmakmax #AfroVibes #Mrmakmax",
+      "quote2": "L'Afro pop, ce n'est pas juste de la musique. C'est une vibration. 🎶 #AfroPop #Mrmakmax",
+      "teaser": "🤫 Quelque chose arrive. Restez connectés. #ComingSoon #Mrmakmax"
+    },
+    "youtube": {
+      "announcement": "🆕 NOUVEAU SON DISPONIBLE 🆕\nMrmakmax x nonamesbeats — c'est parti ! 🔥\nUn son Afro Pop qui va faire danser le monde 🌍💃\n🎧 ÉCOUTE MAINTENANT — lien en description !\nN'oublie pas de liker, commenter et partager la vibe 💛\n#Mrmakmax #AfroPop #NewMusic #nonamesbeats #Vibes",
+      "quote1": "🗣️ « Born to make the world dance » — Mrmakmax\nUne mission : faire bouger la planète 🌍💃\nDis-nous en commentaire de quel pays tu nous écoutes 🌎👇\n#Mrmakmax #AfroVibes #BornToDance #nonamesbeats",
+      "quote2": "🌍 « L'Afro pop, ce n'est pas juste de la musique, c'est une vibration » 🎶\nRessens la vibe, partage-la 💛\n#AfroVibes #Mrmakmax #AfroMusic #nonamesbeats",
+      "teaser": "🤫 Quelque chose se prépare...\nNOUVEAU SON 𓅓 — Mrmakmax x nonamesbeats\nActive la cloche pour ne rien rater 🔔🔥\n#ComingSoon #Mrmakmax #AfroPop #nonamesbeats"
+    }
+  },
+  "api_status": {
+    "post_api_content": "405 Method Not Allowed (endpoint POST non déployé sur Railway)",
+    "mongo_direct_insert": "success — 4/4 docs insérés via save_generated_content, vérifiés par inspection directe du cluster (top 4, 438 docs au total)",
+    "local_json_backup": "this file"
+  },
+  "warnings": [
+    "FFmpeg visualizer: Fontconfig error on Windows → fallback Pillow (image statique) utilisé, pas de vidéo générée (Pitfall 8)",
+    "social_scheduler.py absent du projet → légendes générées manuellement"
+  ]
+}

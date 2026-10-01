@@ -1,0 +1,56 @@
+{
+  "batch": "20260913_000059",
+  "date": "2026-09-13T00:01:00",
+  "items": [
+    {
+      "type": "fallback_image",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260913_000058.png",
+      "size": 13307,
+      "timestamp": "20260913_000058"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260913_000059_599.png",
+      "size": 13729,
+      "quote": "Born to make the world dance",
+      "timestamp": "20260913_000059"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260913_000059_620.png",
+      "size": 14310,
+      "quote": "Afro pop is not just music, it's a vibration",
+      "timestamp": "20260913_000059"
+    },
+    {
+      "type": "promo_banner",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260913_000059_640.png",
+      "size": 26210,
+      "title": "NOUVEAU SON DISPONIBLE",
+      "timestamp": "20260913_000059"
+    }
+  ],
+  "social_captions": {
+    "instagram": {
+      "new_release": "🎵🔥 C'EST OFFICIEL ! « Dans Tes Yeux » est dispo partout ! 💿\nCe son, c'est tout ce que j'ai dans le cœur — l'amour, le groove, l'Afrique 🌍\nÉcoute, partage, et fais-le tourner jusqu'à ce que le monde entier danse 💃🏾🕺🏾\nLien dans la bio 🔗\n#AfroPop #Mrmakmax #NouveauSon #DansTesYeux #MusiqueAfro #NewMusic #AfricanMusic #Groove #Amour #Vibes",
+      "engagement": "« Born to make the world dance » 🕺🏾✨\nJe suis né pour ça. Toi, tu es né pour bouger. On se retrouve sur le dancefloor ? 💃🏾\n#BornToDance #AfroPop #Mrmakmax #Vibes #DanceWithMe #FridayVibes",
+      "general": "Quelque chose de grand se prépare… 👀🔥\nLes studios ne dorment jamais chez nous. Reste connecté, ça arrive très bientôt 🎬🎵\n#ComingSoon #Teaser #AfroPop #Mrmakmax #StayTuned #NewMusicLoading"
+    },
+    "tiktok": {
+      "new_release": "POV : tu entends « Dans Tes Yeux » pour la première fois 😳🔥 Déjà dispo partout 🎵 #AfroPop #Mrmakmax #NouveauSon",
+      "engagement": "Né pour faire danser le monde 💃🏾 Et toi, tu bouges ? 🕺🏾 #Vibes #AfroPop",
+      "general": "Bientôt… quelque chose d'énorme arrive 👀🔥 Reste à l'affût 🎬 #Teaser #ComingSoon"
+    },
+    "twitter": {
+      "new_release": "🎵 NOUVEAU SON DISPONIBLE ! « Dans Tes Yeux » est sorti partout. Fais-le tourner 🔥 #AfroPop #Mrmakmax",
+      "engagement": "Born to make the world dance. 🕺🏾 #Mrmakmax",
+      "general": "Big things coming… 👀 #StayTuned"
+    },
+    "youtube": {
+      "new_release": "🎬 NOUVEAU SON : « Dans Tes Yeux » est dispo ! 🔥\nMerci à toute la famille pour le soutien 🙏🏾❤️ Like, commente et partage — chaque geste compte !\nRegarde jusqu'au bout, il y a une surprise 😉\n#AfroPop #Mrmakmax #DansTesYeux #NewMusic",
+      "engagement": "« L'afro pop n'est pas juste de la musique, c'est une vibration » 🌍🎶\nC'est plus qu'un genre — une vibration qui connecte les continents.\nAbonne-toi pour la suite 🔔 #AfroVibes #AfricanMusic #Mrmakmax",
+      "general": "Coming soon… 👀 Restez connectés, la suite arrive plus vite que vous ne le pensez 🔥 #Teaser #Mrmakmax"
+    }
+  },
+  "api_status": "405: POST /api/content refused (read-only deployed API) — direct MongoDB insert OK (4/4, verified in cluster)"
+}

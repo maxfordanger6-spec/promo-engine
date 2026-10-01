@@ -1,0 +1,64 @@
+{
+  "batch": "20260929_0001",
+  "date": "2026-09-29T00:01:15",
+  "artist": "Mrmakmax",
+  "items": [
+    {"type": "fallback_image", "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260929_000114.png", "size": 13307, "timestamp": "20260929_000114"},
+    {"type": "quote_card", "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260929_000115_168.png", "size": 13729, "quote": "Born to make the world dance", "timestamp": "20260929_000115"},
+    {"type": "quote_card", "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260929_000115_187.png", "size": 14310, "quote": "Afro pop is not just music, it's a vibration", "timestamp": "20260929_000115"},
+    {"type": "promo_banner", "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260929_000115_207.png", "size": 26210, "title": "NOUVEAU SON DISPONIBLE", "timestamp": "20260929_000115"}
+  ],
+  "social_captions": [
+    {
+      "platform": "instagram",
+      "file": "promo_20260929_000115_207.png",
+      "caption": "🔥 NOUVEAU SON DISPONIBLE 🔥\n« Dans Tes Yeux » est enfin là — et il est venu pour faire danser la planète ! 🌍💫\nAfro pop, amour et pure vibration. Monte le volume, ajoute-le à ta playlist, et laisse la magie opérer. 🎶✨\n🔗 Lien en bio !\n#AfroPop #Mrmakmax #NouveauSon #DansTesYeux #MusiqueAfricaine #NewMusic #AfroVibes #CoupDeCoeur"
+    },
+    {
+      "platform": "instagram",
+      "file": "quote_20260929_000115_168.png",
+      "caption": "« Born to make the world dance » 💃🌍\nCe n'est pas un slogan, c'est une mission. Chaque note, chaque beat, chaque vibration — tout ça pour te voir danser.\n#Mrmakmax #AfroPop #BornToDance #Vibes"
+    },
+    {
+      "platform": "instagram",
+      "file": "quote_20260929_000115_187.png",
+      "caption": "« Afro pop is not just music, it's a vibration » ✨🎶\nÇa traverse le corps, ça réveille l'âme, ça unit les continents. Tu le sens aussi ? 💫\n#AfroPop #Vibration #Mrmakmax #Musique"
+    },
+    {
+      "platform": "instagram",
+      "file": "fallback_20260929_000114.png",
+      "caption": "👀 Quelque chose arrive...\nLes studios ne dorment jamais par ici. Reste connecté — le prochain chapitre s'écrit en ce moment même. 🔥🎵\n#Mrmakmax #ComingSoon #AfroPop #NewMusicAlert"
+    },
+    {
+      "platform": "tiktok",
+      "file": "promo_20260929_000115_207.png",
+      "caption": "POV : tu découvres le nouveau son de Mrmakmax pour la première fois 🎧🔥\n« Dans Tes Yeux » — dispo partout ! Vibe check ? 👀💃\n#AfroPop #Mrmakmax #NewMusic"
+    },
+    {
+      "platform": "tiktok",
+      "file": "quote_20260929_000115_187.png",
+      "caption": "« Afro pop is not just music, it's a vibration » ✨\nTag quelqu'un qui vit pour cette vibration 🎶💫\n#AfroPop #Vibe"
+    },
+    {
+      "platform": "twitter",
+      "file": "promo_20260929_000115_207.png",
+      "caption": "🔥 « Dans Tes Yeux » est dispo partout ! L'afro pop n'est pas juste de la musique — c'est une vibration. Monte le volume 🎧🌍 #AfroPop #Mrmakmax"
+    },
+    {
+      "platform": "twitter",
+      "file": "quote_20260929_000115_168.png",
+      "caption": "« Born to make the world dance » 💃 C'est la mission, chaque jour. 🌍 #AfroPop #Mrmakmax"
+    },
+    {
+      "platform": "youtube",
+      "file": "promo_20260929_000115_207.png",
+      "caption": "🎬 NOUVEAU SON — MRMAKMAX 🔥\n« Dans Tes Yeux » est disponible partout ! Afro pop, mélodies qui restent en tête, énergie sans fin. 🌍✨\nÉcoute, partage, et dis-moi en commentaire d'où tu vibes ! 🇫🇷🇨🇮\n#AfroPop #Mrmakmax #NouvelleMusique"
+    }
+  ],
+  "api_status": {
+    "railway_post": "404 (app supprimée — Railway trial expiré le 2026-09-17)",
+    "mongo_direct_insert": "success — 4/4 documents dans generated_content (vérifié par inspection directe du cluster, ALL_EXPECTED_IN_LATEST_N: True)",
+    "ffmpeg": "échec fontconfig (Windows) → fallback Pillow statique"
+  },
+  "song_title": "Dans Tes Yeux"
+}

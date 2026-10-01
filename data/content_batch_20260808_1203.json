@@ -1,0 +1,19 @@
+{
+  "batch": "20260808_1203",
+  "date": "2026-08-08T12:03:30",
+  "mode": "pack",
+  "items": [
+    {"type": "fallback_image", "path": "promo-content/fallback_20260808_120329.png", "size": 13307, "timestamp": "20260808_120329"},
+    {"type": "quote_card", "path": "promo-content/quote_20260808_120330_685.png", "size": 13729, "quote": "Born to make the world dance", "timestamp": "20260808_120330"},
+    {"type": "quote_card", "path": "promo-content/quote_20260808_120330_706.png", "size": 14310, "quote": "Afro pop is not just music, it's a vibration", "timestamp": "20260808_120330"},
+    {"type": "promo_banner", "path": "promo-content/promo_20260808_120330_728.png", "size": 26210, "title": "NOUVEAU SON DISPONIBLE", "timestamp": "20260808_120330"}
+  ],
+  "social_captions": [
+    {"platform": "instagram", "type": "new_release", "caption": "Le drop est là !  — stream maintenant et dis-moi ce que t'en penses 💜"},
+    {"platform": "tiktok", "type": "new_release", "caption": "🔥 NOUVEAU SON ! 'Dans Tes Yeux' est dispo partout ! Link in bio 🎵"},
+    {"platform": "twitter", "type": "bts", "caption": "Late night sessions hit different 🌙 Raw vibes only"},
+    {"platform": "youtube", "type": "general", "caption": "Born to make the world dance 💃🕺"}
+  ],
+  "ffmpeg_status": "fontconfig_error_fallback_to_pillow",
+  "api_sync": "pending"
+}

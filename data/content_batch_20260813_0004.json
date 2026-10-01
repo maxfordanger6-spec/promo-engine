@@ -1,0 +1,55 @@
+{
+  "batch": "20260813_0004",
+  "date": "2026-08-13T00:04:00",
+  "api_status": "405_method_not_allowed",
+  "api_note": "POST /api/content is read-only on deployed Railway server (Pitfall 5) — tracked locally, batch-sync later",
+  "items": [
+    {
+      "type": "fallback_image",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260813_000043.png",
+      "size": 13307,
+      "timestamp": "20260813_000043",
+      "note": "FFmpeg visualizer failed (fontconfig on Windows) — Pillow fallback image"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260813_000044_437.png",
+      "size": 13729,
+      "quote": "Born to make the world dance",
+      "timestamp": "20260813_000044"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260813_000044_458.png",
+      "size": 14310,
+      "quote": "Afro pop is not just music, it's a vibration",
+      "timestamp": "20260813_000044"
+    },
+    {
+      "type": "promo_banner",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260813_000044_483.png",
+      "size": 26210,
+      "title": "NOUVEAU SON DISPONIBLE",
+      "timestamp": "20260813_000044"
+    }
+  ],
+  "social_captions": {
+    "announcement": {
+      "instagram": "🆕 NOUVEAU SON DISPONIBLE 🆕\nMrmakmax x nonamesbeats vous ont préparé une tuerie 🔥\nÇa chauffe, ça vibre, c'est du pur Afro Pop made in 🇨🇲💛\n👉 ÉCOUTER MAINTENANT — lien en bio !\n🎧 Mets ton casque, monte le son, et danse 🕺✨\n🏷️ #Mrmakmax #AfroPop #NewMusic #nonamesbeats #MusiqueAfricaine #Vibes #NewDrop",
+      "tiktok": "NOUVEAU SON 😤🔥 mrmakmax x nonamesbeats\nlien en bio, fonce 🏃💨\n#AfroPop #NewMusic #nonamesbeats",
+      "twitter": "🆕 NOUVEAU SON DISPONIBLE — Mrmakmax x nonamesbeats. C'est dispo partout, va écouter ça. 🔥 #AfroPop #Mrmakmax"
+    },
+    "quote_1": {
+      "instagram": "🗣️ \"Born to make the world dance\" — Mrmakmax\nNé pour faire danser la planète. Et toi, tu danses où ce soir ? 🌍🕺\n🏷️ #Mrmakmax #BornToDance #AfroVibes #nonamesbeats #FeelTheRhythm",
+      "tiktok": "born to make the world dance 🌍🕺 et vous ?\n#AfroVibes #Mrmakmax #nonamesbeats"
+    },
+    "quote_2": {
+      "instagram": "🌍 \"Afro pop is not just music, it's a vibration\" 🎶\nRessens la vibration, laisse ton corps répondre 🕪\n🏷️ #AfroVibes #Mrmakmax #AfroMusic #nonamesbeats #DanceVibes #SoundsOfAfrica",
+      "tiktok": "l'afro pop c'est pas de la musique, c'est une vibration 🕪✨\n#AfroVibes #Mrmakmax #nonamesbeats"
+    },
+    "teaser": {
+      "instagram": "🤫 Quelque chose arrive...\nNOUVEAU SON en préparation 🌊\n@mrmakmax x nonamesbeats\nReste connecté, ça va secouer 🔥\n🏷️ #ComingSoon #Mrmakmax #nonamesbeats #Teaser #StayTuned",
+      "tiktok": "🤫 quelque chose arrive...\nreste connecté 🔥🌊\n#ComingSoon #nonamesbeats"
+    }
+  }
+}

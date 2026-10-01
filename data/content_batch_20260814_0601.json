@@ -1,0 +1,36 @@
+{
+  "batch": "20260814_0601",
+  "date": "2026-08-14T06:01:00",
+  "items": [
+    {"type": "fallback_image", "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260814_060131.png", "size": 13307, "timestamp": "20260814_060131"},
+    {"type": "quote_card", "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260814_060132_55.png", "size": 13729, "quote": "Born to make the world dance", "timestamp": "20260814_060132"},
+    {"type": "quote_card", "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260814_060132_75.png", "size": 14310, "quote": "Afro pop is not just music, it's a vibration", "timestamp": "20260814_060132"},
+    {"type": "promo_banner", "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260814_060132_94.png", "size": 26210, "title": "NOUVEAU SON DISPONIBLE", "timestamp": "20260814_060132"}
+  ],
+  "social_captions": {
+    "instagram": {
+      "promo_new_release": "🔥 NOUVEAU SON DISPONIBLE 🔥\n\nLa vibe qui va faire bouger tout le quartier est enfin là ! 🎧✨\nAprès des semaines en studio, je vous livre mon nouveau banger — un mélange d'afrobeat, de soleil et de bonne énergie. ☀️🌍\n\n👉 Dispo partout — lien en bio !\nDites-moi en commentaire où vous l'écoutez 👇💬\n\n#AfroPop #Mrmakmax #NouveauSon #Afrobeat #MusiqueIvoirienne #NewMusic #Vibes #SoundOfAfrica #CôteDIvoire #Banger",
+      "quote_1": "🌍✨ Born to make the world dance.\n\nChaque note, chaque vibration — c'est pour vous faire bouger. 💃🕺\nQui danse sur cette phrase aujourd'hui ? 👇\n\n#Mrmakmax #AfroPop #BornToDance #Vibration #Musique #GoodVibes",
+      "quote_2": "🎵 L'afro pop, ce n'est pas juste de la musique… c'est une vibration. 🌊✨\n\nÇa traverse le corps, ça réveille l'âme, ça connecte les cœurs. ❤️🌍\nPartage si tu ressens cette énergie 🙌\n\n#AfroPop #Vibration #Mrmakmax #MusiqueQuiVit #EnergiePure #AfricaVibes",
+      "teaser": "👀 Something's coming… 🌍🔥\nRestez branchés, la vibe arrive. 🎧\n\n#ComingSoon #Mrmakmax #AfroPop #NewVibes"
+    },
+    "tiktok": {
+      "promo_new_release": "🔥 Ça y est, le son est LÀ 🎧✨\nLa vibe parfaite pour ton été ☀️🌍\nLien en bio, go streamer 🚀\n#AfroPop #NewMusic #Mrmakmax",
+      "quote_1": "POV : tu es né pour faire danser le monde 💃🌍✨\n#Mrmakmax #AfroPop #Vibes",
+      "teaser": "👀 POV : la nouvelle vibe arrive 🌍🔥 Stay tuned 🎧\n#AfroPop #ComingSoon"
+    },
+    "twitter": {
+      "promo_new_release": "🔥 NOUVEAU SON DISPONIBLE. L'afro pop qui fait danser le monde est de retour. 🎧🌍 Stream now — lien en bio.\n#Mrmakmax #AfroPop",
+      "quote_1": "🌍 Born to make the world dance. #Mrmakmax #AfroPop"
+    },
+    "youtube": {
+      "community": "🎧 NOUVEAU SON DISPONIBLE 🔥 L'afro pop qui fait vibrer le monde est de retour ! Écoute, partage, danse. 💃🌍 Lien en bio.\n#Mrmakmax #AfroPop"
+    }
+  },
+  "api_status": {
+    "GET /api/content": 200,
+    "POST /api/content": 405,
+    "note": "Deployed /api/content is read-only (Pitfall 5). Batch saved locally for later sync."
+  },
+  "warnings": ["FFmpeg visualizer failed (fontconfig on Windows) - expected, Pillow fallback used"]
+}

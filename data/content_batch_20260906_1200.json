@@ -1,0 +1,41 @@
+{
+  "batch": "20260906_1200",
+  "date": "2026-09-06T12:00:53",
+  "api_status": "405_method_not_allowed_post_content (fallback: direct MongoDB insert via save_generated_content - SUCCESS, 4/4 records verified via GET /api/content)",
+  "items": [
+    {
+      "type": "fallback_image",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260906_120053.png",
+      "size": 13307,
+      "timestamp": "20260906_120053",
+      "mongo_file_path": "promo-content/fallback_20260906_120053.png"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260906_120053_986.png",
+      "size": 13729,
+      "quote": "Born to make the world dance",
+      "timestamp": "20260906_120053",
+      "mongo_file_path": "promo-content/quote_20260906_120053_986.png"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260906_120054_4.png",
+      "size": 14310,
+      "quote": "Afro pop is not just music, it's a vibration",
+      "timestamp": "20260906_120054",
+      "mongo_file_path": "promo-content/quote_20260906_120054_4.png"
+    },
+    {
+      "type": "promo_banner",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260906_120054_22.png",
+      "size": 26210,
+      "title": "NOUVEAU SON DISPONIBLE",
+      "timestamp": "20260906_120054",
+      "mongo_file_path": "promo-content/promo_20260906_120054_22.png"
+    }
+  ],
+  "ffmpeg_status": "visualizer_failed_fontconfig_windows (expected) - Pillow fallback succeeded, all 4 static images generated",
+  "social_scheduler_present": false,
+  "captions_source": "manual (French, platform-tailored)"
+}

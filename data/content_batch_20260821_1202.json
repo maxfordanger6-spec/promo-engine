@@ -1,0 +1,54 @@
+{
+  "batch": "20260821_1202",
+  "date": "2026-08-21T12:02:19",
+  "api_status": "POST /api/content -> 405 (read-only deployed server); tracked via direct MongoDB insert (save_generated_content), 4/4 OK",
+  "items": [
+    {
+      "type": "fallback_image",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260821_120218.png",
+      "size": 13307,
+      "timestamp": "20260821_120218",
+      "title": "NOUVEAU SON 🔥"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260821_120218_984.png",
+      "size": 13729,
+      "quote": "Born to make the world dance",
+      "timestamp": "20260821_120218"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260821_120219_3.png",
+      "size": 14310,
+      "quote": "Afro pop is not just music, it's a vibration",
+      "timestamp": "20260821_120219"
+    },
+    {
+      "type": "promo_banner",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260821_120219_21.png",
+      "size": 26210,
+      "title": "NOUVEAU SON DISPONIBLE",
+      "timestamp": "20260821_120219"
+    }
+  ],
+  "ffmpeg": "FAILED - fontconfig error on Windows (expected) - Pillow fallback used",
+  "social_captions": {
+    "generated_by": "manual (social_scheduler.py absent)",
+    "instagram": [
+      "🔥 NOUVEAU SON DISPONIBLE 🔥 L'afro pop qui fait vibrer les cœurs est là ! 🎶 On l'a préparé avec amour, maintenant c'est à VOUS de le faire tourner 🎧💃 Link en bio 🚀 #Mrmakmax #AfroPop #NouveauSon #MusiqueAfricaine #Vibes #CotedIvoire",
+      "« Born to make the world dance » ✨ C'est pas juste une phrase, c'est une mission 💫 Qui danse avec moi ce soir ? 💃🕺 #Mrmakmax #AfroVibes #BornToDance"
+    ],
+    "tiktok": [
+      "NOUVEAU SON DANS LA PLACE 🔥🎶 Le son qui va faire bouger les têtes 👀💃 On danse ? #Mrmakmax #AfroPop #FYP",
+      "POV : le son afro pop qui te suit toute la journée 🎧✨ #Mrmakmax #Viral #AfroVibes"
+    ],
+    "twitter": [
+      "🔥 NOUVEAU SON DISPONIBLE 🔥 L'afro pop n'est pas juste de la musique, c'est une vibration ⚡️ Écoute, partage, danse 🎶 #Mrmakmax #AfroPop",
+      "« Born to make the world dance » 🌍💫 #Mrmakmax"
+    ],
+    "youtube": [
+      "🎶 NOUVEAU SON DISPONIBLE ! 🎶 L'afro pop à l'état pur — une vibration, une énergie, un flow 🌍🔥 Écoute le son, mets-le en boucle et partage la vibe 💛💚 #Mrmakmax #AfroPop #NewMusic"
+    ]
+  }
+}

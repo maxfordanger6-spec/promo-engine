@@ -1,0 +1,70 @@
+{
+  "batch": "20260904_120033",
+  "date": "2026-09-04T12:00:33",
+  "artist": "Mrmakmax",
+  "items": [
+    {
+      "type": "fallback_image",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260904_120033.png",
+      "file_path": "promo-content/fallback_20260904_120033.png",
+      "size": 13307,
+      "timestamp": "20260904_120033"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260904_120033_189.png",
+      "file_path": "promo-content/quote_20260904_120033_189.png",
+      "size": 13729,
+      "quote": "Born to make the world dance",
+      "timestamp": "20260904_120033"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260904_120033_207.png",
+      "file_path": "promo-content/quote_20260904_120033_207.png",
+      "size": 14310,
+      "quote": "Afro pop is not just music, it's a vibration",
+      "timestamp": "20260904_120033"
+    },
+    {
+      "type": "promo_banner",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260904_120033_225.png",
+      "file_path": "promo-content/promo_20260904_120033_225.png",
+      "size": 26210,
+      "title": "NOUVEAU SON DISPONIBLE",
+      "timestamp": "20260904_120033"
+    }
+  ],
+  "social_captions": {
+    "instagram": {
+      "promo": "🔥 NOUVEAU SON DISPONIBLE 🔥\nLa vibration que vous attendiez est enfin là, dispo sur toutes les plateformes 🎧\nAppuie sur le lien dans la bio, monte le volume et laisse la vibe afro pop faire le reste 🌍✨\nTag un ami qui a besoin de danser aujourd'hui 💃🕺\n\n#AfroPop #Mrmakmax #NouveauSon #MusiqueAfro #Vibes #Afrobeat #NewMusic #Dance #Nonamesbeats #GoodEnergy",
+      "quote1": "🎶 « Born to make the world dance » 🌍\nC'est pas juste une phrase... c'est ma mission. Chaque son, chaque vibe, chaque scène : faire bouger le monde entier 💫\nToi aussi t'es né(e) pour danser ? Montre-moi tes moves en commentaire 💃🕺\n\n#Mrmakmax #AfroPop #BornToDance #Vibration #DanceVibes #GoodEnergy #Musique",
+      "quote2": "🌊 L'afro pop, ce n'est pas juste de la musique... c'est une VIBRATION ✨\nÇa traverse le corps, ça touche l'âme, ça connecte les cœurs. Tu sens ça aussi ? ❤️🎵\nPartage si tu vibres avec moi 🫶\n\n#AfroPop #Mrmakmax #Vibration #AfroVibes #Musique #PositiveEnergy #FeelTheVibe",
+      "teaser": "👀 Quelque chose se prépare... 🤫\nLa prochaine vibe est en route. Reste connecté, la surprise arrive plus vite que tu ne le penses 🚀🎶\nActive les notifications pour ne rien rater 🔔\n\n#Mrmakmax #ComingSoon #AfroPop #Teaser #NewMusic #StayTuned"
+    },
+    "tiktok": {
+      "promo": "NOUVEAU SON DANS LA PLACE 🔥🔥\nÉcoute ça et dis-moi si tu danses ou pas 💃🎶\n#Mrmakmax #AfroPop",
+      "quote1": "Né pour faire danser le monde 🌍✨\nEt toi, t'es né(e) pour quoi ? 🎶\n#Mrmakmax #Vibes",
+      "quote2": "L'afro pop c'est pas de la musique, c'est une vibration 🌊⚡\nRessens-la. 🫶\n#AfroPop #Mrmakmax",
+      "teaser": "🤫 Ça arrive bientôt... t'es prêt(e) ? 🔥\n#Mrmakmax #ComingSoon"
+    },
+    "twitter": {
+      "promo": "🔥 NOUVEAU SON DISPONIBLE — la vibe afro pop est là, partout. Monte le volume. 🎶 #Mrmakmax #AfroPop",
+      "quote1": "Born to make the world dance 🌍💃 — c'est la mission. #Mrmakmax",
+      "quote2": "L'afro pop, c'est pas de la musique. C'est une vibration ⚡🌊 #AfroPop",
+      "teaser": "Quelque chose arrive... restez connectés. 🚀 #Mrmakmax"
+    },
+    "youtube": {
+      "promo": "🔥 NOUVEAU SON DISPONIBLE 🔥\nClique, écoute, et laisse la vibe t'emporter. Lien en description 🎧🌍\n#Mrmakmax #AfroPop #NewMusic",
+      "quote1": "« Born to make the world dance » — chaque vidéo, chaque son, c'est pour ça qu'on est là. Abonne-toi pour la suite 💫\n#Mrmakmax",
+      "quote2": "L'afro pop est une vibration, pas juste un genre. Bienvenue dans l'univers Mrmakmax 🌊✨\n#AfroPop #Mrmakmax",
+      "teaser": "🚀 Du nouveau arrive sur la chaîne. Active la cloche pour ne rien rater !\n#Mrmakmax #ComingSoon"
+    }
+  },
+  "api_status": {
+    "post_api_content": "405_method_not_allowed (endpoint read-only en prod — connu)",
+    "mongo_direct_insert": "ok_4_records",
+    "verified_via_get": true
+  },
+  "ffmpeg_note": "Fontconfig error on Windows → fallback Pillow (images statiques OK, pas de vidéo visualizer)"
+}

@@ -1,0 +1,32 @@
+{
+  "batch": "20260901_0601",
+  "date": "2026-09-01T06:01:24",
+  "items": [
+    {"type": "fallback_image", "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260901_060123.png", "size": 13307, "timestamp": "20260901_060123"},
+    {"type": "quote_card", "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260901_060124_63.png", "size": 13729, "quote": "Born to make the world dance", "timestamp": "20260901_060124"},
+    {"type": "quote_card", "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260901_060124_81.png", "size": 14310, "quote": "Afro pop is not just music, it's a vibration", "timestamp": "20260901_060124"},
+    {"type": "promo_banner", "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260901_060124_99.png", "size": 26210, "title": "NOUVEAU SON DISPONIBLE", "timestamp": "20260901_060124"}
+  ],
+  "social_captions": {
+    "instagram": {
+      "promo": "🔥 NOUVEAU SON DISPONIBLE ! 🔥\n'Dans Tes Yeux' est enfin là — le son qui va faire danser tout le quartier 🕺🏾💫\nAfro pop, vibe pure, à écouter en boucle 🎧🌍\nLien en bio 🚀\n#AfroPop #NouveauSon #DansTesYeux #Mrmakmax #Musique #VibeAfro",
+      "quote": "Born to make the world dance 🌍✨\nLe monde a besoin de ta lumière — danse comme si personne ne regardait 🕺🏾\n#Motivation #AfroPop #Dance #Mrmakmax"
+    },
+    "tiktok": {
+      "promo": "POV : ton son préféré de la saison vient de sortir 🌞🎵\nDans Tes Yeux — dispo partout 🔥\n#afropop #nouveauson #fyp",
+      "quote": "Quand l'afro pop n'est pas juste de la musique... c'est une vibration 🌊✨\n#afropop #vibration #foryou"
+    },
+    "twitter": {
+      "promo": "🚨 DROP ALERT 🚨\n'Dans Tes Yeux' est disponible partout. Afro pop, soleil et bonnes vibrations 🌞🎶\nÉcoute, partage, danse 🕺🏾\n#AfroPop #NewMusic",
+      "quote": "« Afro pop is not just music, it's a vibration » 🌊\nQui vibre avec nous aujourd'hui ? 🎶\n#AfroPop #Vibration"
+    },
+    "youtube": {
+      "community": "📺 NOUVEAU CLIP EN PRÉPARATION 🎬\n'Dans Tes Yeux' arrive bientôt sur la chaîne ! Abonne-toi et active la cloche pour ne rien rater 🔔✨\n#Mrmakmax #AfroPop #Clip"
+    }
+  },
+  "api_status": {
+    "post_api_content": "405 Method Not Allowed (deployed server read-only — Pitfall 5)",
+    "mongodb_direct_insert": "success — 4 records inserted via backend save_generated_content, verified via GET /api/content?limit=5",
+    "ffmpeg_visualizer": "failed (Windows fontconfig) — Pillow fallback images used"
+  }
+}

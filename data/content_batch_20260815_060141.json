@@ -1,0 +1,42 @@
+{
+  "batch": "20260815_060141",
+  "date": "2026-08-15T06:01:41",
+  "items": [
+    {"type": "fallback_image", "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260815_060141.png", "size": 13307, "timestamp": "20260815_060141"},
+    {"type": "quote_card", "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260815_060141_159.png", "size": 13729, "quote": "Born to make the world dance", "timestamp": "20260815_060141"},
+    {"type": "quote_card", "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260815_060141_178.png", "size": 14310, "quote": "Afro pop is not just music, it's a vibration", "timestamp": "20260815_060141"},
+    {"type": "promo_banner", "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260815_060141_197.png", "size": 26210, "title": "NOUVEAU SON DISPONIBLE", "timestamp": "20260815_060141"}
+  ],
+  "social_captions": {
+    "instagram": {
+      "new_release": "Le drop est là ! 🎶 Stream maintenant et dis-moi ce que t'en penses 💜 #Afrobeats #AfroSound #MusicDiscovery #nonamesbeats #UpcomingArtist #InstaMusic #MusicLover #Vibes",
+      "bts": "Behind the scenes... creating magic in the studio 🎹✨ #AfroVibes #NewMusic #SoulMusic #Afrobeats #Mrmakmax #InstaMusic #MusicLover #Vibes",
+      "general": "Vibes on vibes 🌊 Afro pop energy all day #SoulMusic #UpcomingArtist #NewMusic #NewArtist #AfroPop #InstaMusic #MusicLover #Vibes",
+      "engagement": "Quelle est ta chanson préférée du moment ? 🎧 #MusicPromo #AfricanMusic #IndieArtist #MusicDiscovery #AfroPop #InstaMusic #MusicLover #Vibes"
+    },
+    "tiktok": {
+      "new_release": "🔥 NOUVEAU SON ! Dispo partout ! Link in bio 🎵 #UpcomingArtist #MusicDiscovery #AfricanMusic #Mrmakmax #AfroSound",
+      "bts": "This one's special. Can't wait for you to hear it 🎵 #AfroSound #NewMusic #SoulMusic #UpcomingArtist #nonamesbeats",
+      "general": "Music is the answer. What's the question? 🎵 #RnB #MusicDiscovery #IndieArtist #AfroSound #MusicPromo",
+      "engagement": "Quel son tu veux que je drop ensuite ? Dis-moi en commentaire 👇 #MusicDiscovery #MusicPromo #AfroVibes #SoulMusic #Afrobeats"
+    },
+    "twitter": {
+      "new_release": "Le drop est là ! 🎶 Stream maintenant et dis-moi ce que t'en penses 💜 #MusicDiscovery #AfroVibes #NewMusic #AfricanMusic",
+      "bts": "This one's special. Can't wait for you to hear it 🎵 #UpcomingArtist #SoulMusic #AfroVibes #NewMusic",
+      "general": "Music is the answer. What's the question? 🎵 #Mrmakmax #SoulMusic #IndieArtist #NewMusic",
+      "engagement": "Quelle est ta chanson préférée du moment ? 🎧 #Mrmakmax #NewMusic #NewArtist #AfroPop"
+    },
+    "youtube": {
+      "new_release": "🔥 NOUVEAU SON ! Dispo partout ! Link in bio 🎵 #NewArtist #AfroVibes #MusicDiscovery #AfroPop",
+      "bts": "This one's special. Can't wait for you to hear it 🎵 #NewMusic #NewArtist #Afrobeats #SoulMusic",
+      "general": "Born to make the world dance 💃🕺 #SoulMusic #AfroPop #NewMusic #UpcomingArtist",
+      "engagement": "Tag quelqu'un qui doit entendre ça ⬇️ #UpcomingArtist #MusicDiscovery #AfroSound #AfricanMusic"
+    }
+  },
+  "api_status": {
+    "POST /api/content": "405 Method Not Allowed (endpoint non déployé — Pitfall 5)",
+    "mongodb_direct_insert": "SUCCESS 4/4 via save_generated_content (backend/core.py)",
+    "verify": "GET /api/content?limit=6 → 4 nouveaux records en tête de liste"
+  },
+  "warnings": ["FFmpeg visualizer: Fontconfig error on Windows → Pillow fallback (fallback_image). Static images OK."]
+}

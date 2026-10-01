@@ -83,9 +83,10 @@ def generate_quote_card(
     """
     try:
         from PIL import Image, ImageDraw, ImageFont
+        import time
 
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        output_path = OUTPUT_DIR / f"quote_{timestamp}.png"
+        output_path = OUTPUT_DIR / f"quote_{timestamp}_{int(time.time() * 1000) % 1000}.png"
 
         # 1080x1920 (story format)
         img = Image.new("RGB", (1080, 1920), "#0a0a1a")
@@ -146,9 +147,10 @@ def generate_promo_banner(
     """
     try:
         from PIL import Image, ImageDraw, ImageFont
+        import time
 
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        output_path = OUTPUT_DIR / f"promo_{timestamp}.png"
+        output_path = OUTPUT_DIR / f"promo_{timestamp}_{int(time.time() * 1000) % 1000}.png"
 
         # 1200x630 (optimal for link previews)
         img = Image.new("RGB", (1200, 630), "#0a0a1a")

@@ -1,0 +1,28 @@
+{
+  "batch": "20260816_1201",
+  "date": "2026-08-16T12:01:53",
+  "items": [
+    {"type": "fallback_image", "file_path": "promo-content/fallback_20260816_120153.png", "size": 13307, "title": "NOUVEAU SON 🔥"},
+    {"type": "quote_card", "file_path": "promo-content/quote_20260816_120153_805.png", "size": 13729, "quote": "Born to make the world dance"},
+    {"type": "quote_card", "file_path": "promo-content/quote_20260816_120153_825.png", "size": 14310, "quote": "Afro pop is not just music, it's a vibration"},
+    {"type": "promo_banner", "file_path": "promo-content/promo_20260816_120153_844.png", "size": 26210, "title": "NOUVEAU SON DISPONIBLE"}
+  ],
+  "social_captions": {
+    "instagram_new_release": "🔥 NOUVEAU SON ! 'Dans Tes Yeux' est dispo partout ! Link in bio 🎵",
+    "instagram_bts": "Late night sessions hit different 🌙 Raw vibes only",
+    "instagram_general": "Born to make the world dance 💃🕺",
+    "instagram_engagement": "Tag quelqu'un qui doit entendre ça ⬇️",
+    "tiktok_new_release": "🔥 NOUVEAU SON ! 'Dans Tes Yeux' est dispo partout ! Link in bio 🎵",
+    "tiktok_general": "Vibes on vibes 🌊 Afro pop energy all day",
+    "twitter_general": "Born to make the world dance 💃🕺",
+    "twitter_engagement": "Quel son tu veux que je drop ensuite ? Dis-moi en commentaire 👇",
+    "youtube_new_release": "🔥 NOUVEAU SON ! 'Dans Tes Yeux' est dispo partout ! Link in bio 🎵",
+    "youtube_bts": "Late night sessions hit different 🌙 Raw vibes only"
+  },
+  "api_status": {
+    "POST /api/content": "405 Method Not Allowed (read-only on Railway — Pitfall 5)",
+    "mongodb_direct_insert": "4/4 success via backend.core.save_generated_content",
+    "verified_via": "GET /api/content?limit=5"
+  },
+  "ffmpeg_note": "Visualizer failed: fontconfig missing on Windows (Pitfall 8) — Pillow fallback image generated instead."
+}

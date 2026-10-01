@@ -1,0 +1,74 @@
+{
+  "batch": "20260922_1808",
+  "date": "2026-09-22T18:08:00",
+  "artist": "Mrmakmax",
+  "items": [
+    {
+      "type": "fallback_image",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260922_180758.png",
+      "size": 13307,
+      "timestamp": "20260922_180758"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260922_180758_250.png",
+      "size": 13729,
+      "quote": "Born to make the world dance",
+      "timestamp": "20260922_180758"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260922_180758_267.png",
+      "size": 14310,
+      "quote": "Afro pop is not just music, it's a vibration",
+      "timestamp": "20260922_180758"
+    },
+    {
+      "type": "promo_banner",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260922_180758_286.png",
+      "size": 26210,
+      "title": "NOUVEAU SON DISPONIBLE",
+      "timestamp": "20260922_180758"
+    }
+  ],
+  "auxiliary": [
+    {
+      "type": "gradient_bg",
+      "path": "C:/Users/nonamesbeats/promo-content/gradient_bg_20260922_180758.png",
+      "size": 4506,
+      "timestamp": "20260922_180758"
+    }
+  ],
+  "social_captions": {
+    "song_title": "Dans Tes Yeux",
+    "instagram": {
+      "new_release": "I've been working on this one... Dans Tes Yeux OUT NOW on all platforms 🚀\n\n\n.\n.\n.\n#AfricanMusic #MusicDiscovery #MusicPromo #UpcomingArtist #AfroSound #InstaMusic #MusicLover #Vibes",
+      "bts": "Late night sessions hit different 🌙 Raw vibes only\n\n\n.\n.\n.\n#IndieArtist #AfricanMusic #AfroSound #MusicPromo #Mrmakmax #InstaMusic #MusicLover #Vibes",
+      "general": "Music is the answer. What's the question? 🎵\n\n\n.\n.\n.\n#UpcomingArtist #AfroSound #IndieArtist #Mrmakmax #NewMusic #InstaMusic #MusicLover #Vibes",
+      "engagement": "Quelle est ta chanson préférée du moment ? 🎧\n\n\n.\n.\n.\n#Mrmakmax #AfroVibes #UpcomingArtist #NewArtist #SoulMusic #InstaMusic #MusicLover #Vibes"
+    },
+    "tiktok": {
+      "new_release": "I've been working on this one... Dans Tes Yeux OUT NOW on all platforms 🚀\n\n#MusicDiscovery #AfroVibes #MusicPromo #IndieArtist #nonamesbeats",
+      "bts": "This one's special. Can't wait for you to hear it 🎵\n\n#SoulMusic #NewMusic #AfroSound #AfroVibes #Mrmakmax",
+      "general": "Born to make the world dance 💃🕺\n\n#nonamesbeats #IndieArtist #NewMusic #NewArtist #AfroPop",
+      "engagement": "Quel son tu veux que je drop ensuite ? Dis-moi en commentaire 👇\n\n#IndieArtist #AfroSound #AfroPop #nonamesbeats #AfricanMusic"
+    },
+    "twitter": {
+      "new_release": "🔥 NOUVEAU SON ! 'Dans Tes Yeux' est dispo partout ! Link in bio 🎵\n\n#AfroPop #IndieArtist #AfroVibes #MusicPromo",
+      "bts": "Behind the scenes... creating magic in the studio 🎹✨\n\n#AfricanMusic #RnB #AfroVibes #NewMusic",
+      "general": "Vibes on vibes 🌊 Afro pop energy all day\n\n#AfroSound #SoulMusic #RnB #NewMusic",
+      "engagement": "Quelle est ta chanson préférée du moment ? 🎧\n\n#IndieArtist #Afrobeats #AfricanMusic #MusicDiscovery"
+    },
+    "youtube": {
+      "new_release": "Le drop est là ! Dans Tes Yeux — stream maintenant et dis-moi ce que t'en penses 💜\n\n#UpcomingArtist #AfroVibes #nonamesbeats #IndieArtist",
+      "bts": "Late night sessions hit different 🌙 Raw vibes only\n\n#MusicPromo #IndieArtist #NewMusic #RnB",
+      "general": "Music is the answer. What's the question? 🎵\n\n#AfroVibes #MusicDiscovery #MusicPromo #AfroPop",
+      "engagement": "Quel son tu veux que je drop ensuite ? Dis-moi en commentaire 👇\n\n#SoulMusic #IndieArtist #Afrobeats #MusicPromo"
+    }
+  },
+  "ffmpeg_status": "degraded (fontconfig on Windows — Pillow fallback used, static images OK)",
+  "api_status": {
+    "railway_post_api_content": "404 Application not found — Railway app deleted 2026-09-17 (confirmed this run)",
+    "mongodb_direct_insert": "success — 4 docs in generated_content via save_generated_content; direct cluster check ALL_EXPECTED_IN_LATEST_8 True (586 total docs)"
+  }
+}

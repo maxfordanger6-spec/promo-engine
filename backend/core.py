@@ -19,10 +19,21 @@ def serialize_doc(doc):
     return doc
 
 # MongoDB — credential-free URL, kwargs for auth (Railway bug workaround)
-MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://hermes.enhh09v.mongodb.net/?appName=promo-engine")
-MONGO_USERNAME = os.getenv("MONGO_USERNAME", "le_splash")
-MONGO_PASSWORD = os.getenv("MONGO_PASSWORD", "Mignon12345six")
+MONGO_URL = os.getenv("MONGO_URL")
+MONGO_USERNAME = os.getenv("MONGO_USERNAME")
+MONGO_PASSWORD = os.getenv("MONGO_PASSWORD")
 DB_NAME = os.getenv("DB_NAME", "promo_engine")
+
+if not MONGO_URL:
+    raise RuntimeError(
+        "MONGO_URL is required. Set it in your environment or .env file.\n"
+        "Example: mongodb+srv://<user>:<password>@<cluster>.mongodb.net/?appName=promo-engine"
+    )
+if not MONGO_USERNAME or not MONGO_PASSWORD:
+    raise RuntimeError(
+        "MONGO_USERNAME and MONGO_PASSWORD are required.\n"
+        "Set them in your environment or .env file."
+    )
 
 _client: AsyncIOMotorClient = None
 _db = None

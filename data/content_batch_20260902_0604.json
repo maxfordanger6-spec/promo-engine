@@ -1,0 +1,19 @@
+{
+  "batch": "20260902_0604",
+  "date": "2026-09-02T06:04:00",
+  "api_status": "POST /api/content → 405 (read-only sur Railway). Fallback: insertion directe MongoDB via save_generated_content (4/4) + verifié via GET /api/content?limit=6",
+  "items": [
+    {"type": "fallback_image", "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260902_060040.png", "size": 13307, "title": "NOUVEAU SON 🔥", "timestamp": "20260902_060040"},
+    {"type": "quote_card", "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260902_060040_137.png", "size": 13729, "quote": "Born to make the world dance", "timestamp": "20260902_060040"},
+    {"type": "quote_card", "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260902_060040_155.png", "size": 14310, "quote": "Afro pop is not just music, it's a vibration", "timestamp": "20260902_060040"},
+    {"type": "promo_banner", "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260902_060040_173.png", "size": 26210, "title": "NOUVEAU SON DISPONIBLE", "timestamp": "20260902_060040"}
+  ],
+  "social_captions": {
+    "instagram_promo": "🔥 NOUVEAU SON DISPONIBLE 🔥\nLa vibration afro pop ne s'arrête jamais ! 🎵🇨🇮\nÉcoute, partage, danse — c'est fait pour toi. 💫\n🔗 Lien en bio !\n#AfroPop #Mrmakmax #NouveauSon #MusiqueAfro #Vibes #Danse #Afrobeats #InstaMusic",
+    "instagram_engagement": "Lequel de ces sons te fait bouger ? 🕺🏾💚\nDis-le moi en commentaire 👇🏾\n#AfroPop #Mrmakmax #Community",
+    "tiktok_teaser": "Quand le son arrive, tout le monde danse 🕺🏾✨\n#AfroPop #Vibes #Mrmakmax",
+    "twitter_quote": "Born to make the world dance 🌍💃\n#AfroPop #Mrmakmax",
+    "youtube_community": "L'afro pop, ce n'est pas juste de la musique, c'est une vibration. 🎶✨\nMerci d'être là. Le prochain son arrive très bientôt... 👀🔥"
+  },
+  "ffmpeg_status": "FFmpeg failed (fontconfig Windows) → fallback Pillow OK, 4 images statiques générées"
+}

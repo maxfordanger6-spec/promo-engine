@@ -1,0 +1,73 @@
+{
+  "batch": "20260921_000249",
+  "date": "2026-09-21T00:02:49",
+  "items": [
+    {
+      "type": "fallback_image",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260921_000249.png",
+      "size": 13307,
+      "timestamp": "20260921_000249"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260921_000250_395.png",
+      "size": 13729,
+      "quote": "Born to make the world dance",
+      "timestamp": "20260921_000250"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260921_000250_422.png",
+      "size": 14310,
+      "quote": "Afro pop is not just music, it's a vibration",
+      "timestamp": "20260921_000250"
+    },
+    {
+      "type": "promo_banner",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260921_000250_446.png",
+      "size": 26210,
+      "title": "NOUVEAU SON DISPONIBLE",
+      "timestamp": "20260921_000250"
+    }
+  ],
+  "auxiliary": [
+    {
+      "type": "gradient_bg",
+      "path": "C:/Users/nonamesbeats/promo-content/gradient_bg_20260921_000249.png",
+      "size": 4506,
+      "timestamp": "20260921_000249"
+    }
+  ],
+  "social_captions": {
+    "song_title": "Dans Tes Yeux",
+    "instagram": {
+      "new_release": "Le drop est là ! Dans Tes Yeux — stream maintenant et dis-moi ce que t'en penses 💜\n\n\n.\n.\n.\n#AfroPop #RnB #NewMusic #SoulMusic #AfroSound #InstaMusic #MusicLover #Vibes",
+      "quote_dance": "« Born to make the world dance » 🌍💃🏾\n\nNé pour faire danser la planète — et toi, t'as déjà mis le son à fond aujourd'hui ? 🔊🔥\n\nLa vibration n'attend pas, elle se vit. 💛\n\nTag ton crew de danse ! ⬇️\n\n#Mrmakmax #AfroPop #DanceVibes #BornToDance #AfroVibes #GoodEnergy #Music",
+      "quote_vibration": "« Afro pop is not just music, it's a vibration » ⚡🎶\n\nC'est le cœur qui bat, c'est la terre qui tremble doucement sous tes pas. 🌍💛\n\nTu la sens, cette fréquence ? 👇🏾\n\n#AfroPop #Vibration #Mrmakmax #FeelTheVibe #AfroCulture #Music #GoodVibes",
+      "teaser": "🔮 Le studio murmure des secrets cette nuit...\n\nMrmakmax prépare quelque chose de doré. ✨👀\n\nReste branché, la suite arrive plus vite que tu ne le penses. ⏳🔥\n\n#ComingSoon #Mrmakmax #AfroPop #StudioVibes #NewMusic"
+    },
+    "tiktok": {
+      "new_release": "Le drop est là ! Dans Tes Yeux — stream maintenant et dis-moi ce que t'en penses 💜\n\n#AfroPop #MusicPromo #IndieArtist #nonamesbeats #NewMusic",
+      "quote_dance": "POV : tu lâches tout et tu danses 🌍✨ C'est ça, l'afro pop. #dance #afropop #mrmakmax",
+      "quote_vibration": "L'afro pop c'est pas un genre, c'est une VIBRATION ⚡ tu la sens ou pas ? 👀 #afropop #vibes #mrmakmax",
+      "teaser": "Chuuut 🤫 ça prépare du LOURD en studio. Reste connecté 🔥 #comingsoon #afropop #mrmakmax"
+    },
+    "twitter": {
+      "new_release": "I've been working on this one... Dans Tes Yeux OUT NOW on all platforms 🚀\n\n#Afrobeats #MusicDiscovery #AfroPop #nonamesbeats",
+      "quote_dance": "Born to make the world dance 🌍 — la mission ne change pas. #AfroPop #Mrmakmax",
+      "quote_vibration": "L'afro pop n'est pas juste de la musique, c'est une vibration. ⚡ #AfroPop",
+      "teaser": "👀 Quelque chose chauffe en studio. #ComingSoon #AfroPop"
+    },
+    "youtube": {
+      "new_release": "Le drop est là ! Dans Tes Yeux — stream maintenant et dis-moi ce que t'en penses 💜\n\n#Afrobeats #NewMusic #AfroPop #RnB",
+      "quote_dance": "« Born to make the world dance » 🌍 C'est pour VOUS qu'on fait vibrer les machines. Merci la famille 💛 #Mrmakmax #AfroPop",
+      "quote_vibration": "L'afro pop traverse les frontières sans visa. ⚡🌍 Merci d'être du voyage. #AfroPop #Mrmakmax",
+      "teaser": "👀 En studio, la magie opère. Restez à l'écoute, ça arrive. #Mrmakmax #ComingSoon"
+    }
+  },
+  "ffmpeg_status": "degraded (fontconfig on Windows — Pillow fallback used, static images OK)",
+  "api_status": {
+    "railway_post_api_content": "404 Application not found — Railway app deleted 2026-09-17 (all endpoints dead)",
+    "mongodb_direct_insert": "success — 4 docs in generated_content (cluster-verified 2026-09-21 00:03Z, total 558)"
+  }
+}

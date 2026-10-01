@@ -1,0 +1,35 @@
+{
+  "batch": "20260806_0602",
+  "date": "2026-08-06T06:02:00",
+  "items": [
+    {
+      "type": "fallback_image",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260806_060257.png",
+      "size": 13307,
+      "timestamp": "20260806_060257"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260806_060257_804.png",
+      "size": 13729,
+      "quote": "Born to make the world dance",
+      "timestamp": "20260806_060257"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260806_060257_823.png",
+      "size": 14310,
+      "quote": "Afro pop is not just music, it's a vibration",
+      "timestamp": "20260806_060257"
+    },
+    {
+      "type": "promo_banner",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260806_060257_843.png",
+      "size": 26210,
+      "title": "NOUVEAU SON DISPONIBLE",
+      "timestamp": "20260806_060257"
+    }
+  ],
+  "analytics_sync": "ok",
+  "content_api_sync": "pending"
+}

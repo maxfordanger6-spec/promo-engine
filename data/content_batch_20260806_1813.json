@@ -1,0 +1,16 @@
+{
+  "batch": "20260806_1813",
+  "date": "2026-08-06T18:13:06",
+  "items": [
+    {"type": "fallback_image", "file_path": "promo-content/fallback_20260806_181306.png", "metadata": {"size": 13307, "timestamp": "20260806_181306"}},
+    {"type": "quote_card", "file_path": "promo-content/quote_20260806_181306_719.png", "metadata": {"size": 13729, "quote": "Born to make the world dance", "timestamp": "20260806_181306"}},
+    {"type": "quote_card", "file_path": "promo-content/quote_20260806_181306_739.png", "metadata": {"size": 14310, "quote": "Afro pop is not just music, it's a vibration", "timestamp": "20260806_181306"}},
+    {"type": "promo_banner", "file_path": "promo-content/promo_20260806_181306_760.png", "metadata": {"size": 26210, "title": "NOUVEAU SON DISPONIBLE", "timestamp": "20260806_181306"}}
+  ],
+  "social_captions": {
+    "instagram_new_release": "Le drop est là !  — stream maintenant et dis-moi ce que t'en penses 💜\n\n\n.\n.\n.\n#AfroPop #UpcomingArtist #IndieArtist #MusicPromo #RnB #InstaMusic #MusicLover #Vibes",
+    "tiktok_new_release": "Le drop est là !  — stream maintenant et dis-moi ce que t'en penses 💜\n\n#RnB #NewArtist #AfroVibes #Mrmakmax #AfricanMusic",
+    "twitter_new_release": "I've been working on this one...  OUT NOW on all platforms 🚀\n\n#nonamesbeats #AfricanMusic #MusicPromo #NewMusic",
+    "youtube_bts": "This one's special. Can't wait for you to hear it 🎵\n\n#MusicDiscovery #AfroSound #MusicPromo #AfricanMusic"
+  }
+}

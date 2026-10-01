@@ -1,0 +1,29 @@
+{
+  "batch": "20260824_000130",
+  "date": "2026-08-24T00:01:30",
+  "api_status": {"post_api_content": 405, "mongo_direct_insert": "4/4 success"},
+  "items": [
+    {"type": "fallback_image", "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260824_000130.png", "size": 13307, "title": "NOUVEAU SON 🔥"},
+    {"type": "quote_card", "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260824_000130_927.png", "size": 13729, "quote": "Born to make the world dance"},
+    {"type": "quote_card", "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260824_000130_952.png", "size": 14310, "quote": "Afro pop is not just music, it's a vibration"},
+    {"type": "promo_banner", "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260824_000130_975.png", "size": 26210, "title": "NOUVEAU SON DISPONIBLE"}
+  ],
+  "social_captions": {
+    "instagram": {
+      "new_release": "🎶🔥 NOUVEAU SON DISPONIBLE ! 'Dans Tes Yeux' est enfin là, et il va faire danser tout le monde 🌍✨\n\nDispo partout — lien en bio 🔗🎧\n\n#AfroPop #Mrmakmax #NouveauSon #DansTesYeux #MusiqueAfricaine #NewMusic #AfroVibes #Dance #Ambiance #France",
+      "engagement": "✨ « Born to make the world dance » ✨\n\nC'est ma mission, mon essence, ma vibe. 💫\nEt toi, c'est quoi la phrase qui te fait vibrer ? Dis-moi en commentaire 👇🏾💬\n\n#AfroPop #Mrmakmax #Motivation #Vibes #QuoteOfTheDay"
+    },
+    "tiktok": {
+      "new_release": "🚨 NEW DROP ALERT 🚨\n'Dans Tes Yeux' est dispo ! 🔥 Écoute, danse, partage 💃🏾\n#AfroPop #Mrmakmax #NewSound",
+      "engagement": "L'afro pop c'est pas juste de la musique, c'est une vibration 🌊⚡ T'es d'accord ? 👀 #AfroPop #Vibes"
+    },
+    "twitter": {
+      "new_release": "🔥 NOUVEAU SON DISPONIBLE : 'Dans Tes Yeux' 🎶\nL'afro pop vibre ce soir 🌍✨\n#AfroPop #NewMusic",
+      "engagement": "« Afro pop is not just music, it's a vibration » 🌊✨ #AfroPop"
+    },
+    "youtube": {
+      "new_release": "🎬 NOUVEAU SON : 'Dans Tes Yeux' 🎶\nL'afro pop nouvelle génération est là. Écoute, abonne-toi, partage la vibe 🔥🌍\n\n#AfroPop #Mrmakmax #NouveauSon #Musique",
+      "general": "🎵 Ambiance afro pop du jour : 'Dans Tes Yeux' en boucle, le son qui fait voyager 🌍✨\n#AfroPop #Mrmakmax #Vibes"
+    }
+  }
+}

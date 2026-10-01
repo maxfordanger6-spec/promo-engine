@@ -1,0 +1,69 @@
+{
+  "batch": "20260911_0000",
+  "date": "2026-09-10T22:02:18.648759Z",
+  "items": [
+    {
+      "type": "fallback_image",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260911_000041.png",
+      "size": 13307,
+      "timestamp": "20260911_000041"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260911_000042_275.png",
+      "size": 13729,
+      "quote": "Born to make the world dance",
+      "timestamp": "20260911_000042"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260911_000042_303.png",
+      "size": 14310,
+      "quote": "Afro pop is not just music, it's a vibration",
+      "timestamp": "20260911_000042"
+    },
+    {
+      "type": "promo_banner",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260911_000042_331.png",
+      "size": 26210,
+      "title": "NOUVEAU SON DISPONIBLE",
+      "timestamp": "20260911_000042"
+    }
+  ],
+  "social_captions": {
+    "instagram": {
+      "new_release": "🔥 NOUVEAU SON ! 'Dans Tes Yeux' est dispo partout ! Link in bio 🎵\n\n\n.\n.\n.\n#NewMusic #AfroVibes #AfroSound #NewArtist #Afrobeats #InstaMusic #MusicLover #Vibes",
+      "bts": "Behind the scenes... creating magic in the studio 🎹✨\n\n\n.\n.\n.\n#IndieArtist #Mrmakmax #MusicPromo #Afrobeats #AfricanMusic #InstaMusic #MusicLover #Vibes",
+      "general": "Vibes on vibes 🌊 Afro pop energy all day\n\n\n.\n.\n.\n#MusicPromo #UpcomingArtist #Mrmakmax #nonamesbeats #IndieArtist #InstaMusic #MusicLover #Vibes",
+      "engagement": "Tag quelqu'un qui doit entendre ça ⬇️\n\n\n.\n.\n.\n#AfricanMusic #IndieArtist #UpcomingArtist #RnB #SoulMusic #InstaMusic #MusicLover #Vibes"
+    },
+    "tiktok": {
+      "new_release": "Le drop est là ! Dans Tes Yeux — stream maintenant et dis-moi ce que t'en penses 💜\n\n#SoulMusic #MusicPromo #MusicDiscovery #IndieArtist #AfroPop",
+      "bts": "Behind the scenes... creating magic in the studio 🎹✨\n\n#MusicDiscovery #NewMusic #nonamesbeats #AfricanMusic #UpcomingArtist",
+      "general": "Music is the answer. What's the question? 🎵\n\n#MusicPromo #Afrobeats #MusicDiscovery #SoulMusic #AfricanMusic",
+      "engagement": "Quelle est ta chanson préférée du moment ? 🎧\n\n#Afrobeats #AfroVibes #nonamesbeats #MusicPromo #AfricanMusic"
+    },
+    "twitter": {
+      "new_release": "🔥 NOUVEAU SON ! 'Dans Tes Yeux' est dispo partout ! Link in bio 🎵\n\n#AfroSound #AfricanMusic #Mrmakmax #AfroVibes",
+      "bts": "This one's special. Can't wait for you to hear it 🎵\n\n#AfroPop #NewArtist #NewMusic #AfroSound",
+      "general": "Music is the answer. What's the question? 🎵\n\n#AfroSound #UpcomingArtist #NewArtist #MusicDiscovery",
+      "engagement": "Quel son tu veux que je drop ensuite ? Dis-moi en commentaire 👇\n\n#AfroSound #AfroPop #UpcomingArtist #NewArtist"
+    },
+    "youtube": {
+      "new_release": "Le drop est là ! Dans Tes Yeux — stream maintenant et dis-moi ce que t'en penses 💜\n\n#AfroSound #MusicPromo #SoulMusic #nonamesbeats",
+      "bts": "This one's special. Can't wait for you to hear it 🎵\n\n#UpcomingArtist #AfroPop #NewArtist #MusicPromo",
+      "general": "Music is the answer. What's the question? 🎵\n\n#NewArtist #AfroVibes #nonamesbeats #MusicDiscovery",
+      "engagement": "Tag quelqu'un qui doit entendre ça ⬇️\n\n#MusicDiscovery #NewArtist #nonamesbeats #Mrmakmax"
+    }
+  },
+  "api_status": {
+    "endpoint": "POST /api/content",
+    "http_code": 405,
+    "note": "Read-only on deployed Railway (Pitfall 5). Direct MongoDB insert used instead."
+  },
+  "mongo_status": {
+    "collection": "generated_content",
+    "total_docs": 470,
+    "latest_4_match": true
+  }
+}

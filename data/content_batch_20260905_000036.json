@@ -1,0 +1,64 @@
+{
+  "batch": "20260905_000036",
+  "date": "2026-09-05T00:00:36",
+  "api_status": {
+    "post_api_content": "405 Method Not Allowed (read-only on Railway — Pitfall 5)",
+    "mongo_direct_insert": "success — 4 records inserted via save_generated_content, verified via GET /api/content?limit=5 (newest-first match)"
+  },
+  "items": [
+    {
+      "type": "fallback_image",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260905_000035.png",
+      "size": 13307,
+      "timestamp": "20260905_000035"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260905_000036_493.png",
+      "size": 13729,
+      "quote": "Born to make the world dance",
+      "timestamp": "20260905_000036"
+    },
+    {
+      "type": "quote_card",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260905_000036_519.png",
+      "size": 14310,
+      "quote": "Afro pop is not just music, it's a vibration",
+      "timestamp": "20260905_000036"
+    },
+    {
+      "type": "promo_banner",
+      "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260905_000036_544.png",
+      "size": 26210,
+      "title": "NOUVEAU SON DISPONIBLE",
+      "timestamp": "20260905_000036"
+    }
+  ],
+  "ffmpeg_status": "video visualizer failed (Fontconfig error — Windows Pitfall 8); Pillow static images OK",
+  "social_captions": {
+    "instagram": {
+      "announcement": "🆕 NOUVEAU SON DISPONIBLE 🆕\nMrmakmax x nonamesbeats vous ont préparé une tuerie 🔥\n« Dans Tes Yeux » — c'est du pur Afro Pop made in 🇨🇲💛\n👉 ÉCOUTER MAINTENANT — lien en bio !\n🎧 Monte le son et laisse la vibe te porter 🕺✨\n\n🏷️ #Mrmakmax #AfroPop #NewMusic #nonamesbeats #MusiqueAfricaine #DansTesYeux #Vibes #NewDrop",
+      "quote1": "🗣️ « Born to make the world dance » — Mrmakmax\nNé pour faire danser le monde entier 🌍💃\nC'est pas juste une phrase, c'est une mission.\n\n🏷️ #Mrmakmax #AfroPop #nonamesbeats #AfroVibes #BornToDance #MusicIsLife",
+      "quote2": "🌍 « Afro pop is not just music, it's a vibration » 🕪\nQuand le son touche ton âme, tu sais que c'est ça.\nRessens la fréquence 🌊🔥\n\n🏷️ #AfroVibes #Mrmakmax #AfroMusic #nonamesbeats #FeelTheRhythm #OneLove",
+      "teaser": "🤫 Quelque chose se prépare...\nNOUVEAU SON 𓅓\n@Mrmakmax x nonamesbeats\nReste connecté, ça arrive 🌊🔥\n\n🏷️ #ComingSoon #Mrmakmax #nonamesbeats #Teaser #StayTuned"
+    },
+    "tiktok": {
+      "announcement": "🚨 ÇA Y EST c'est dispo 🚨\nDans Tes Yeux — Mrmakmax x nonamesbeats 🔥\nMonte le son et danse 🕺✨\n\n#AfroPop #Mrmakmax #NewMusic",
+      "quote1": "né pour faire danser le monde 🌍💃\n\n#AfroPop #Mrmakmax",
+      "quote2": "l'afro pop c'est une vibration, pas juste de la musique 🌊\n\n#AfroVibes #Mrmakmax",
+      "teaser": "👀 t'as entendu ?\nquelque chose arrive...\n\n#ComingSoon #Mrmakmax"
+    },
+    "twitter": {
+      "announcement": "🆕 NOUVEAU SON DISPONIBLE ! « Dans Tes Yeux » — Mrmakmax x nonamesbeats 🔥 Écoute maintenant, lien en bio ! #AfroPop #Mrmakmax",
+      "quote1": "🗣️ « Born to make the world dance » — Mrmakmax 🌍 #AfroVibes #Mrmakmax",
+      "quote2": "🌍 « Afro pop is not just music, it's a vibration » #Mrmakmax #AfroMusic",
+      "teaser": "🤫 NOUVEAU SON en approche... Reste connecté. #ComingSoon #Mrmakmax"
+    },
+    "youtube": {
+      "announcement": "🆕 NOUVEAU SON DISPONIBLE 🆕\n« Dans Tes Yeux » — Mrmakmax x nonamesbeats\nDu pur Afro Pop made in 🇨🇲 pour faire vibrer ta journée 🌊\n🎧 Écoute ici : lien dans la description 👇\n\n#Mrmakmax #AfroPop #NewMusic #nonamesbeats #DansTesYeux",
+      "quote1": "🗣️ « Born to make the world dance »\nQuand Mrmakmax prend le micro, le monde danse 🌍💃\n\n#Mrmakmax #AfroPop #BornToDance #nonamesbeats",
+      "quote2": "🌍 « Afro pop is not just music, it's a vibration »\nRessens la fréquence avec nous 🕪\n\n#AfroVibes #Mrmakmax #AfroMusic #nonamesbeats",
+      "teaser": "🤫 Un nouveau son arrive bientôt...\nMrmakmax x nonamesbeats\nActive la cloche pour ne rien rater 🔔\n\n#ComingSoon #Mrmakmax #nonamesbeats"
+    }
+  }
+}

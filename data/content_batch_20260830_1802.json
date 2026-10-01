@@ -1,0 +1,32 @@
+{
+  "batch": "20260830_1802",
+  "date": "2026-08-30T18:02:18",
+  "api_status": {
+    "post_api_content": "405_method_not_allowed (endpoint non deploye sur Railway)",
+    "mongo_direct_insert": "success (4/4, via save_generated_content)",
+    "verified": "pending GET check"
+  },
+  "items": [
+    {"type": "fallback_image", "path": "C:\\Users\\nonamesbeats\\promo-content\\fallback_20260830_180218.png", "size": 13307},
+    {"type": "quote_card", "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260830_180218_920.png", "size": 13729, "quote": "Born to make the world dance"},
+    {"type": "quote_card", "path": "C:\\Users\\nonamesbeats\\promo-content\\quote_20260830_180218_937.png", "size": 14310, "quote": "Afro pop is not just music, it's a vibration"},
+    {"type": "promo_banner", "path": "C:\\Users\\nonamesbeats\\promo-content\\promo_20260830_180218_955.png", "size": 26210, "title": "NOUVEAU SON DISPONIBLE"}
+  ],
+  "social_captions": {
+    "instagram": {
+      "new_release": "🔥 NOUVEAU SON ! 'Dans Tes Yeux' est dispo partout ! Link in bio 🎵",
+      "engagement": "Quel son tu veux que je drop ensuite ? Dis-moi en commentaire 👇"
+    },
+    "tiktok": {
+      "general": "Born to make the world dance 💃🕺",
+      "bts": "Behind the scenes... creating magic in the studio 🎹✨"
+    },
+    "twitter": {
+      "new_release": "Le drop est là ! Dans Tes Yeux — stream maintenant et dis-moi ce que t'en penses 💜"
+    },
+    "youtube": {
+      "bts": "Late night sessions hit different 🌙 Raw vibes only"
+    }
+  },
+  "warnings": ["FFmpeg visualizer: fontconfig error -> Pillow fallback (images statiques OK)"]
+}

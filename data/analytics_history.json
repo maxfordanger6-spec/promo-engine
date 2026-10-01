@@ -1,0 +1,1725 @@
+{
+  "records": [
+    {
+      "date": "2026-07-20",
+      "day_of_week": "Monday",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 247,
+          "followers": 89,
+          "streams_total": 1240,
+          "playlists": 3
+        },
+        "instagram": {
+          "followers": 312,
+          "posts": 28,
+          "avg_likes": 42,
+          "avg_comments": 8
+        },
+        "tiktok": {
+          "followers": 156,
+          "total_likes": 2300,
+          "videos": 15
+        },
+        "email": {
+          "subscribers": 18,
+          "open_rate": 0.38
+        }
+      },
+      "trends": {
+        "spotify_listeners": "🆕 first record",
+        "instagram_followers": "🆕 first record",
+        "tiktok_followers": "🆕 first record",
+        "email_subscribers": "🆕 first record"
+      },
+      "suggestion": "🎯 **Action du jour** : Publie un Reel Instagram avec un extrait de ton dernier son — c'est le format le plus puissant pour toucher de nouveaux fans aujourd'hui !"
+    },
+    {
+      "date": "2026-07-21",
+      "day_of_week": "Tuesday",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 247,
+          "followers": 92,
+          "streams_total": 1257,
+          "playlists": 3
+        },
+        "instagram": {
+          "followers": 313,
+          "posts": 28,
+          "avg_likes": 46,
+          "avg_comments": 8
+        },
+        "tiktok": {
+          "followers": 161,
+          "total_likes": 2332,
+          "videos": 15
+        },
+        "email": {
+          "subscribers": 18,
+          "open_rate": 0.38
+        }
+      },
+      "trends": {
+        "spotify_listeners": "➡️ stable",
+        "instagram_followers": "⬆️ up",
+        "tiktok_followers": "⬆️ up",
+        "email_subscribers": "➡️ stable"
+      },
+      "suggestion": "🎯 **Action du jour** : Relance tes abonnés email avec un lien exclusif vers ton prochain son. L'email convertit 3x mieux que les réseaux sociaux ! 📧"
+    },
+    {
+      "date": "2026-07-22",
+      "day_of_week": "Wednesday",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 251,
+          "followers": 95,
+          "streams_total": 1282,
+          "playlists": 3
+        },
+        "instagram": {
+          "followers": 314,
+          "posts": 28,
+          "avg_likes": 42,
+          "avg_comments": 8
+        },
+        "tiktok": {
+          "followers": 166,
+          "total_likes": 2362,
+          "videos": 16
+        },
+        "email": {
+          "subscribers": 18,
+          "open_rate": 0.41
+        }
+      },
+      "trends": {
+        "spotify_listeners": "⬆️ up",
+        "instagram_followers": "⬆️ up",
+        "tiktok_followers": "⬆️ up",
+        "email_subscribers": "➡️ stable"
+      },
+      "suggestion": "🎯 **Action du jour** : Relance tes abonnés email avec un lien exclusif vers ton prochain son. L'email convertit 3x mieux que les réseaux sociaux ! 📧"
+    },
+    {
+      "date": "2026-07-23",
+      "day_of_week": "Thursday",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 254,
+          "followers": 95,
+          "streams_total": 1320,
+          "playlists": 4
+        },
+        "instagram": {
+          "followers": 313,
+          "posts": 28,
+          "avg_likes": 51,
+          "avg_comments": 8
+        },
+        "tiktok": {
+          "followers": 165,
+          "total_likes": 2392,
+          "videos": 16
+        },
+        "email": {
+          "subscribers": 18,
+          "open_rate": 0.38
+        }
+      },
+      "trends": {
+        "spotify_listeners": "⬆️ up",
+        "instagram_followers": "⬇️ down",
+        "tiktok_followers": "⬇️ down",
+        "email_subscribers": "➡️ stable"
+      },
+      "suggestion": "🎯 **Action du jour** : Relance tes abonnés email avec un lien exclusif vers ton prochain son. L'email convertit 3x mieux que les réseaux sociaux ! 📧"
+    },
+    {
+      "date": "2026-07-24",
+      "day_of_week": "Friday",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 262,
+          "followers": 96,
+          "streams_total": 1333,
+          "playlists": 4
+        },
+        "instagram": {
+          "followers": 316,
+          "posts": 28,
+          "avg_likes": 60,
+          "avg_comments": 6
+        },
+        "tiktok": {
+          "followers": 171,
+          "total_likes": 2421,
+          "videos": 17
+        },
+        "email": {
+          "subscribers": 18,
+          "open_rate": 0.41
+        }
+      },
+      "trends": {
+        "spotify_listeners": "⬆️ up",
+        "instagram_followers": "⬆️ up",
+        "tiktok_followers": "⬆️ up",
+        "email_subscribers": "➡️ stable"
+      },
+      "suggestion": "🎯 **Action du jour** : Relance tes abonnés email avec un lien exclusif vers ton prochain son. L'email convertit 3x mieux que les réseaux sociaux ! 📧"
+    },
+    {
+      "date": "2026-07-25",
+      "day_of_week": "Saturday",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 265,
+          "followers": 99,
+          "streams_total": 1358,
+          "playlists": 4
+        },
+        "instagram": {
+          "followers": 314,
+          "posts": 28,
+          "avg_likes": 67,
+          "avg_comments": 7
+        },
+        "tiktok": {
+          "followers": 173,
+          "total_likes": 2442,
+          "videos": 17
+        },
+        "email": {
+          "subscribers": 18,
+          "open_rate": 0.39
+        }
+      },
+      "trends": {
+        "spotify_listeners": "⬆️ up",
+        "instagram_followers": "⬇️ down",
+        "tiktok_followers": "⬆️ up",
+        "email_subscribers": "➡️ stable"
+      },
+      "suggestion": "🎯 **Action du jour** : Relance tes abonnés email avec un lien exclusif vers ton prochain son. L'email convertit 3x mieux que les réseaux sociaux ! 📧"
+    },
+    {
+      "date": "2026-07-26",
+      "day_of_week": "Sunday",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 267,
+          "followers": 98,
+          "streams_total": 1385,
+          "playlists": 4
+        },
+        "instagram": {
+          "followers": 313,
+          "posts": 28,
+          "avg_likes": 72,
+          "avg_comments": 9
+        },
+        "tiktok": {
+          "followers": 179,
+          "total_likes": 2484,
+          "videos": 17
+        },
+        "email": {
+          "subscribers": 18,
+          "open_rate": 0.4
+        }
+      },
+      "trends": {
+        "spotify_listeners": "⬆️ up",
+        "instagram_followers": "⬇️ down",
+        "tiktok_followers": "⬆️ up",
+        "email_subscribers": "➡️ stable"
+      },
+      "suggestion": "🎯 **Action du jour** : Relance tes abonnés email avec un lien exclusif vers ton prochain son. L'email convertit 3x mieux que les réseaux sociaux ! 📧"
+    },
+    {
+      "date": "2026-07-27",
+      "day_of_week": "Monday",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 275,
+          "followers": 97,
+          "streams_total": 1405,
+          "playlists": 4
+        },
+        "instagram": {
+          "followers": 316,
+          "posts": 28,
+          "avg_likes": 68,
+          "avg_comments": 7
+        },
+        "tiktok": {
+          "followers": 185,
+          "total_likes": 2515,
+          "videos": 17
+        },
+        "email": {
+          "subscribers": 19,
+          "open_rate": 0.39
+        }
+      },
+      "trends": {
+        "spotify_listeners": "⬆️ up",
+        "instagram_followers": "⬆️ up",
+        "tiktok_followers": "⬆️ up",
+        "email_subscribers": "⬆️ up"
+      },
+      "suggestion": "🎯 **Action du jour** : Relance tes abonnés email avec un lien exclusif vers ton prochain son. L'email convertit 3x mieux que les réseaux sociaux ! 📧"
+    },
+    {
+      "date": "2026-07-28",
+      "day_of_week": "Tuesday",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 272,
+          "followers": 98,
+          "streams_total": 1428,
+          "playlists": 4
+        },
+        "instagram": {
+          "followers": 316,
+          "posts": 28,
+          "avg_likes": 75,
+          "avg_comments": 6
+        },
+        "tiktok": {
+          "followers": 190,
+          "total_likes": 2568,
+          "videos": 17
+        },
+        "email": {
+          "subscribers": 19,
+          "open_rate": 0.4
+        }
+      },
+      "trends": {
+        "spotify_listeners": "⬇️ down",
+        "instagram_followers": "➡️ stable",
+        "tiktok_followers": "⬆️ up",
+        "email_subscribers": "➡️ stable"
+      },
+      "suggestion": "🎯 **Action du jour** : Relance tes abonnés email avec un lien exclusif vers ton prochain son. L'email convertit 3x mieux que les réseaux sociaux ! 📧"
+    },
+    {
+      "date": "2026-07-29",
+      "day_of_week": "Wednesday",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 273,
+          "followers": 99,
+          "streams_total": 1450,
+          "playlists": 4
+        },
+        "instagram": {
+          "followers": 320,
+          "posts": 28,
+          "avg_likes": 76,
+          "avg_comments": 4
+        },
+        "tiktok": {
+          "followers": 196,
+          "total_likes": 2621,
+          "videos": 17
+        },
+        "email": {
+          "subscribers": 21,
+          "open_rate": 0.38
+        }
+      },
+      "trends": {
+        "spotify_listeners": "⬆️ up",
+        "instagram_followers": "⬆️ up",
+        "tiktok_followers": "⬆️ up",
+        "email_subscribers": "⬆️ up"
+      },
+      "suggestion": "🎯 **Action du jour** : Relance tes abonnés email avec un lien exclusif vers ton prochain son. L'email convertit 3x mieux que les réseaux sociaux ! 📧"
+    },
+    {
+      "date": "2026-07-30",
+      "day_of_week": "Thursday",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 281,
+          "followers": 100,
+          "streams_total": 1462,
+          "playlists": 4
+        },
+        "instagram": {
+          "followers": 321,
+          "posts": 28,
+          "avg_likes": 76,
+          "avg_comments": 2
+        },
+        "tiktok": {
+          "followers": 199,
+          "total_likes": 2653,
+          "videos": 18
+        },
+        "email": {
+          "subscribers": 23,
+          "open_rate": 0.4
+        }
+      },
+      "trends": {
+        "spotify_listeners": "⬆️ up",
+        "instagram_followers": "⬆️ up",
+        "tiktok_followers": "⬆️ up",
+        "email_subscribers": "⬆️ up"
+      },
+      "suggestion": "🎯 **Action du jour** : Relance tes abonnés email avec un lien exclusif vers ton prochain son. L'email convertit 3x mieux que les réseaux sociaux ! 📧"
+    },
+    {
+      "date": "2026-07-31",
+      "day_of_week": "Friday",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 282,
+          "followers": 99,
+          "streams_total": 1483,
+          "playlists": 4
+        },
+        "instagram": {
+          "followers": 322,
+          "posts": 28,
+          "avg_likes": 72,
+          "avg_comments": 1
+        },
+        "tiktok": {
+          "followers": 203,
+          "total_likes": 2733,
+          "videos": 18
+        },
+        "email": {
+          "subscribers": 25,
+          "open_rate": 0.39
+        }
+      },
+      "trends": {
+        "spotify_listeners": "⬆️ up",
+        "instagram_followers": "⬆️ up",
+        "tiktok_followers": "⬆️ up",
+        "email_subscribers": "⬆️ up"
+      },
+      "suggestion": "🎯 **Action du jour** : Relance tes abonnés email avec un lien exclusif vers ton prochain son. L'email convertit 3x mieux que les réseaux sociaux ! 📧"
+    },
+    {
+      "date": "2026-08-01",
+      "day_of_week": "Saturday",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 287,
+          "followers": 100,
+          "streams_total": 1499,
+          "playlists": 4
+        },
+        "instagram": {
+          "followers": 323,
+          "posts": 28,
+          "avg_likes": 71,
+          "avg_comments": 3
+        },
+        "tiktok": {
+          "followers": 202,
+          "total_likes": 2760,
+          "videos": 18
+        },
+        "email": {
+          "subscribers": 25,
+          "open_rate": 0.38
+        }
+      },
+      "trends": {
+        "spotify_listeners": "⬆️ up",
+        "instagram_followers": "⬆️ up",
+        "tiktok_followers": "⬇️ down",
+        "email_subscribers": "➡️ stable"
+      },
+      "suggestion": "🎯 **Action du jour** : Relance tes abonnés email avec un lien exclusif vers ton prochain son. L'email convertit 3x mieux que les réseaux sociaux ! 📧"
+    },
+    {
+      "date": "2026-08-02",
+      "day_of_week": "Sunday",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 287,
+          "followers": 101,
+          "streams_total": 1506,
+          "playlists": 5
+        },
+        "instagram": {
+          "followers": 325,
+          "posts": 28,
+          "avg_likes": 78,
+          "avg_comments": 2
+        },
+        "tiktok": {
+          "followers": 201,
+          "total_likes": 2807,
+          "videos": 19
+        },
+        "email": {
+          "subscribers": 25,
+          "open_rate": 0.41
+        }
+      },
+      "trends": {
+        "spotify_listeners": "➡️ stable",
+        "instagram_followers": "⬆️ up",
+        "tiktok_followers": "⬇️ down",
+        "email_subscribers": "➡️ stable"
+      },
+      "suggestion": "🎯 **Action du jour** : Relance tes abonnés email avec un lien exclusif vers ton prochain son. L'email convertit 3x mieux que les réseaux sociaux ! 📧"
+    },
+    {
+      "date": "2026-08-03",
+      "day_of_week": "Monday",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 287,
+          "followers": 101,
+          "streams_total": 1517,
+          "playlists": 5
+        },
+        "instagram": {
+          "followers": 326,
+          "posts": 28,
+          "avg_likes": 88,
+          "avg_comments": 2
+        },
+        "tiktok": {
+          "followers": 207,
+          "total_likes": 2839,
+          "videos": 19
+        },
+        "email": {
+          "subscribers": 25,
+          "open_rate": 0.43
+        }
+      },
+      "trends": {
+        "spotify_listeners": "➡️ stable",
+        "instagram_followers": "⬆️ up",
+        "tiktok_followers": "⬆️ up",
+        "email_subscribers": "➡️ stable"
+      },
+      "suggestion": "🎯 **Action du jour** : Relance tes abonnés email avec un lien exclusif vers ton prochain son. L'email convertit 3x mieux que les réseaux sociaux ! 📧"
+    },
+    {
+      "date": "2026-08-04",
+      "day_of_week": "Tuesday",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 293,
+          "followers": 100,
+          "streams_total": 1542,
+          "playlists": 5
+        },
+        "instagram": {
+          "followers": 324,
+          "posts": 28,
+          "avg_likes": 94,
+          "avg_comments": 1
+        },
+        "tiktok": {
+          "followers": 209,
+          "total_likes": 2911,
+          "videos": 19
+        },
+        "email": {
+          "subscribers": 25,
+          "open_rate": 0.41
+        }
+      },
+      "trends": {
+        "spotify_listeners": "⬆️ up",
+        "instagram_followers": "⬇️ down",
+        "tiktok_followers": "⬆️ up",
+        "email_subscribers": "➡️ stable"
+      },
+      "suggestion": "🎯 **Action du jour** : Relance tes abonnés email avec un lien exclusif vers ton prochain son. L'email convertit 3x mieux que les réseaux sociaux ! 📧"
+    },
+    {
+      "date": "2026-08-05",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 305,
+          "followers": 104,
+          "streams_total": 1587
+        },
+        "instagram": {
+          "followers": 338,
+          "avg_likes": 95
+        },
+        "tiktok": {
+          "followers": 211,
+          "total_likes": 2949
+        },
+        "email": {
+          "subscribers": 27,
+          "open_rate": 20
+        }
+      },
+      "growth_pct": 3.5,
+      "suggestion": "📸 Poste un Reel de 30 secondes (extrait d'un son) — les Reels ont 2x plus de reach"
+    },
+    {
+      "date": "2026-08-06",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 311,
+          "followers": 108,
+          "streams_total": 1632
+        },
+        "instagram": {
+          "followers": 340,
+          "avg_likes": 97
+        },
+        "tiktok": {
+          "followers": 211,
+          "total_likes": 2968
+        },
+        "email": {
+          "subscribers": 27,
+          "open_rate": 22.993393675502265
+        }
+      },
+      "growth_pct": 0.9,
+      "suggestion": "🎵 Envoie un pitch à 3 playlists afro aujourd'hui — chaque playlist = +10 listeners potentiels"
+    },
+    {
+      "date": "2026-08-07",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 314,
+          "followers": 109,
+          "streams_total": 1668
+        },
+        "instagram": {
+          "followers": 341,
+          "avg_likes": 100
+        },
+        "tiktok": {
+          "followers": 224,
+          "total_likes": 2993
+        },
+        "email": {
+          "subscribers": 29,
+          "open_rate": 25.950821924751914
+        }
+      },
+      "growth_pct": 2.1,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-08-08",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 315,
+          "followers": 109,
+          "streams_total": 1705
+        },
+        "instagram": {
+          "followers": 341,
+          "avg_likes": 99
+        },
+        "tiktok": {
+          "followers": 238,
+          "total_likes": 3026
+        },
+        "email": {
+          "subscribers": 29,
+          "open_rate": 25.807044027679126
+        }
+      },
+      "growth_pct": 1.7,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-08-09",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 317,
+          "followers": 113,
+          "streams_total": 1747
+        },
+        "instagram": {
+          "followers": 356,
+          "avg_likes": 98
+        },
+        "tiktok": {
+          "followers": 259,
+          "total_likes": 3034
+        },
+        "email": {
+          "subscribers": 31,
+          "open_rate": 26.231800543857645
+        }
+      },
+      "growth_pct": 4.3,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-08-10",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 317,
+          "followers": 117,
+          "streams_total": 1795
+        },
+        "instagram": {
+          "followers": 366,
+          "avg_likes": 101
+        },
+        "tiktok": {
+          "followers": 262,
+          "total_likes": 3069
+        },
+        "email": {
+          "subscribers": 31,
+          "open_rate": 25.369202899509098
+        }
+      },
+      "growth_pct": 1.3,
+      "suggestion": "📸 Poste un Reel de 30 secondes (extrait d'un son) — les Reels ont 2x plus de reach"
+    },
+    {
+      "date": "2026-08-11",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 314,
+          "followers": 122,
+          "streams_total": 1828
+        },
+        "instagram": {
+          "followers": 368,
+          "avg_likes": 99
+        },
+        "tiktok": {
+          "followers": 283,
+          "total_likes": 3106
+        },
+        "email": {
+          "subscribers": 31,
+          "open_rate": 27.647136619757553
+        }
+      },
+      "growth_pct": 2.0,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-08-12",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 330,
+          "followers": 122,
+          "streams_total": 1867
+        },
+        "instagram": {
+          "followers": 371,
+          "avg_likes": 98
+        },
+        "tiktok": {
+          "followers": 296,
+          "total_likes": 3118
+        },
+        "email": {
+          "subscribers": 33,
+          "open_rate": 25.026965511018805
+        }
+      },
+      "growth_pct": 3.4,
+      "suggestion": "🎵 Envoie un pitch à 3 playlists afro aujourd'hui — chaque playlist = +10 listeners potentiels"
+    },
+    {
+      "date": "2026-08-13",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 333,
+          "followers": 128,
+          "streams_total": 1921
+        },
+        "instagram": {
+          "followers": 386,
+          "avg_likes": 101
+        },
+        "tiktok": {
+          "followers": 308,
+          "total_likes": 3157
+        },
+        "email": {
+          "subscribers": 33,
+          "open_rate": 27.498019681801807
+        }
+      },
+      "growth_pct": 2.9,
+      "suggestion": "📸 Poste un Reel de 30 secondes (extrait d'un son) — les Reels ont 2x plus de reach"
+    },
+    {
+      "date": "2026-08-14",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 337,
+          "followers": 131,
+          "streams_total": 1957
+        },
+        "instagram": {
+          "followers": 403,
+          "avg_likes": 101
+        },
+        "tiktok": {
+          "followers": 327,
+          "total_likes": 3170
+        },
+        "email": {
+          "subscribers": 34,
+          "open_rate": 29.889428445324548
+        }
+      },
+      "growth_pct": 3.9,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-08-15",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 343,
+          "followers": 132,
+          "streams_total": 2009
+        },
+        "instagram": {
+          "followers": 411,
+          "avg_likes": 106
+        },
+        "tiktok": {
+          "followers": 340,
+          "total_likes": 3187
+        },
+        "email": {
+          "subscribers": 34,
+          "open_rate": 30.733819239505145
+        }
+      },
+      "growth_pct": 2.5,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-08-16",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 343,
+          "followers": 136,
+          "streams_total": 2042
+        },
+        "instagram": {
+          "followers": 424,
+          "avg_likes": 104
+        },
+        "tiktok": {
+          "followers": 364,
+          "total_likes": 3219
+        },
+        "email": {
+          "subscribers": 36,
+          "open_rate": 28.30794148387828
+        }
+      },
+      "growth_pct": 3.5,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-08-17",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 340,
+          "followers": 138,
+          "streams_total": 2096
+        },
+        "instagram": {
+          "followers": 450,
+          "avg_likes": 103
+        },
+        "tiktok": {
+          "followers": 398,
+          "total_likes": 3238
+        },
+        "email": {
+          "subscribers": 38,
+          "open_rate": 27.02688119926882
+        }
+      },
+      "growth_pct": 5.1,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-08-18",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 346,
+          "followers": 140,
+          "streams_total": 2145
+        },
+        "instagram": {
+          "followers": 446,
+          "avg_likes": 107
+        },
+        "tiktok": {
+          "followers": 418,
+          "total_likes": 3264
+        },
+        "email": {
+          "subscribers": 38,
+          "open_rate": 28.70702046754148
+        }
+      },
+      "growth_pct": 1.8,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-08-19",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 344,
+          "followers": 143,
+          "streams_total": 2181
+        },
+        "instagram": {
+          "followers": 444,
+          "avg_likes": 104
+        },
+        "tiktok": {
+          "followers": 422,
+          "total_likes": 3269
+        },
+        "email": {
+          "subscribers": 38,
+          "open_rate": 28.755568730345356
+        }
+      },
+      "growth_pct": 0.0,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-08-20",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 345,
+          "followers": 146,
+          "streams_total": 2222
+        },
+        "instagram": {
+          "followers": 473,
+          "avg_likes": 107
+        },
+        "tiktok": {
+          "followers": 440,
+          "total_likes": 3300
+        },
+        "email": {
+          "subscribers": 39,
+          "open_rate": 26.996773931979163
+        }
+      },
+      "growth_pct": 3.9,
+      "suggestion": "📸 Poste un Reel de 30 secondes (extrait d'un son) — les Reels ont 2x plus de reach"
+    },
+    {
+      "date": "2026-08-21",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 348,
+          "followers": 152,
+          "streams_total": 2264
+        },
+        "instagram": {
+          "followers": 468,
+          "avg_likes": 107
+        },
+        "tiktok": {
+          "followers": 474,
+          "total_likes": 3340
+        },
+        "email": {
+          "subscribers": 40,
+          "open_rate": 25.92538159598892
+        }
+      },
+      "growth_pct": 2.5,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-08-22",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 358,
+          "followers": 159,
+          "streams_total": 2306
+        },
+        "instagram": {
+          "followers": 493,
+          "avg_likes": 106
+        },
+        "tiktok": {
+          "followers": 502,
+          "total_likes": 3362
+        },
+        "email": {
+          "subscribers": 42,
+          "open_rate": 25.35634498088686
+        }
+      },
+      "growth_pct": 4.9,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-08-23",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 363,
+          "followers": 166,
+          "streams_total": 2348
+        },
+        "instagram": {
+          "followers": 511,
+          "avg_likes": 106
+        },
+        "tiktok": {
+          "followers": 507,
+          "total_likes": 3375
+        },
+        "email": {
+          "subscribers": 44,
+          "open_rate": 22.87447559512456
+        }
+      },
+      "growth_pct": 2.2,
+      "suggestion": "📸 Poste un Reel de 30 secondes (extrait d'un son) — les Reels ont 2x plus de reach"
+    },
+    {
+      "date": "2026-08-24",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 360,
+          "followers": 168,
+          "streams_total": 2393
+        },
+        "instagram": {
+          "followers": 530,
+          "avg_likes": 111
+        },
+        "tiktok": {
+          "followers": 538,
+          "total_likes": 3402
+        },
+        "email": {
+          "subscribers": 44,
+          "open_rate": 24.794474731018262
+        }
+      },
+      "growth_pct": 3.3,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-08-27",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 370,
+          "followers": 173,
+          "streams_total": 2433
+        },
+        "instagram": {
+          "followers": 544,
+          "avg_likes": 110
+        },
+        "tiktok": {
+          "followers": 557,
+          "total_likes": 3425
+        },
+        "email": {
+          "subscribers": 45,
+          "open_rate": 23.757350689702065
+        }
+      },
+      "growth_pct": 3.0,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-08-28",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 378,
+          "followers": 178,
+          "streams_total": 2476
+        },
+        "instagram": {
+          "followers": 545,
+          "avg_likes": 111
+        },
+        "tiktok": {
+          "followers": 588,
+          "total_likes": 3458
+        },
+        "email": {
+          "subscribers": 46,
+          "open_rate": 20.8928249665621
+        }
+      },
+      "growth_pct": 2.7,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-08-29",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 376,
+          "followers": 182,
+          "streams_total": 2520
+        },
+        "instagram": {
+          "followers": 574,
+          "avg_likes": 116
+        },
+        "tiktok": {
+          "followers": 624,
+          "total_likes": 3465
+        },
+        "email": {
+          "subscribers": 47,
+          "open_rate": 21.338128635428998
+        }
+      },
+      "growth_pct": 4.1,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-08-30",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 382,
+          "followers": 185,
+          "streams_total": 2563
+        },
+        "instagram": {
+          "followers": 601,
+          "avg_likes": 116
+        },
+        "tiktok": {
+          "followers": 634,
+          "total_likes": 3477
+        },
+        "email": {
+          "subscribers": 49,
+          "open_rate": 22.58353011105126
+        }
+      },
+      "growth_pct": 2.8,
+      "suggestion": "📸 Poste un Reel de 30 secondes (extrait d'un son) — les Reels ont 2x plus de reach"
+    },
+    {
+      "date": "2026-08-31",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 391,
+          "followers": 187,
+          "streams_total": 2596
+        },
+        "instagram": {
+          "followers": 597,
+          "avg_likes": 114
+        },
+        "tiktok": {
+          "followers": 652,
+          "total_likes": 3514
+        },
+        "email": {
+          "subscribers": 50,
+          "open_rate": 20.36504343075604
+        }
+      },
+      "growth_pct": 1.4,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-09-01",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 397,
+          "followers": 194,
+          "streams_total": 2637
+        },
+        "instagram": {
+          "followers": 619,
+          "avg_likes": 112
+        },
+        "tiktok": {
+          "followers": 683,
+          "total_likes": 3534
+        },
+        "email": {
+          "subscribers": 50,
+          "open_rate": 20
+        }
+      },
+      "growth_pct": 3.5,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-09-03",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 415,
+          "followers": 202,
+          "streams_total": 2672
+        },
+        "instagram": {
+          "followers": 620,
+          "avg_likes": 111
+        },
+        "tiktok": {
+          "followers": 704,
+          "total_likes": 3563
+        },
+        "email": {
+          "subscribers": 52,
+          "open_rate": 20
+        }
+      },
+      "growth_pct": 2.4,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-09-04",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 435,
+          "followers": 212,
+          "streams_total": 2725
+        },
+        "instagram": {
+          "followers": 641,
+          "avg_likes": 115
+        },
+        "tiktok": {
+          "followers": 705,
+          "total_likes": 3595
+        },
+        "email": {
+          "subscribers": 53,
+          "open_rate": 20
+        }
+      },
+      "growth_pct": 2.4,
+      "suggestion": "📸 Poste un Reel de 30 secondes (extrait d'un son) — les Reels ont 2x plus de reach"
+    },
+    {
+      "date": "2026-09-05",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 438,
+          "followers": 219,
+          "streams_total": 2775
+        },
+        "instagram": {
+          "followers": 654,
+          "avg_likes": 116
+        },
+        "tiktok": {
+          "followers": 753,
+          "total_likes": 3617
+        },
+        "email": {
+          "subscribers": 53,
+          "open_rate": 20
+        }
+      },
+      "growth_pct": 3.5,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-09-06",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 462,
+          "followers": 223,
+          "streams_total": 2826
+        },
+        "instagram": {
+          "followers": 664,
+          "avg_likes": 115
+        },
+        "tiktok": {
+          "followers": 812,
+          "total_likes": 3657
+        },
+        "email": {
+          "subscribers": 54,
+          "open_rate": 20
+        }
+      },
+      "growth_pct": 5.0,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-09-07",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 479,
+          "followers": 232,
+          "streams_total": 2870
+        },
+        "instagram": {
+          "followers": 664,
+          "avg_likes": 113
+        },
+        "tiktok": {
+          "followers": 827,
+          "total_likes": 3677
+        },
+        "email": {
+          "subscribers": 55,
+          "open_rate": 21.72053190216987
+        }
+      },
+      "growth_pct": 1.7,
+      "suggestion": "🎵 Envoie un pitch à 3 playlists afro aujourd'hui — chaque playlist = +10 listeners potentiels"
+    },
+    {
+      "date": "2026-09-08",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 485,
+          "followers": 235,
+          "streams_total": 2910
+        },
+        "instagram": {
+          "followers": 672,
+          "avg_likes": 113
+        },
+        "tiktok": {
+          "followers": 863,
+          "total_likes": 3685
+        },
+        "email": {
+          "subscribers": 57,
+          "open_rate": 24.53115384051112
+        }
+      },
+      "growth_pct": 2.6,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-09-09",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 510,
+          "followers": 245,
+          "streams_total": 2960
+        },
+        "instagram": {
+          "followers": 666,
+          "avg_likes": 115
+        },
+        "tiktok": {
+          "followers": 915,
+          "total_likes": 3692
+        },
+        "email": {
+          "subscribers": 57,
+          "open_rate": 26.04077523929778
+        }
+      },
+      "growth_pct": 3.4,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-09-10",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 521,
+          "followers": 255,
+          "streams_total": 2998
+        },
+        "instagram": {
+          "followers": 711,
+          "avg_likes": 115
+        },
+        "tiktok": {
+          "followers": 978,
+          "total_likes": 3732
+        },
+        "email": {
+          "subscribers": 59,
+          "open_rate": 25.264027850523757
+        }
+      },
+      "growth_pct": 5.6,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-09-11",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 516,
+          "followers": 260,
+          "streams_total": 3039
+        },
+        "instagram": {
+          "followers": 734,
+          "avg_likes": 117
+        },
+        "tiktok": {
+          "followers": 1029,
+          "total_likes": 3749
+        },
+        "email": {
+          "subscribers": 60,
+          "open_rate": 26.635121695879654
+        }
+      },
+      "growth_pct": 3.1,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-09-12",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 537,
+          "followers": 263,
+          "streams_total": 3083
+        },
+        "instagram": {
+          "followers": 728,
+          "avg_likes": 120
+        },
+        "tiktok": {
+          "followers": 1080,
+          "total_likes": 3787
+        },
+        "email": {
+          "subscribers": 62,
+          "open_rate": 27.15295033971981
+        }
+      },
+      "growth_pct": 2.9,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-09-13",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 531,
+          "followers": 264,
+          "streams_total": 3125
+        },
+        "instagram": {
+          "followers": 721,
+          "avg_likes": 125
+        },
+        "tiktok": {
+          "followers": 1167,
+          "total_likes": 3795
+        },
+        "email": {
+          "subscribers": 64,
+          "open_rate": 26.51217794594845
+        }
+      },
+      "growth_pct": 3.2,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-09-14",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 551,
+          "followers": 270,
+          "streams_total": 3165
+        },
+        "instagram": {
+          "followers": 750,
+          "avg_likes": 126
+        },
+        "tiktok": {
+          "followers": 1194,
+          "total_likes": 3807
+        },
+        "email": {
+          "subscribers": 65,
+          "open_rate": 24.15297806385468
+        }
+      },
+      "growth_pct": 3.1,
+      "suggestion": "📸 Poste un Reel de 30 secondes (extrait d'un son) — les Reels ont 2x plus de reach"
+    },
+    {
+      "date": "2026-09-20",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 549,
+          "followers": 282,
+          "streams_total": 3210
+        },
+        "instagram": {
+          "followers": 759,
+          "avg_likes": 125
+        },
+        "tiktok": {
+          "followers": 1195,
+          "total_likes": 3814
+        },
+        "email": {
+          "subscribers": 66,
+          "open_rate": 22.77711587123768
+        }
+      },
+      "growth_pct": 0.4,
+      "suggestion": "📸 Poste un Reel de 30 secondes (extrait d'un son) — les Reels ont 2x plus de reach"
+    },
+    {
+      "date": "2026-09-21",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 554,
+          "followers": 283,
+          "streams_total": 3245
+        },
+        "instagram": {
+          "followers": 763,
+          "avg_likes": 128
+        },
+        "tiktok": {
+          "followers": 1312,
+          "total_likes": 3833
+        },
+        "email": {
+          "subscribers": 67,
+          "open_rate": 20.734284173390314
+        }
+      },
+      "growth_pct": 4.9,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-09-22",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 547,
+          "followers": 293,
+          "streams_total": 3284
+        },
+        "instagram": {
+          "followers": 802,
+          "avg_likes": 128
+        },
+        "tiktok": {
+          "followers": 1423,
+          "total_likes": 3868
+        },
+        "email": {
+          "subscribers": 69,
+          "open_rate": 22.921197768412874
+        }
+      },
+      "growth_pct": 5.4,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-09-23",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 552,
+          "followers": 296,
+          "streams_total": 3336
+        },
+        "instagram": {
+          "followers": 818,
+          "avg_likes": 128
+        },
+        "tiktok": {
+          "followers": 1552,
+          "total_likes": 3897
+        },
+        "email": {
+          "subscribers": 69,
+          "open_rate": 20.472000954466512
+        }
+      },
+      "growth_pct": 5.3,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-09-24",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 562,
+          "followers": 309,
+          "streams_total": 3383
+        },
+        "instagram": {
+          "followers": 816,
+          "avg_likes": 132
+        },
+        "tiktok": {
+          "followers": 1660,
+          "total_likes": 3930
+        },
+        "email": {
+          "subscribers": 70,
+          "open_rate": 21.956740473176776
+        }
+      },
+      "growth_pct": 3.9,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-09-25",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 589,
+          "followers": 317,
+          "streams_total": 3434
+        },
+        "instagram": {
+          "followers": 871,
+          "avg_likes": 132
+        },
+        "tiktok": {
+          "followers": 1825,
+          "total_likes": 3950
+        },
+        "email": {
+          "subscribers": 71,
+          "open_rate": 20.044303304115523
+        }
+      },
+      "growth_pct": 8.0,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-09-26",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 604,
+          "followers": 322,
+          "streams_total": 3475
+        },
+        "instagram": {
+          "followers": 926,
+          "avg_likes": 134
+        },
+        "tiktok": {
+          "followers": 1870,
+          "total_likes": 3969
+        },
+        "email": {
+          "subscribers": 71,
+          "open_rate": 21.177853841778642
+        }
+      },
+      "growth_pct": 3.4,
+      "suggestion": "📸 Poste un Reel de 30 secondes (extrait d'un son) — les Reels ont 2x plus de reach"
+    },
+    {
+      "date": "2026-09-27",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 624,
+          "followers": 327,
+          "streams_total": 3523
+        },
+        "instagram": {
+          "followers": 955,
+          "avg_likes": 133
+        },
+        "tiktok": {
+          "followers": 1975,
+          "total_likes": 4000
+        },
+        "email": {
+          "subscribers": 71,
+          "open_rate": 21.26057904443339
+        }
+      },
+      "growth_pct": 4.4,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-09-28",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 621,
+          "followers": 335,
+          "streams_total": 3567
+        },
+        "instagram": {
+          "followers": 960,
+          "avg_likes": 133
+        },
+        "tiktok": {
+          "followers": 2164,
+          "total_likes": 4012
+        },
+        "email": {
+          "subscribers": 72,
+          "open_rate": 23.03620579780667
+        }
+      },
+      "growth_pct": 5.3,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-09-29",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 650,
+          "followers": 345,
+          "streams_total": 3610
+        },
+        "instagram": {
+          "followers": 980,
+          "avg_likes": 134
+        },
+        "tiktok": {
+          "followers": 2213,
+          "total_likes": 4026
+        },
+        "email": {
+          "subscribers": 72,
+          "open_rate": 23.6366740201387
+        }
+      },
+      "growth_pct": 2.6,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    },
+    {
+      "date": "2026-09-30",
+      "platforms": {
+        "spotify": {
+          "monthly_listeners": 679,
+          "followers": 354,
+          "streams_total": 3647
+        },
+        "instagram": {
+          "followers": 987,
+          "avg_likes": 138
+        },
+        "tiktok": {
+          "followers": 2412,
+          "total_likes": 4040
+        },
+        "email": {
+          "subscribers": 72,
+          "open_rate": 24.728132369614862
+        }
+      },
+      "growth_pct": 6.0,
+      "suggestion": "🎥 Publie un TikTok en tendance avec un son afro — la viralité est à portée"
+    }
+  ],
+  "last_updated": "2026-08-04T08:00:53.725084"
+}
